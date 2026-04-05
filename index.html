@@ -2,40 +2,31 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الاختبار المتكامل - الصف السابع</title>
+    <title>الاختبار المتكامل</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); direction: rtl; padding: 20px; }
-        .container { max-width: 900px; margin: auto; background: white; border-radius: 20px; padding: 25px; box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
-        h1, h2 { text-align: center; color: #2c3e6d; margin-bottom: 10px; }
-        .progress { text-align: center; margin-bottom: 20px; color: #555; font-weight: bold; }
-        .passage { background: #f0f7ff; padding: 15px; border-radius: 12px; margin-bottom: 20px; border-right: 5px solid #007bff; text-align: right; line-height: 1.6; font-size: 1rem; }
-        .question { font-size: 1.2rem; font-weight: bold; margin: 20px 0 15px; padding: 10px; background: #f8f9fa; border-radius: 12px; }
-        .option { display: block; margin: 10px 0; padding: 12px 15px; background: #eef2f5; border-radius: 12px; cursor: pointer; transition: 0.2s; border: 2px solid transparent; }
-        .option:hover { background: #e0e7ed; transform: scale(1.01); }
-        .option.selected { background: #007bff; color: white; border-color: #0056b3; }
-        .feedback { margin: 15px 0; padding: 12px; border-radius: 12px; }
-        .feedback.correct { background: #d4edda; color: #155724; border-right: 5px solid #28a745; }
-        .feedback.wrong { background: #f8d7da; color: #721c24; border-right: 5px solid #dc3545; }
-        button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 30px; cursor: pointer; font-size: 1rem; margin-left: 10px; }
-        button:hover { background: #218838; }
+        /* نفس التنسيق السابق */
+        body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #667eea, #764ba2); direction: rtl; padding: 20px; }
+        .container { max-width: 900px; margin: auto; background: white; border-radius: 20px; padding: 25px; }
+        .passage { background: #f0f7ff; padding: 15px; border-radius: 12px; margin-bottom: 20px; border-right: 5px solid #007bff; }
+        .question { font-weight: bold; margin: 20px 0 15px; }
+        .option { display: block; margin: 10px 0; padding: 10px; background: #eef2f5; border-radius: 12px; cursor: pointer; }
+        .option.selected { background: #007bff; color: white; }
+        .feedback { margin: 15px 0; padding: 10px; border-radius: 12px; }
+        .feedback.correct { background: #d4edda; color: #155724; }
+        .feedback.wrong { background: #f8d7da; color: #721c24; }
+        button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 30px; cursor: pointer; margin-left: 10px; }
         #next-btn { background: #007bff; }
-        #next-btn:hover { background: #0056b3; }
-        footer { text-align: center; margin-top: 20px; font-size: 0.8rem; color: #666; }
     </style>
 </head>
 <body>
 <div class="container">
-    <h1>📝 اختبار اللغة الإنجليزية المتكامل</h1>
-    <div class="progress" id="progress"></div>
+    <h1 style="text-align:center">📝 اختبار اللغة الإنجليزية</h1>
+    <div id="progress" style="text-align:center; margin-bottom:20px"></div>
     <div id="quiz-container"></div>
-    <div style="text-align: center;">
-        <button id="submit-btn">إرسال الإجابة ✅</button>
-        <button id="next-btn" style="display:none;">التالي ➡️</button>
+    <div style="text-align:center">
+        <button id="submit-btn">إرسال الإجابة</button>
+        <button id="next-btn" style="display:none;">التالي</button>
     </div>
-    <div id="result"></div>
-    <footer>كل إجابة خاطئة يظهر شرح مفصل لسبب الخطأ</footer>
 </div>
 
 <script>
@@ -43,54 +34,39 @@
     let current = 0;
     let selected = null;
 
-    // نصوص القطع (ستُعرض قبل الأسئلة الخاصة بها)
     const passages = {
-        hassan: `📖 **النص الأول: Hassan**\n\nHassan is a boy who loves technology. He lives in a modern city with his family. Every day, he spends time on his computer learning new things. He enjoys using different programs and discovering how they work. Hassan’s favorite activity is designing simple games. On weekends, Hassan watches videos about technology and learns new skills. He also helps his friends fix small problems with their computers. Hassan likes to explore new ideas and try them by himself. Sometimes, he joins online classes to improve his knowledge. His teachers are proud of him. Learning about technology makes Hassan excited and happy!`,
-        khalid: `📖 **النص الثاني: Khalid**\n\nKhalid is a boy who loves animals. He lives in a small house with his family. Every day, he takes care of his pet dog. He feeds it, plays with it, and takes it for a walk in the park. Khalid’s favorite animal is the dog because it is friendly and loyal. On weekends, Khalid visits a nearby farm with his father. He enjoys watching different animals like cows, chickens, and horses. Khalid also reads books about animals to learn more about them. Sometimes, he helps his neighbors take care of their pets. They trust him because he is kind and responsible. Taking care of animals makes Khalid feel happy and proud!`,
-        amal: `📖 **النص الثالث: Amal**\n\nAmal is in Egypt, and she is having a great time. Cairo is a very interesting city. There are lots of things to see and do. Yesterday she went on a boat ride down the Nile. It’s a wonderful way to explore the city. It was a hot day, but it was a great experience for her. She went out for dinner with her family at an Egyptian restaurant. She loves Egyptian food, it’s delicious! Tomorrow she is going to visit the Pyramids. She is also going to ride on camels.`
+        hassan: `📖 النص الأول: Hassan\n\nHassan is a boy who loves technology. He lives in a modern city with his family. Every day, he spends time on his computer learning new things. He enjoys using different programs and discovering how they work. Hassan’s favorite activity is designing simple games. On weekends, Hassan watches videos about technology and learns new skills. He also helps his friends fix small problems with their computers. Hassan likes to explore new ideas and try them by himself. Sometimes, he joins online classes to improve his knowledge. His teachers are proud of him. Learning about technology makes Hassan excited and happy!`,
+        khalid: `📖 النص الثاني: Khalid\n\nKhalid is a boy who loves animals. He lives in a small house with his family. Every day, he takes care of his pet dog. He feeds it, plays with it, and takes it for a walk in the park. Khalid’s favorite animal is the dog because it is friendly and loyal. On weekends, Khalid visits a nearby farm with his father. He enjoys watching different animals like cows, chickens, and horses. Khalid also reads books about animals to learn more about them. Sometimes, he helps his neighbors take care of their pets. They trust him because he is kind and responsible. Taking care of animals makes Khalid feel happy and proud!`,
+        amal: `📖 النص الثالث: Amal\n\nAmal is in Egypt, and she is having a great time. Cairo is a very interesting city. There are lots of things to see and do. Yesterday she went on a boat ride down the Nile. It’s a wonderful way to explore the city. It was a hot day, but it was a great experience for her. She went out for dinner with her family at an Egyptian restaurant. She loves Egyptian food, it’s delicious! Tomorrow she is going to visit the Pyramids. She is also going to ride on camels.`
     };
 
-    // دالة لعرض النص المناسب بناءً على محتوى السؤال (إن كان ينتمي لإحدى القطع)
-    function showPassageIfNeeded(questionText) {
-        // إذا كان السؤال يبدأ بـ "What does Hassan" أو يتضمن "Hassan" بشكل واضح
-        if (questionText.includes("Hassan") && (questionText.includes("love") || questionText.includes("favorite") || questionText.includes("help") || questionText.includes("feel"))) {
+    function showPassageIfNeeded(text) {
+        if (text.includes("Hassan") && (text.includes("love") || text.includes("favorite") || text.includes("help") || text.includes("feel")))
             return `<div class="passage">${passages.hassan}</div>`;
-        }
-        // إذا كان السؤال يبدأ بـ "What does Khalid" أو يتضمن "Khalid"
-        if (questionText.includes("Khalid") && (questionText.includes("love") || questionText.includes("do every day") || questionText.includes("favorite") || questionText.includes("weekends") || questionText.includes("read") || questionText.includes("feel"))) {
+        if (text.includes("Khalid") && (text.includes("love") || text.includes("do every day") || text.includes("favorite") || text.includes("weekends") || text.includes("read") || text.includes("feel")))
             return `<div class="passage">${passages.khalid}</div>`;
-        }
-        // إذا كان السؤال يتعلق بـ Amal (مثل "her refers to" أو "tomorrow she" أو "main idea")
-        if (questionText.includes("Amal") || questionText.includes("her in line") || questionText.includes("Tomorrow she") || questionText.includes("main idea") || questionText.includes("city was cold") || questionText.includes("ride on camels")) {
+        if (text.includes("Amal") || text.includes("her in line") || text.includes("Tomorrow she") || text.includes("main idea") || text.includes("city was cold") || text.includes("ride on camels"))
             return `<div class="passage">${passages.amal}</div>`;
-        }
         return '';
     }
 
     async function load() {
-        try {
-            const res = await fetch('questions.json');
-            if (!res.ok) throw new Error('لم يتم العثور على questions.json');
-            questions = await res.json();
-            if (!questions.length) throw new Error('الملف فارغ');
-            document.getElementById('progress').innerHTML = `السؤال 1 من ${questions.length}`;
-            showQuestion();
-        } catch(e) {
-            document.getElementById('quiz-container').innerHTML = `<div style="color:red">خطأ: ${e.message}</div>`;
-        }
+        const res = await fetch('questions.json');
+        questions = await res.json();
+        showQuestion();
     }
 
     function showQuestion() {
         const q = questions[current];
-        // إضافة النص المناسب قبل السؤال
-        const passageHtml = showPassageIfNeeded(q.text);
-        let html = passageHtml;
+        document.getElementById('progress').innerHTML = `السؤال ${current+1} من ${questions.length}`;
+        let html = showPassageIfNeeded(q.text);
         html += `<div class="question">${q.text}</div>`;
         q.options.forEach((opt, i) => {
             const letter = String.fromCharCode(65+i);
             html += `<div class="option" data-letter="${letter}">${letter}. ${opt}</div>`;
         });
-        document.getElementById('quiz-container').innerHTML = html + '<div id="feedback"></div>';
+        html += '<div id="feedback"></div>';
+        document.getElementById('quiz-container').innerHTML = html;
         document.querySelectorAll('.option').forEach(opt => {
             opt.onclick = () => {
                 document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
@@ -100,18 +76,17 @@
         });
         document.getElementById('submit-btn').style.display = 'inline-block';
         document.getElementById('next-btn').style.display = 'none';
-        document.getElementById('feedback').innerHTML = '';
-        document.getElementById('progress').innerHTML = `السؤال ${current+1} من ${questions.length}`;
+        selected = null;
     }
 
     document.getElementById('submit-btn').onclick = () => {
-        if (!selected) return alert('اختر إجابة أولاً');
+        if (!selected) return alert('اختر إجابة');
         const q = questions[current];
         const fb = document.getElementById('feedback');
         if (selected === q.correct) {
-            fb.innerHTML = `<div class="feedback correct">✅ صحيح! ${q.explanation[selected] || ''}</div>`;
+            fb.innerHTML = `<div class="feedback correct">✅ صحيح! ${q.explanation[selected]}</div>`;
         } else {
-            fb.innerHTML = `<div class="feedback wrong">❌ خطأ. إجابتك (${selected}) غير صحيحة. ${q.explanation[selected] || ''}<br><strong>الصحيح: ${q.correct}</strong> — ${q.explanation[q.correct] || ''}</div>`;
+            fb.innerHTML = `<div class="feedback wrong">❌ خطأ. ${q.explanation[selected]}<br><strong>الصحيح: ${q.correct}</strong> — ${q.explanation[q.correct]}</div>`;
         }
         document.getElementById('submit-btn').style.display = 'none';
         document.getElementById('next-btn').style.display = 'inline-block';
@@ -119,15 +94,8 @@
 
     document.getElementById('next-btn').onclick = () => {
         current++;
-        if (current < questions.length) {
-            showQuestion();
-            selected = null;
-        } else {
-            document.getElementById('quiz-container').innerHTML = '<h2 style="text-align:center">🎉 تهانياً! لقد أكملت جميع الأسئلة 🎉</h2>';
-            document.getElementById('next-btn').style.display = 'none';
-            document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('progress').innerHTML = 'انتهى الاختبار 🏁';
-        }
+        if (current < questions.length) showQuestion();
+        else document.getElementById('quiz-container').innerHTML = '<h2>🎉 انتهى الاختبار</h2>';
     };
 
     load();
