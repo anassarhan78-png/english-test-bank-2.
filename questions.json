@@ -4,10 +4,10 @@
     "options": ["checks morning", "will check tomorrow", "checked yesterday", "checks email"],
     "correct": "D",
     "explanation": {
-      "A": "❌ 'checks morning' غير صحيحة نحوياً ولا معنى لها.",
-      "B": "❌ 'will check tomorrow' تدل على المستقبل، بينما العبارة 'every day' تدل على عادة يومية.",
-      "C": "❌ 'checked yesterday' تدل على الماضي، ولا تتناسب مع 'every day'.",
-      "D": "✅ صحيح: 'checks email' تعبر عن عادة يومية (المضارع البسيط)."
+      "A": "❌ 'checks morning' غير صحيحة نحوياً.",
+      "B": "❌ تدل على المستقبل، بينما 'every day' تدل على عادة يومية.",
+      "C": "❌ تدل على الماضي، ولا تتناسب مع 'every day'.",
+      "D": "✅ صحيح: تعبر عن عادة يومية في المضارع البسيط."
     }
   },
   {
@@ -15,10 +15,10 @@
     "options": ["serves", "drives", "cleans", "plays"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'serves breakfast' أي يقدم الفطور، وهي فعل شائع مع الفندق.",
+      "A": "✅ صحيح: 'serves breakfast' أي يقدم الفطور.",
       "B": "❌ 'drives' لا تتناسب مع تقديم الفطور.",
-      "C": "❌ 'cleans' تعني ينظف، وليست مناسبة.",
-      "D": "❌ 'plays' تعني يلعب، ولا علاقة لها بالطعام."
+      "C": "❌ 'cleans' تعني ينظف.",
+      "D": "❌ 'plays' تعني يلعب."
     }
   },
   {
@@ -26,10 +26,10 @@
     "options": ["train", "airplane", "ship", "car"],
     "correct": "B",
     "explanation": {
-      "A": "❌ القطار يقوده سائق قطار (train driver).",
+      "A": "❌ القطار يقوده سائق قطار.",
       "B": "✅ صحيح: الطيار يعمل في الطائرة.",
-      "C": "❌ السفينة يقودها قبطان (captain).",
-      "D": "❌ السيارة يقودها سائق (driver)."
+      "C": "❌ السفينة يقودها قبطان.",
+      "D": "❌ السيارة يقودها سائق."
     }
   },
   {
@@ -40,7 +40,7 @@
       "A": "❌ الصيدلية تبيع الأدوية.",
       "B": "❌ المكتبة تبيع الكتب.",
       "C": "❌ النادي الرياضي لممارسة الرياضة.",
-      "D": "✅ صحيح: السوبرماركت يبيع الخبز والمواد الغذائية."
+      "D": "✅ صحيح: السوبرماركت يبيع الخبز."
     }
   },
   {
@@ -60,7 +60,7 @@
     "correct": "C",
     "explanation": {
       "A": "❌ المدرسة مكان للتعليم.",
-      "B": "❌ المصنع مكان للعمل والإنتاج.",
+      "B": "❌ المصنع مكان للعمل.",
       "C": "✅ صحيح: المطعم مكان لتناول الطعام.",
       "D": "❌ المستشفى لعلاج المرضى."
     }
@@ -70,7 +70,7 @@
     "options": ["Remove clothes", "Wear clothes", "Wash clothes", "Buy clothes"],
     "correct": "B",
     "explanation": {
-      "A": "❌ 'remove clothes' تعني خلع الملابس (take off).",
+      "A": "❌ 'remove clothes' تعني خلع الملابس.",
       "B": "✅ صحيح: 'put on' تعني ارتداء الملابس.",
       "C": "❌ 'wash clothes' تعني غسل الملابس.",
       "D": "❌ 'buy clothes' تعني شراء الملابس."
@@ -82,7 +82,7 @@
     "correct": "A",
     "explanation": {
       "A": "✅ صحيح: 'look for' تعني البحث عن شيء.",
-      "B": "❌ 'find easily' تعني إيجاد بسهولة، وليس البحث.",
+      "B": "❌ 'find easily' تعني إيجاد بسهولة.",
       "C": "❌ 'lose something' تعني فقدان شيء.",
       "D": "❌ 'ignore something' تعني تجاهل شيء."
     }
@@ -92,7 +92,7 @@
     "options": ["airport", "farm", "office", "mall"],
     "correct": "B",
     "explanation": {
-      "A": "❌ المطار للطيارين والمسافرين.",
+      "A": "❌ المطار للطيارين.",
       "B": "✅ صحيح: المزارع يعمل في المزرعة.",
       "C": "❌ المكتب للوظائف الإدارية.",
       "D": "❌ المركز التجاري للتسوق."
@@ -114,10 +114,10 @@
     "options": ["play", "playing", "played", "plays"],
     "correct": "B",
     "explanation": {
-      "A": "❌ 'play' مضارع بسيط، ولا يستخدم مع 'now'.",
-      "B": "✅ صحيح: 'playing' مع 'are' يدل على المضارع المستمر (يحدث الآن).",
-      "C": "❌ 'played' ماضي، ولا يتناسب مع 'now'.",
-      "D": "❌ 'plays' للمفرد الغائب (he/she/it)."
+      "A": "❌ 'play' مضارع بسيط، لا يستخدم مع 'now'.",
+      "B": "✅ صحيح: 'playing' مع 'are' يدل على المضارع المستمر.",
+      "C": "❌ 'played' ماضي.",
+      "D": "❌ 'plays' للمفرد الغائب."
     }
   },
   {
@@ -125,10 +125,10 @@
     "options": ["cans", "can", "canning", "canned"],
     "correct": "B",
     "explanation": {
-      "A": "❌ 'cans' ليست صيغة صحيحة للفعل can.",
-      "B": "✅ صحيح: 'can' هو فعل ناقص يدل على القدرة، ويتبعه الفعل المصدر.",
-      "C": "❌ 'canning' تعني التعليب (صنع المعلبات).",
-      "D": "❌ 'canned' ماضي أو اسم المفعول (معلب)."
+      "A": "❌ 'cans' غير صحيحة.",
+      "B": "✅ صحيح: 'can' فعل ناقص يدل على القدرة.",
+      "C": "❌ 'canning' تعني التعليب.",
+      "D": "❌ 'canned' ماضي أو صفة."
     }
   },
   {
@@ -136,10 +136,10 @@
     "options": ["eat", "eating", "eats", "eat"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: بعد 'want to' نستخدم الفعل المصدر (eat).",
-      "B": "❌ 'eating' تأتي بعد 'enjoy' أو 'like'، وليس بعد 'want to'.",
+      "A": "✅ صحيح: بعد 'want to' نستخدم المصدر.",
+      "B": "❌ 'eating' تأتي بعد 'enjoy' أو 'like'.",
       "C": "❌ 'eats' للمفرد الغائب.",
-      "D": "❌ نفس A لكنه مكرر، الصحيح هو A."
+      "D": "❌ مكرر."
     }
   },
   {
@@ -147,10 +147,10 @@
     "options": ["doesn't like", "don't like", "doesn't likes", "not like"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: مع الضمير 'He' نستخدم 'doesn't' + الفعل المصدر (like).",
-      "B": "❌ 'don't' يستخدم مع I, you, we, they.",
-      "C": "❌ 'doesn't likes' خطأ لأن 'doesn't' يليها المصدر بدون s.",
-      "D": "❌ 'not like' ناقص الفعل المساعد."
+      "A": "✅ صحيح: مع 'He' نستخدم 'doesn't' + المصدر.",
+      "B": "❌ 'don't' مع I, you, we, they.",
+      "C": "❌ 'doesn't likes' خطأ.",
+      "D": "❌ 'not like' ناقص فعل مساعد."
     }
   },
   {
@@ -160,8 +160,8 @@
     "explanation": {
       "A": "❌ بعد 'enjoy' نستخدم الفعل + ing.",
       "B": "✅ صحيح: 'watching' هو الصحيح.",
-      "C": "❌ مكرر، نفس B.",
-      "D": "❌ 'to watching' غير صحيح؛ 'to' تسبق المصدر فقط."
+      "C": "❌ مكرر.",
+      "D": "❌ 'to watching' غير صحيح."
     }
   },
   {
@@ -169,9 +169,9 @@
     "options": ["on", "in", "at", "under"],
     "correct": "C",
     "explanation": {
-      "A": "❌ 'on' تستخدم مع الأيام والتواريخ.",
-      "B": "❌ 'in' تستخدم مع الشهور والسنوات وأجزاء اليوم (in the morning).",
-      "C": "✅ صحيح: 'at' تستخدم مع الساعة المحددة.",
+      "A": "❌ 'on' مع الأيام.",
+      "B": "❌ 'in' مع الشهور والسنوات.",
+      "C": "✅ صحيح: 'at' مع الساعة المحددة.",
       "D": "❌ 'under' تعني تحت."
     }
   },
@@ -180,10 +180,10 @@
     "options": ["study", "studied", "studying", "studies"],
     "correct": "C",
     "explanation": {
-      "A": "❌ 'study' مضارع بسيط، لا يتناسب مع 'is'.",
+      "A": "❌ 'study' مضارع بسيط.",
       "B": "❌ 'studied' ماضي.",
-      "C": "✅ صحيح: 'is studying' مضارع مستمر (يحدث الآن).",
-      "D": "❌ 'studies' للمفرد الغائب في المضارع البسيط."
+      "C": "✅ صحيح: 'is studying' مضارع مستمر.",
+      "D": "❌ 'studies' للمفرد الغائب."
     }
   },
   {
@@ -193,8 +193,8 @@
     "explanation": {
       "A": "❌ 'cans' غير صحيحة.",
       "B": "❌ 'canning' تعني التعليب.",
-      "C": "✅ صحيح: 'can' فعل ناقص يدل على القدرة.",
-      "D": "❌ 'canned' ماضي أو صفة (معلب)."
+      "C": "✅ صحيح: 'can' فعل ناقص.",
+      "D": "❌ 'canned' ماضي."
     }
   },
   {
@@ -202,7 +202,7 @@
     "options": ["traveling", "travel", "traveled", "travels"],
     "correct": "B",
     "explanation": {
-      "A": "❌ 'traveling' تأتي بعد 'decided to'؟ لا، 'decided to' يتبعها المصدر.",
+      "A": "❌ 'traveling' لا تأتي بعد 'decided to'.",
       "B": "✅ صحيح: 'to travel' المصدر.",
       "C": "❌ 'traveled' ماضي.",
       "D": "❌ 'travels' للمفرد الغائب."
@@ -213,7 +213,7 @@
     "options": ["don't like", "doesn't like", "not like", "aren't like"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'I' يسبقه 'don't' + المصدر.",
+      "A": "✅ صحيح: 'I' يسبقه 'don't'.",
       "B": "❌ 'doesn't' مع I خطأ.",
       "C": "❌ 'not like' ناقص فعل مساعد.",
       "D": "❌ 'aren't like' خطأ نحوي."
@@ -224,8 +224,8 @@
     "options": ["reading", "read", "reads", "to reading"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: بعد 'loves' نستخدم الفعل + ing (reading).",
-      "B": "❌ 'read' مضارع أو ماضي، لكن love read غير صحيحة.",
+      "A": "✅ صحيح: بعد 'loves' نستخدم الفعل + ing.",
+      "B": "❌ 'read' مضارع.",
       "C": "❌ 'reads' للمفرد الغائب.",
       "D": "❌ 'to reading' غير صحيح."
     }
@@ -236,8 +236,8 @@
     "correct": "C",
     "explanation": {
       "A": "❌ 'on' مع الأيام.",
-      "B": "❌ 'in' مع الشهور والسنوات.",
-      "C": "✅ صحيح: 'at' مع الساعة المحددة.",
+      "B": "❌ 'in' مع الشهور.",
+      "C": "✅ صحيح: 'at' مع الساعة.",
       "D": "❌ 'under' تحت."
     }
   },
@@ -258,9 +258,9 @@
     "correct": "B",
     "explanation": {
       "A": "❌ 'canning' تعني التعليب.",
-      "B": "✅ صحيح: 'can't' (cannot) تعني لا يستطيع، وهي الأنسب لأن الحقيبة ثقيلة.",
-      "C": "❌ 'canned' ماضي أو صفة.",
-      "D": "❌ 'cans' غير صحيحة مع he في هذا السياق."
+      "B": "✅ صحيح: 'can't' تعني لا يستطيع.",
+      "C": "❌ 'canned' ماضي.",
+      "D": "❌ 'cans' غير صحيحة."
     }
   },
   {
@@ -268,10 +268,252 @@
     "options": ["to drink", "drinking", "drank", "drinks"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'likes to drink' تعبير صحيح (تحب أن تشرب).",
-      "B": "❌ 'likes drinking' صحيح أيضاً لكن الخيار A موجود، والسؤال يطلب واحداً، والصيغة مع to أكثر شيوعاً في الاختبارات.",
+      "A": "✅ صحيح: 'likes to drink' تعني تحب أن تشرب.",
+      "B": "❌ 'likes drinking' صحيح أيضاً لكن A هو المطلوب.",
       "C": "❌ 'drank' ماضي.",
       "D": "❌ 'drinks' مضارع بسيط."
+    }
+  },
+  {
+    "text": "What does Hassan love to do? (Reading passage 1)",
+    "options": ["Use technology", "Play sports", "Read stories", "Cook food"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: النص يقول 'Hassan is a boy who loves technology'.",
+      "B": "❌ الرياضة لم تذكر.",
+      "C": "❌ قراءة القصص لم تذكر.",
+      "D": "❌ الطبخ لم يذكر."
+    }
+  },
+  {
+    "text": "What does Hassan use every day? (Reading passage 1)",
+    "options": ["A phone", "A tablet", "A TV", "A computer"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ الهاتف لم يذكر.",
+      "B": "❌ الجهاز اللوحي لم يذكر.",
+      "C": "❌ التلفاز لم يذكر.",
+      "D": "✅ صحيح: النص يقول 'he spends time on his computer'."
+    }
+  },
+  {
+    "text": "What is Hassan's favorite activity? (Reading passage 1)",
+    "options": ["Playing games", "Watching TV", "Drawing pictures", "Designing games"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ لعب الألعاب لم يذكر.",
+      "B": "❌ مشاهدة التلفاز لم تذكر.",
+      "C": "❌ رسم الصور لم يذكر.",
+      "D": "✅ صحيح: النص يقول 'Hassan's favorite activity is designing simple games'."
+    }
+  },
+  {
+    "text": "What does Hassan do on weekends? (Reading passage 1)",
+    "options": ["Plays outside", "Watches technology videos", "Visits friends", "Sleeps all day"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ اللعب خارج المنزل لم يذكر.",
+      "B": "✅ صحيح: النص يقول 'On weekends, Hassan watches videos about technology'.",
+      "C": "❌ زيارة الأصدقاء لم تذكر.",
+      "D": "❌ النوم طوال اليوم لم يذكر."
+    }
+  },
+  {
+    "text": "How does Hassan help his friends? (Reading passage 1)",
+    "options": ["Fixing computer problems", "With homework", "With sports", "With cooking"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: النص يقول 'He also helps his friends fix small problems with their computers'.",
+      "B": "❌ الواجبات المنزلية لم تذكر.",
+      "C": "❌ الرياضة لم تذكر.",
+      "D": "❌ الطبخ لم يذكر."
+    }
+  },
+  {
+    "text": "How does learning about technology make Hassan feel? (Reading passage 1)",
+    "options": ["Bored", "Angry", "Tired", "Excited"],
+    "correct": "D",
+    "explanation": {
+      "A": "❌ غير صحيح: النص يقول عكس ذلك.",
+      "B": "❌ غير صحيح.",
+      "C": "❌ غير صحيح.",
+      "D": "✅ صحيح: النص يقول 'Learning about technology makes Hassan excited and happy'."
+    }
+  },
+  {
+    "text": "What does Khalid love? (Reading passage 2)",
+    "options": ["Sports", "Animals", "Music", "Books"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ الرياضة لم تذكر.",
+      "B": "✅ صحيح: النص يقول 'Khalid is a boy who loves animals'.",
+      "C": "❌ الموسيقى لم تذكر.",
+      "D": "❌ الكتب لم تذكر كشيء يحبه."
+    }
+  },
+  {
+    "text": "What does Khalid do every day? (Reading passage 2)",
+    "options": ["Plays football", "Takes care of his dog", "Studies lessons", "Watches TV"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ لعب كرة القدم لم يذكر.",
+      "B": "✅ صحيح: النص يقول 'Every day, he takes care of his pet dog'.",
+      "C": "❌ دراسة الدروس لم تذكر.",
+      "D": "❌ مشاهدة التلفاز لم تذكر."
+    }
+  },
+  {
+    "text": "What is Khalid's favorite animal? (Reading passage 2)",
+    "options": ["Dog", "Horse", "Cat", "Bird"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: النص يقول 'Khalid's favorite animal is the dog'.",
+      "B": "❌ الحصان ليس المفضل.",
+      "C": "❌ القطة ليست المفضلة.",
+      "D": "❌ الطائر ليس المفضل."
+    }
+  },
+  {
+    "text": "Where does Khalid go on weekends? (Reading passage 2)",
+    "options": ["The beach", "The school", "The farm", "The mall"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ الشاطئ لم يذكر.",
+      "B": "❌ المدرسة لم تذكر.",
+      "C": "✅ صحيح: النص يقول 'On weekends, Khalid visits a nearby farm'.",
+      "D": "❌ المركز التجاري لم يذكر."
+    }
+  },
+  {
+    "text": "What does Khalid read about? (Reading passage 2)",
+    "options": ["Cars", "Animals", "Food", "Games"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ السيارات لم تذكر.",
+      "B": "✅ صحيح: النص يقول 'Khalid also reads books about animals'.",
+      "C": "❌ الطعام لم يذكر.",
+      "D": "❌ الألعاب لم تذكر."
+    }
+  },
+  {
+    "text": "How does Khalid feel when he takes care of animals? (Reading passage 2)",
+    "options": ["Tired", "Angry", "Happy and proud", "Bored"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ غير صحيح.",
+      "B": "❌ غير صحيح.",
+      "C": "✅ صحيح: النص يقول 'Taking care of animals makes Khalid feel happy and proud'.",
+      "D": "❌ غير صحيح."
+    }
+  },
+  {
+    "text": "Complete the missing letter: m___ seum",
+    "options": ["u", "i", "a", "e"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: museum",
+      "B": "❌ mismum",
+      "C": "❌ masum",
+      "D": "❌ mesum"
+    }
+  },
+  {
+    "text": "Complete the missing letter: p ___ rk",
+    "options": ["a", "i", "u", "e"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: park",
+      "B": "❌ pirki",
+      "C": "❌ purk",
+      "D": "❌ perk"
+    }
+  },
+  {
+    "text": "Complete the missing letter: a___rport",
+    "options": ["i", "e", "u", "o"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ airrport",
+      "B": "❌ aerport",
+      "C": "✅ صحيح: airport",
+      "D": "❌ aorport"
+    }
+  },
+  {
+    "text": "Complete the missing letter: sch ___ ol",
+    "options": ["oo", "oa", "ou", "ae"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: school",
+      "B": "❌ schoal",
+      "C": "❌ schoul",
+      "D": "❌ schael"
+    }
+  },
+  {
+    "text": "Complete the missing letter: restauran ___",
+    "options": ["t", "d", "c", "p"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: restaurant",
+      "B": "❌ restaurand",
+      "C": "❌ restauranc",
+      "D": "❌ restauranp"
+    }
+  },
+  {
+    "text": "Complete the missing letter: bu ___ station",
+    "options": ["s", "c", "z", "ss"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: bus station",
+      "B": "❌ buc station",
+      "C": "❌ buz station",
+      "D": "❌ buss station"
+    }
+  },
+  {
+    "text": "Complete the missing letter: mosqu ___",
+    "options": ["e", "i", "o", "a"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ mosque",
+      "B": "❌ mosqui",
+      "C": "✅ صحيح: mosque",
+      "D": "❌ mosqua"
+    }
+  },
+  {
+    "text": "Complete the missing letter: offi ___ e",
+    "options": ["c", "s", "t", "d"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: office",
+      "B": "❌ offise",
+      "C": "❌ offite",
+      "D": "❌ offide"
+    }
+  },
+  {
+    "text": "Complete the missing letter: tra ___n",
+    "options": ["i", "e", "a", "o"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: train",
+      "B": "❌ tren",
+      "C": "❌ tran",
+      "D": "❌ tron"
+    }
+  },
+  {
+    "text": "Complete the missing letter: roa ___",
+    "options": ["d", "t", "c", "b"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: road",
+      "B": "❌ roat",
+      "C": "❌ roac",
+      "D": "❌ roab"
     }
   },
   {
@@ -281,7 +523,7 @@
     "explanation": {
       "A": "❌ 'helped' ماضي.",
       "B": "❌ 'helps' للمفرد الغائب.",
-      "C": "✅ صحيح: بعد 'can you' نستخدم المصدر (help).",
+      "C": "✅ صحيح: بعد 'can you' نستخدم المصدر.",
       "D": "❌ 'helping' اسم فاعل."
     }
   },
@@ -290,7 +532,7 @@
     "options": ["run", "running", "to run", "runs"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: بعد 'can't' نستخدم المصدر (run).",
+      "A": "✅ صحيح: بعد 'can't' نستخدم المصدر.",
       "B": "❌ 'running' لا تأتي بعد can't.",
       "C": "❌ 'to run' لا تأتي بعد can't.",
       "D": "❌ 'runs' للمفرد الغائب."
@@ -304,7 +546,7 @@
       "A": "❌ 'to watch' لا تأتي بعد can.",
       "B": "❌ 'watched' ماضي.",
       "C": "❌ 'watches' للمفرد الغائب.",
-      "D": "✅ صحيح: المصدر 'watch' بعد can."
+      "D": "✅ صحيح: المصدر بعد can."
     }
   },
   {
@@ -313,7 +555,7 @@
     "correct": "B",
     "explanation": {
       "A": "❌ 'drove' ماضي.",
-      "B": "✅ صحيح: المصدر 'drive' بعد can't.",
+      "B": "✅ صحيح: المصدر بعد can't.",
       "C": "❌ 'drives' للمفرد الغائب.",
       "D": "❌ 'to drive' لا تأتي بعد can't."
     }
@@ -334,7 +576,7 @@
     "options": ["No, he can't.", "No, he isn't.", "No, he wasn't.", "No, he hasn't."],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: السؤال عن القدرة (can) في المضارع، والإجابة المنفية 'No, he can't'.",
+      "A": "✅ صحيح: السؤال عن القدرة (can) والإجابة المنفية 'No, he can't'.",
       "B": "❌ 'isn't' تستخدم مع am/is/are.",
       "C": "❌ 'wasn't' ماضي.",
       "D": "❌ 'hasn't' مع have/has."
@@ -346,9 +588,9 @@
     "correct": "D",
     "explanation": {
       "A": "❌ 'eats' للمفرد الغائب.",
-      "B": "❌ 'like eat' غير صحيح؛ نستخدم 'like to eat' أو 'like eating'.",
+      "B": "❌ 'like eat' غير صحيح.",
       "C": "❌ 'ate' ماضي.",
-      "D": "✅ صحيح: 'like to eat' تعني أحب أن آكل."
+      "D": "✅ صحيح: 'like to eat'."
     }
   },
   {
@@ -358,8 +600,8 @@
     "explanation": {
       "A": "❌ 'got' ماضي.",
       "B": "❌ 'gets' للمفرد الغائب.",
-      "C": "✅ صحيح: بعد 'don't like' نستخدم الفعل + ing (getting).",
-      "D": "❌ 'get' مضارع بدون to، لكن don't like get غير صحيح."
+      "C": "✅ صحيح: بعد 'don't like' نستخدم الفعل + ing.",
+      "D": "❌ 'get' مضارع."
     }
   },
   {
@@ -369,7 +611,7 @@
     "explanation": {
       "A": "❌ 'like visit' غير صحيح.",
       "B": "❌ 'visited' ماضي.",
-      "C": "✅ صحيح: 'like to visit' أو 'like visiting' كلاهما صحيح، والخيار يجمعها.",
+      "C": "✅ صحيح: 'like to visit' أو 'like visiting'.",
       "D": "❌ 'visits' للمفرد الغائب."
     }
   },
@@ -378,8 +620,8 @@
     "options": ["to wear/wearing", "wears", "wear", "wore"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'hates to wear' أو 'hates wearing' كلاهما صحيح.",
-      "B": "❌ 'wears' للمفرد الغائب في المضارع البسيط.",
+      "A": "✅ صحيح: 'hates to wear' أو 'hates wearing'.",
+      "B": "❌ 'wears' للمفرد الغائب.",
       "C": "❌ 'wear' بدون to لا تأتي بعد hates.",
       "D": "❌ 'wore' ماضي."
     }
@@ -390,8 +632,8 @@
     "correct": "C",
     "explanation": {
       "A": "❌ 'borrowing' لا تأتي بعد 'want'.",
-      "B": "❌ 'to borrow/borrowing' مكرر، والصحيح هو 'to borrow' فقط.",
-      "C": "✅ صحيح: 'want to borrow' المصدر.",
+      "B": "❌ 'to borrow/borrowing' مكرر.",
+      "C": "✅ صحيح: 'want to borrow'.",
       "D": "❌ 'borrows' للمفرد الغائب."
     }
   },
@@ -401,7 +643,7 @@
     "correct": "C",
     "explanation": {
       "A": "❌ 'dislikes have' غير صحيح.",
-      "B": "❌ 'having' صحيح لكن الخيار C يجمع to have/having وكلاهما صحيح بعد dislikes.",
+      "B": "❌ 'having' صحيح لكن C يجمعها.",
       "C": "✅ صحيح: 'dislikes to have' أو 'dislikes having'.",
       "D": "❌ 'to have' صحيح لكن C أشمل."
     }
@@ -412,9 +654,9 @@
     "correct": "C",
     "explanation": {
       "A": "❌ 'leaving' لا تأتي بعد 'want'.",
-      "B": "❌ 'to leave\\leaving' غير واضح، والصحيح 'to leave' فقط.",
-      "C": "✅ صحيح: 'want to leave' المصدر.",
-      "D": "❌ 'leave' بدون to غير صحيح بعد want."
+      "B": "❌ 'to leave\\leaving' غير واضح.",
+      "C": "✅ صحيح: 'want to leave'.",
+      "D": "❌ 'leave' بدون to."
     }
   },
   {
@@ -422,7 +664,7 @@
     "options": ["having", "to have", "have", "to have having"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: بعد 'enjoys' نستخدم الفعل + ing (having).",
+      "A": "✅ صحيح: بعد 'enjoys' نستخدم الفعل + ing.",
       "B": "❌ 'to have' لا تأتي بعد enjoys.",
       "C": "❌ 'have' مضارع.",
       "D": "❌ 'to have having' خاطئ."
@@ -434,7 +676,7 @@
     "correct": "B",
     "explanation": {
       "A": "❌ 'to come coming' خاطئ.",
-      "B": "✅ صحيح: 'would like to come' المصدر.",
+      "B": "✅ صحيح: 'would like to come'.",
       "C": "❌ 'come' بدون to.",
       "D": "❌ 'coming' بدون to."
     }
@@ -446,8 +688,8 @@
     "explanation": {
       "A": "❌ 'wait' بدون ing.",
       "B": "❌ 'to wait waiting' خاطئ.",
-      "C": "✅ صحيح: 'can't stand waiting' (لا أطيق الانتظار).",
-      "D": "❌ 'to wait' غير شائعة بعد stand."
+      "C": "✅ صحيح: 'can't stand waiting'.",
+      "D": "❌ 'to wait' غير شائعة."
     }
   },
   {
@@ -455,9 +697,9 @@
     "options": ["watching", "watch", "to watch\\watching", "to watch"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'spend time watching' (أقضي وقتاً في مشاهدة).",
+      "A": "✅ صحيح: 'spend time watching'.",
       "B": "❌ 'watch' بدون ing.",
-      "C": "❌ 'to watch\\watching' غير واضح، والصحيح watching.",
+      "C": "❌ 'to watch\\watching' غير واضح.",
       "D": "❌ 'to watch' لا تأتي بعد spend time."
     }
   },
@@ -469,7 +711,7 @@
       "A": "❌ 'to write writing' خاطئ.",
       "B": "❌ 'to write' لا تأتي بعد enjoy.",
       "C": "❌ 'writes' للمفرد الغائب.",
-      "D": "✅ صحيح: 'enjoy writing' (أستمتع بكتابة)."
+      "D": "✅ صحيح: 'enjoy writing'."
     }
   },
   {
@@ -477,7 +719,7 @@
     "options": ["The boy can ran.", "The boy can runs.", "The boy can run.", "The boy can running."],
     "correct": "C",
     "explanation": {
-      "A": "❌ 'can ran' خطأ؛ بعد can نستخدم المصدر (run).",
+      "A": "❌ 'can ran' خطأ.",
       "B": "❌ 'can runs' خطأ.",
       "C": "✅ صحيح: 'can run'.",
       "D": "❌ 'can running' خطأ."
@@ -488,7 +730,7 @@
     "options": ["I want to learning a new language.", "I wants to learn a new language.", "I want learn a new language.", "I want to learn a new language."],
     "correct": "D",
     "explanation": {
-      "A": "❌ 'to learning' خطأ؛ بعد to نستخدم المصدر (learn).",
+      "A": "❌ 'to learning' خطأ.",
       "B": "❌ 'wants' مع I خطأ.",
       "C": "❌ 'want learn' ناقص to.",
       "D": "✅ صحيح: 'want to learn'."
@@ -499,10 +741,10 @@
     "options": ["hospital", "airport", "gym", "bank"],
     "correct": "C",
     "explanation": {
-      "A": "❌ المستشفى للعلاج.",
-      "B": "❌ المطار للسفر.",
-      "C": "✅ صحيح: النادي الرياضي (gym) لممارسة التمارين.",
-      "D": "❌ البنك للمال."
+      "A": "❌ مستشفى.",
+      "B": "❌ مطار.",
+      "C": "✅ صحيح: نادي رياضي.",
+      "D": "❌ بنك."
     }
   },
   {
@@ -510,10 +752,10 @@
     "options": ["hotel", "supermarket", "museum", "bookstore"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: الفندق (hotel) مكان للإقامة.",
-      "B": "❌ السوبرماركت للتسوق.",
-      "C": "❌ المتحف للعرض.",
-      "D": "❌ المكتبة لبيع الكتب."
+      "A": "✅ صحيح: فندق.",
+      "B": "❌ سوبرماركت.",
+      "C": "❌ متحف.",
+      "D": "❌ مكتبة."
     }
   },
   {
@@ -521,10 +763,10 @@
     "options": ["restaurant", "bookstore", "park", "bus station"],
     "correct": "B",
     "explanation": {
-      "A": "❌ المطعم للطعام.",
-      "B": "✅ صحيح: المكتبة (bookstore) تبيع الكتب، لكنها لا تتعامل مع الكتب الطبية (إشارة إلى أن المكتبة متخصصة).",
-      "C": "❌ الحديقة للتنزه.",
-      "D": "❌ محطة الحافلات للمواصلات."
+      "A": "❌ مطعم.",
+      "B": "✅ صحيح: مكتبة.",
+      "C": "❌ حديقة.",
+      "D": "❌ محطة حافلات."
     }
   },
   {
@@ -532,10 +774,10 @@
     "options": ["bank", "bus station", "mall", "ocean"],
     "correct": "D",
     "explanation": {
-      "A": "❌ البنك أو الضفة.",
-      "B": "❌ محطة الحافلات.",
-      "C": "❌ المركز التجاري.",
-      "D": "✅ صحيح: المحيط (ocean) تسير فيه السفن."
+      "A": "❌ بنك.",
+      "B": "❌ محطة حافلات.",
+      "C": "❌ مركز تجاري.",
+      "D": "✅ صحيح: محيط."
     }
   },
   {
@@ -543,10 +785,10 @@
     "options": ["dive", "fish", "climb", "sail"],
     "correct": "C",
     "explanation": {
-      "A": "❌ 'dive' يغوص في الماء.",
-      "B": "❌ 'fish' يصطاد سمكاً.",
-      "C": "✅ صحيح: القردة تتسلق (climb) الأشجار.",
-      "D": "❌ 'sail' تبحر."
+      "A": "❌ يغوص.",
+      "B": "❌ يصطاد سمكاً.",
+      "C": "✅ صحيح: تتسلق.",
+      "D": "❌ تبحر."
     }
   },
   {
@@ -554,10 +796,10 @@
     "options": ["fish", "ride", "shop", "sleep"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'fish' تعني يصطاد سمكاً، وهو نشاط شائع في النهر.",
-      "B": "❌ 'ride' يركب، لا تتناسب مع النهر.",
-      "C": "❌ 'shop' يتسوق.",
-      "D": "❌ 'sleep' ينام."
+      "A": "✅ صحيح: يصطاد سمكاً.",
+      "B": "❌ يركب.",
+      "C": "❌ يتسوق.",
+      "D": "❌ ينام."
     }
   },
   {
@@ -565,86 +807,230 @@
     "options": ["beach", "park", "bank", "gym"],
     "correct": "C",
     "explanation": {
-      "A": "❌ الشاطئ.",
-      "B": "❌ الحديقة.",
-      "C": "✅ صحيح: البنك (bank) لحفظ المال.",
-      "D": "❌ النادي الرياضي."
+      "A": "❌ شاطئ.",
+      "B": "❌ حديقة.",
+      "C": "✅ صحيح: بنك.",
+      "D": "❌ نادي رياضي."
     }
   },
   {
-    "text": "What is a 'resort'?",
-    "options": ["A place where many people go for study", "A place where many people go for work", "A place where many people go to rest and have fun"],
-    "correct": "C",
-    "explanation": {
-      "A": "❌ مكان للدراسة (مدرسة/جامعة).",
-      "B": "❌ مكان للعمل (مكتب/مصنع).",
-      "C": "✅ صحيح: المنتجع (resort) هو مكان للاسترخاء والمرح."
-    }
-  },
-  {
-    "text": "Let's _ly a kite. (Choose the missing letter)",
+    "text": "Let's _ly a kite.",
     "options": ["f", "v", "p", "m"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: الحرف 'f' لتكوين كلمة 'fly' (يطير).",
-      "B": "❌ 'vly' لا معنى لها.",
-      "C": "❌ 'ply' تعني يطوي أو يثني، وليست 'يطير طائرة ورقية'.",
-      "D": "❌ 'mly' لا معنى لها."
+      "A": "✅ صحيح: fly.",
+      "B": "❌ vly.",
+      "C": "❌ ply.",
+      "D": "❌ mly."
     }
   },
   {
-    "text": "The children want to ice - sk_te. (Choose the missing letter)",
+    "text": "The children want to ice - sk_te.",
     "options": ["u", "a", "o", "i"],
     "correct": "B",
     "explanation": {
-      "A": "❌ 'skute' غير صحيحة.",
-      "B": "✅ صحيح: 'skate' (يتزلج على الجليد).",
-      "C": "❌ 'skote' غير صحيحة.",
-      "D": "❌ 'skite' غير صحيحة."
+      "A": "❌ skute.",
+      "B": "✅ صحيح: skate.",
+      "C": "❌ skote.",
+      "D": "❌ skite."
     }
   },
   {
-    "text": "D_aw a straight line across the top of the page. (Choose the missing letter)",
+    "text": "D_aw a straight line across the top of the page.",
     "options": ["q", "z", "t", "r"],
     "correct": "D",
     "explanation": {
-      "A": "❌ 'dqaw' لا معنى.",
-      "B": "❌ 'dzaw' لا معنى.",
-      "C": "❌ 'dtaw' لا معنى.",
-      "D": "✅ صحيح: 'Draw' (ارسم)."
+      "A": "❌ dqaw.",
+      "B": "❌ dzaw.",
+      "C": "❌ dtaw.",
+      "D": "✅ صحيح: Draw."
     }
   },
   {
-    "text": "I play gol_ and tenn_s near the beach. (Choose the missing pair)",
+    "text": "I play gol__ and tenn__s near the beach. (Choose the missing pair)",
     "options": ["f-i", "b-u", "s-a", "k-e"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: 'golf' تحتاج 'f'، و'tennis' تحتاج 'i'.",
-      "B": "❌ 'golb' و 'tennus' غير صحيحتين.",
-      "C": "❌ 'gols' و 'tennas' غير صحيحتين.",
-      "D": "❌ 'golk' و 'tennes' غير صحيحتين."
+      "A": "✅ صحيح: golf / tennis.",
+      "B": "❌ golb / tennus.",
+      "C": "❌ gols / tennas.",
+      "D": "❌ golk / tennes."
     }
   },
   {
-    "text": "She b_ys many books from the books_ore every month. (Choose the missing pair)",
+    "text": "She b__ys many books from the books__ore every month.",
     "options": ["i-j", "e-p", "u-t", "a-l"],
     "correct": "C",
     "explanation": {
-      "A": "❌ 'biys' و 'booksiore' غير صحيحتين.",
-      "B": "❌ 'beys' و 'bookspore' غير صحيحتين.",
-      "C": "✅ صحيح: 'buys' (تشترى) تحتاج 'u'، و'bookstore' (مكتبة) تحتاج 't'.",
-      "D": "❌ 'bays' و 'booksalore' غير صحيحتين."
+      "A": "❌ biys / booksiore.",
+      "B": "❌ beys / bookspore.",
+      "C": "✅ صحيح: buys / bookstore.",
+      "D": "❌ bays / booksalore."
     }
   },
   {
-    "text": "In the sentence '...it was a great experience for her', the word 'her' refers to:",
+    "text": "Match: 'we didn't dive and snorkel last time' means:",
+    "options": ["to spend a lot of time in a place", "a shop where books are sold", "swimming with a diving mask", "go under the surface of the sea"],
+    "correct": "C",
+    "explanation": {
+      "A": "❌ معنى 'hang out'.",
+      "B": "❌ معنى 'bookstore'.",
+      "C": "✅ صحيح: الغطس والسنوركل.",
+      "D": "❌ معنى 'dive' فقط."
+    }
+  },
+  {
+    "text": "Match: 'I'm at the hotel' means:",
+    "options": ["a building where people stay", "a place to exercise", "a place to eat", "a place to buy books"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: مبنى للإقامة.",
+      "B": "❌ نادي رياضي.",
+      "C": "❌ مطعم.",
+      "D": "❌ مكتبة."
+    }
+  },
+  {
+    "text": "Match: 'Tom likes hiking in the woods' means:",
+    "options": ["to walk a long distance", "to run fast", "to climb mountains", "to swim"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: المشي لمسافات طويلة.",
+      "B": "❌ ركض سريع.",
+      "C": "❌ تسلق جبال.",
+      "D": "❌ سباحة."
+    }
+  },
+  {
+    "text": "Match: 'Visit our online bookstore' means:",
+    "options": ["a shop where books are sold", "a library", "a school", "a hospital"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: متجر لبيع الكتب.",
+      "B": "❌ مكتبة عامة.",
+      "C": "❌ مدرسة.",
+      "D": "❌ مستشفى."
+    }
+  },
+  {
+    "text": "Match: 'I used to hang out in supermarkets' means:",
+    "options": ["to spend a lot of time in a place", "to buy food", "to work", "to study"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: قضاء وقت طويل في مكان.",
+      "B": "❌ شراء طعام.",
+      "C": "❌ عمل.",
+      "D": "❌ دراسة."
+    }
+  },
+  {
+    "text": "Match: 'I went to the gym' means:",
+    "options": ["a place where you can go to exercise", "a hospital", "a school", "a mosque"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: مكان لممارسة الرياضة.",
+      "B": "❌ مستشفى.",
+      "C": "❌ مدرسة.",
+      "D": "❌ مسجد."
+    }
+  },
+  {
+    "text": "Match: 'The ocean is really big' means:",
+    "options": ["a very large area of sea", "a lake", "a river", "a swimming pool"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: مساحة شاسعة من البحر.",
+      "B": "❌ بحيرة.",
+      "C": "❌ نهر.",
+      "D": "❌ مسبح."
+    }
+  },
+  {
+    "text": "Match: 'I want to dive into the river' means:",
+    "options": ["go under the surface of the sea or a lake", "jump from a height", "swim slowly", "float on water"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الغوص تحت السطح.",
+      "B": "❌ القفز من ارتفاع.",
+      "C": "❌ السباحة ببطء.",
+      "D": "❌ الطفو."
+    }
+  },
+  {
+    "text": "Match: 'I like to climb mountains' means:",
+    "options": ["to go up towards the top of something", "to walk", "to run", "to jump"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: التسلق نحو القمة.",
+      "B": "❌ المشي.",
+      "C": "❌ الركض.",
+      "D": "❌ القفز."
+    }
+  },
+  {
+    "text": "Match: 'We sail for Maldives on Monday' means:",
+    "options": ["to travel on water to move over the sea", "to fly", "to drive", "to walk"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: الإبحار على الماء.",
+      "B": "❌ الطيران.",
+      "C": "❌ القيادة.",
+      "D": "❌ المشي."
+    }
+  },
+  {
+    "text": "Match: 'I asked the bank for a loan' means:",
+    "options": ["a building where people can keep their money", "a restaurant", "a school", "a hospital"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: مكان لحفظ المال.",
+      "B": "❌ مطعم.",
+      "C": "❌ مدرسة.",
+      "D": "❌ مستشفى."
+    }
+  },
+  {
+    "text": "Do as shown: I want (go) home. Choose the correct form:",
+    "options": ["go", "to go", "going", "went"],
+    "correct": "B",
+    "explanation": {
+      "A": "❌ تحتاج 'to'.",
+      "B": "✅ صحيح: 'want to go'.",
+      "C": "❌ 'going' بعد enjoy.",
+      "D": "❌ ماضي."
+    }
+  },
+  {
+    "text": "Do as shown: She can speak English. Make Yes/No question:",
+    "options": ["Can she speak English?", "Does she speak English?", "Is she speak English?", "She can speak English?"],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: تقديم 'can'.",
+      "B": "❌ لا نحتاج does مع can.",
+      "C": "❌ غير صحيح.",
+      "D": "❌ ليس سؤالاً."
+    }
+  },
+  {
+    "text": "Do as shown: He can ride a horse. Change into negative form:",
+    "options": ["He cannot ride a horse.", "He don't can ride a horse.", "He doesn't can ride a horse.", "He can't rides a horse."],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: 'cannot' أو 'can't' + المصدر.",
+      "B": "❌ لا نستخدم don't مع can.",
+      "C": "❌ لا نستخدم doesn't مع can.",
+      "D": "❌ بعد can't نستخدم المصدر بدون s."
+    }
+  },
+  {
+    "text": "In the text 'Amal is in Egypt...', the word 'her' (line 4) refers to:",
     "options": ["Amal", "family", "camel", "food"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: الضمير 'her' يعود على Amal لأنها الشخصية الرئيسية في النص.",
-      "B": "❌ العائلة (family) ليس لها ضمير her.",
-      "C": "❌ الجمل (camel) يعود عليه it.",
-      "D": "❌ الطعام (food) يعود عليه it."
+      "A": "✅ صحيح: يعود على Amal.",
+      "B": "❌ العائلة.",
+      "C": "❌ الجمل.",
+      "D": "❌ الطعام."
     }
   },
   {
@@ -652,10 +1038,10 @@
     "options": ["tiring", "surprising", "interesting", "worrying"],
     "correct": "C",
     "explanation": {
-      "A": "❌ 'tiring' مرهق، وليس عكس ممل.",
-      "B": "❌ 'surprising' مفاجئ.",
-      "C": "✅ صحيح: 'interesting' (مثير للاهتمام) هو عكس 'boring' (ممل).",
-      "D": "❌ 'worrying' مقلق."
+      "A": "❌ مرهق.",
+      "B": "❌ مفاجئ.",
+      "C": "✅ صحيح: interesting.",
+      "D": "❌ مقلق."
     }
   },
   {
@@ -663,10 +1049,10 @@
     "options": ["spicy", "sweet", "salty", "delicious"],
     "correct": "D",
     "explanation": {
-      "A": "❌ 'spicy' حار.",
-      "B": "❌ 'sweet' حلو.",
-      "C": "❌ 'salty' مالح.",
-      "D": "✅ صحيح: 'delicious' (لذيذ) مرادف لـ 'tasty'."
+      "A": "❌ حار.",
+      "B": "❌ حلو.",
+      "C": "❌ مالح.",
+      "D": "✅ صحيح: delicious."
     }
   },
   {
@@ -674,21 +1060,21 @@
     "options": ["Pyramids", "Palace", "Clock Tower", "Great Wall"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: النص يقول 'Tomorrow she is going to visit the Pyramids'.",
-      "B": "❌ القصر لم يذكر.",
-      "C": "❌ برج الساعة لم يذكر.",
-      "D": "❌ سور الصين العظيم ليس في مصر."
+      "A": "✅ صحيح: الأهرامات.",
+      "B": "❌ قصر.",
+      "C": "❌ برج الساعة.",
+      "D": "❌ سور الصين العظيم."
     }
   },
   {
-    "text": "The main idea of the text is:",
+    "text": "The main idea of the text (Amal) is:",
     "options": ["Amal's trip to Egypt", "The zoo", "The Nile River", "The restaurant"],
     "correct": "A",
     "explanation": {
-      "A": "✅ صحيح: النص يتحدث عن رحلة آمال إلى مصر.",
-      "B": "❌ حديقة الحيوان لم تذكر.",
-      "C": "❌ نهر النيل جزء من الرحلة لكنه ليس الفكرة الرئيسية.",
-      "D": "❌ المطعم جزء بسيط."
+      "A": "✅ صحيح: رحلة آمال إلى مصر.",
+      "B": "❌ حديقة الحيوان.",
+      "C": "❌ نهر النيل.",
+      "D": "❌ المطعم."
     }
   },
   {
@@ -696,8 +1082,8 @@
     "options": ["True", "False"],
     "correct": "B",
     "explanation": {
-      "A": "❌ غير صحيح: النص يقول 'It was a hot day' (كان يوماً حاراً).",
-      "B": "✅ صحيح: الجو كان حاراً، وليس بارداً."
+      "A": "❌ غير صحيح: الجو كان حاراً.",
+      "B": "✅ صحيح: الجو كان حاراً وليس بارداً."
     }
   },
   {
@@ -706,7 +1092,18 @@
     "correct": "A",
     "explanation": {
       "A": "✅ صحيح: النص يقول 'She is also going to ride on camels'.",
-      "B": "❌ غير صحيح: النص يؤكد أنها ستركب الجمال."
+      "B": "❌ غير صحيح."
+    }
+  },
+  {
+    "text": "Guided Writing: Choose the best topic sentence for a paragraph about your favorite activity:",
+    "options": ["My favorite activity is surfing because it makes me feel free.", "I don't like cleaning my room.", "I went to the beach yesterday.", "My friend likes swimming."],
+    "correct": "A",
+    "explanation": {
+      "A": "✅ صحيح: أفضل جملة افتتاحية لنشاطك المفضل.",
+      "B": "❌ عن شيء لا تحبه.",
+      "C": "❌ عن الماضي وليس نشاطاً مفضلاً بانتظام.",
+      "D": "❌ عن صديق وليس عنك."
     }
   }
 ]
