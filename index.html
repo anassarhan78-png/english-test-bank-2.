@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Goal 3 – الوحدة 13</title>
+    <title>Super Goal – نظام وحدات قابل للتوسع</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -163,7 +163,7 @@
 <body>
 <div class="container">
     <div class="toolbar">
-        <span><i class="fas fa-graduation-cap"></i> Super Goal 3 – الوحدة 13</span>
+        <span><i class="fas fa-graduation-cap"></i> Super Goal – وحدات 11-12-13</span>
         <div>
             <button id="print-pdf"><i class="fas fa-print"></i> طباعة تفاعلية</button>
             <button id="print-exam"><i class="fas fa-file-pdf"></i> 📄 طباعة الأسئلة (نسخة ورقية)</button>
@@ -426,10 +426,21 @@
         window.print();
     });
 
-    // زر طباعة الأسئلة (نسخة ورقية مضغوطة)
+    // زر طباعة الأسئلة (نسخة ورقية) - يطبع أسئلة الاختبار الشامل فقط (بدون المفردات)
     document.getElementById('print-exam').addEventListener('click', async () => {
-        if (!questions.length) {
-            alert('لا توجد أسئلة للطباعة. تأكد من تحميل الأسئلة أولاً.');
+        // نحضر أسئلة الاختبار الشامل من questions.json بغض النظر عن التبويب الحالي
+        const examFilePath = `units/${currentUnit.id}/questions.json`;
+        let examQuestions = [];
+        try {
+            const res = await fetch(examFilePath);
+            if (!res.ok) throw new Error('لا توجد أسئلة للطباعة');
+            examQuestions = await res.json();
+        } catch(err) {
+            alert('لا يمكن تحميل أسئلة الامتحان للطباعة.');
+            return;
+        }
+        if (!examQuestions.length) {
+            alert('لا توجد أسئلة للطباعة.');
             return;
         }
         let printWindow = window.open('', '_blank');
@@ -500,10 +511,10 @@
         <body>
             <h1>📝 ${currentUnit.title}</h1>
             <div class="subtitle">الاسم: ________________________ | التاريخ: ___________</div>
-            <div class="subtitle">عدد الأسئلة: ${questions.length}</div>
+            <div class="subtitle">عدد الأسئلة: ${examQuestions.length}</div>
             <hr>
         `;
-        questions.forEach((q, idx) => {
+        examQuestions.forEach((q, idx) => {
             htmlContent += `
             <div class="question-item">
                 <div class="question-text">${idx+1}. ${q.text}</div>
