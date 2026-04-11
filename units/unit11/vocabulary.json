@@ -1,0 +1,62 @@
+[
+  {
+    "text": "What does 'traffic' mean?",
+    "options": ["مرور (سيارات)", "زحمة", "طريق", "سيارة"],
+    "correct": "مرور (سيارات)",
+    "explanation": "✅ صحيح: حركة المرور على الطرق. ❌ زحمة هي نتيجة كثرة traffic، لكن المعنى الأساسي هو المرور."
+  },
+  {
+    "text": "What does 'concentrate' mean?",
+    "options": ["يركز", "يستيقظ", "يأكل", "ينام"],
+    "correct": "يركز",
+    "explanation": "✅ صحيح: يعطي انتباهه الكامل لشيء واحد. ❌ get up يستيقظ، eat يأكل، sleep ينام."
+  },
+  {
+    "text": "What does 'martial arts' mean?",
+    "options": ["فنون قتالية", "رياضة", "رقص", "موسيقى"],
+    "correct": "فنون قتالية",
+    "explanation": "✅ صحيح: رياضات دفاعية مثل الكاراتيه والجودو. ❌ sport أعم، dancing رقص، music موسيقى."
+  },
+  {
+    "text": "What does 'breakfast' mean?",
+    "options": ["فطور", "غداء", "عشاء", "وجبة خفيفة"],
+    "correct": "فطور",
+    "explanation": "✅ صحيح: الوجبة الأولى في الصباح. ❌ lunch غداء، dinner عشاء، snack خفيفة."
+  },
+  {
+    "text": "What does 'get up' mean?",
+    "options": ["يستيقظ (من النوم)", "يركز", "يذهب", "يأكل"],
+    "correct": "يستيقظ (من النوم)",
+    "explanation": "✅ صحيح: ينهض من السرير بعد النوم. ❌ concentrate يركز، go يذهب، eat يأكل."
+  },
+  {
+    "text": "What does 'wake up' mean?",
+    "options": ["يستيقظ (يفتح عينيه)", "يغادر", "ينام", "يجري"],
+    "correct": "يستيقظ (يفتح عينيه)",
+    "explanation": "✅ صحيح: يتوقف عن النوم. ❌ leave يغادر، sleep ينام، run يجري."
+  },
+  {
+    "text": "What does 'traffic jam' mean?",
+    "options": ["زحمة مرور", "شارع مزدحم", "سيارة سريعة", "طريق مغلق"],
+    "correct": "زحمة مرور",
+    "explanation": "✅ صحيح: ازدحام السيارات على الطريق. ❌ crowded street مرادف لكن traffic jam أدق."
+  },
+  {
+    "text": "What does 'weekday' mean?",
+    "options": ["يوم أسبوع (ما عدا الجمعة)", "عطلة نهاية الأسبوع", "الجمعة", "السبت"],
+    "correct": "يوم أسبوع (ما عدا الجمعة)",
+    "explanation": "✅ صحيح: من الأحد إلى الخميس في بعض الثقافات. ❌ weekend عطلة، Friday الجمعة، Saturday السبت."
+  },
+  {
+    "text": "What does 'rubbish' mean?",
+    "options": ["قمامة", "غرفة", "سيارة", "كمبيوتر"],
+    "correct": "قمامة",
+    "explanation": "✅ صحيح: أشياء غير مرغوب فيها. ❌ room غرفة، car سيارة، computer كمبيوتر."
+  },
+  {
+    "text": "What does 'lazy' mean?",
+    "options": ["كسول", "نشيط", "سريع", "جميل"],
+    "correct": "كسول",
+    "explanation": "✅ صحيح: لا يحب العمل أو الجهد. ❌ active نشيط، fast سريع، beautiful جميل."
+  }
+]

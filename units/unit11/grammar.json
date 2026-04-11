@@ -1,0 +1,66 @@
+{
+  "title": "📘 قواعد الوحدة 11: المضارع البسيط، ظروف التكرار، المضارع المستمر، حروف الجر",
+  "topics": [
+    {
+      "name": "🔷 1. المضارع البسيط (Simple Present)",
+      "rule": "نستخدمه للتحدث عن عادات، حقائق عامة، جداول زمنية.",
+      "form": "I/You/We/They + فعل (مصدر) | He/She/It + فعل + s/es",
+      "examples": [
+        "I usually shop on Saturdays. (عادة)",
+        "She wakes up early. (حقيقة)",
+        "The train leaves at 8 pm. (جدول)"
+      ],
+      "negative": "I/You/We/They + don't + فعل | He/She/It + doesn't + فعل",
+      "question": "Do + I/you/we/they + فعل? | Does + he/she/it + فعل?"
+    },
+    {
+      "name": "🔷 2. ظروف التكرار (Adverbs of Frequency)",
+      "rule": "تخبرنا كم مرة يحدث شيء. ترتيبها في الجملة: قبل الفعل الرئيسي ولكن بعد فعل 'be'.",
+      "adverbs": [
+        "always (100%) – دائماً",
+        "usually (90%) – عادة",
+        "often (70%) – غالباً",
+        "sometimes (50%) – أحياناً",
+        "rarely (20%) – نادراً",
+        "never (0%) – أبداً"
+      ],
+      "examples": [
+        "I always walk to work.",
+        "She never drinks coffee."
+      ]
+    },
+    {
+      "name": "🔷 3. المضارع المستمر (Present Progressive)",
+      "rule": "نستخدمه للأحداث الجارية الآن (now, at the moment) أو الخطط المستقبلية القريبة.",
+      "form": "am/is/are + الفعل + ing",
+      "examples": [
+        "She is sleeping now.",
+        "They are swimming right now.",
+        "I am meeting him tomorrow."
+      ]
+    },
+    {
+      "name": "🔷 4. حروف الجر للوقت (Prepositions of Time: in, on, at)",
+      "rule": "نستخدمها مع التواريخ والزمن.",
+      "details": [
+        "at → مع الساعات (at 8 o'clock)، أو مع فترات قصيرة (at night).",
+        "on → مع الأيام (on Monday)، أو التواريخ (on May 5th).",
+        "in → مع الشهور، السنوات، أو أجزاء اليوم (in the morning)."
+      ]
+    },
+    {
+      "name": "🔷 5. الفرق بين المضارع البسيط والمستمر",
+      "rule": "البسيط = عادات / حقائق / جداول. المستمر = الآن أو خطة مستقبلية.",
+      "examples": [
+        "I read every day. (عادة)",
+        "I am reading now. (الآن)"
+      ]
+    }
+  ],
+  "common_mistakes": [
+    "❌ He don't like coffee. → ✅ He doesn't like coffee.",
+    "❌ She go to school. → ✅ She goes to school.",
+    "❌ I am usually getting up early. → ✅ I usually get up early.",
+    "❌ on the morning → ✅ in the morning."
+  ]
+}

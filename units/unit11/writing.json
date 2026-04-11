@@ -1,0 +1,37 @@
+{
+  "title": "📝 My Typical Day at School",
+  "prompts": [
+    "1. What do you do before and after school?",
+    "2. When do you do your homework?",
+    "3. What days do you see your friends?",
+    "4. When do you watch TV?"
+  ],
+  "model": "Before I go to school, I get up. I always get up at 7:00 a.m. Then I take a shower and brush my teeth. I always eat breakfast at home. I eat breakfast at 7:30 a.m. Then I go to school. After school, I usually go to the park. Sometimes I play video games with my friend. I usually do my homework in the evening. Then I go to bed. I see my friends every day. I watch TV every day, too. I really like my school because the teachers and pupils are really nice and friendly!",
+  "steps": [
+    {
+      "step": 1,
+      "title": "ابدأ بالروتين الصباحي",
+      "explanation": "اذكر وقت استيقاظك، هل تتناول الفطور؟ كيف تذهب إلى المدرسة؟"
+    },
+    {
+      "step": 2,
+      "title": "النشاطات بعد المدرسة",
+      "explanation": "ماذا تفعل بعد العودة؟ تذهب إلى الحديقة؟ تلعب مع أصدقائك؟"
+    },
+    {
+      "step": 3,
+      "title": "الواجبات المنزلية",
+      "explanation": "متى تؤدي واجباتك؟ في المساء؟ بعد العشاء؟"
+    },
+    {
+      "step": 4,
+      "title": "الاسترخاء والتلفاز",
+      "explanation": "متى تشاهد التلفاز؟ كم مرة في الأسبوع؟"
+    },
+    {
+      "step": 5,
+      "title": "رأيك في مدرستك",
+      "explanation": "اختتم برأيك: هل تحب مدرستك؟ لماذا؟"
+    }
+  ]
+}
