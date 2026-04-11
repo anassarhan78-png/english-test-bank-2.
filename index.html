@@ -125,18 +125,6 @@
             padding: 20px;
             border-radius: 24px;
         }
-        .word-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 10px;
-        }
-        .word-list span {
-            background: #e9ecef;
-            padding: 5px 12px;
-            border-radius: 30px;
-            font-size: 0.9rem;
-        }
         @media print {
             body {
                 background: white;
@@ -176,7 +164,10 @@
 <div class="container">
     <div class="toolbar">
         <span><i class="fas fa-graduation-cap"></i> Super Goal 3 – الوحدة 13</span>
-        <button id="print-pdf"><i class="fas fa-print"></i> طباعة / حفظ PDF</button>
+        <div>
+            <button id="print-pdf"><i class="fas fa-print"></i> طباعة تفاعلية</button>
+            <button id="print-exam"><i class="fas fa-file-pdf"></i> 📄 طباعة الأسئلة (نسخة ورقية)</button>
+        </div>
     </div>
     <div class="unit-tabs" id="unit-tabs"></div>
     <div class="sub-tabs" id="sub-tabs" style="display:none;"></div>
@@ -430,9 +421,112 @@
         document.getElementById('prev-btn').style.display = 'none';
     }
 
-    // زر الطباعة PDF
+    // زر الطباعة التفاعلي (نسخة الشاشة)
     document.getElementById('print-pdf').addEventListener('click', () => {
         window.print();
+    });
+
+    // زر طباعة الأسئلة (نسخة ورقية مضغوطة)
+    document.getElementById('print-exam').addEventListener('click', async () => {
+        if (!questions.length) {
+            alert('لا توجد أسئلة للطباعة. تأكد من تحميل الأسئلة أولاً.');
+            return;
+        }
+        let printWindow = window.open('', '_blank');
+        let htmlContent = `<!DOCTYPE html>
+        <html dir="rtl" lang="ar">
+        <head>
+            <meta charset="UTF-8">
+            <title>امتحان ${currentUnit.title} – أسئلة فقط</title>
+            <style>
+                * { margin: 0; padding: 0; box-sizing: border-box; }
+                body {
+                    font-family: 'Segoe UI', 'Tajawal', sans-serif;
+                    direction: rtl;
+                    padding: 1.5cm;
+                    background: white;
+                    color: black;
+                }
+                h1 {
+                    font-size: 1.8rem;
+                    text-align: center;
+                    margin-bottom: 0.5rem;
+                    color: #1e5a3a;
+                }
+                .subtitle {
+                    text-align: center;
+                    margin-bottom: 1.5rem;
+                    font-size: 1rem;
+                    color: #555;
+                }
+                .question-item {
+                    margin-bottom: 1.2rem;
+                    page-break-inside: avoid;
+                }
+                .question-text {
+                    font-weight: bold;
+                    font-size: 1rem;
+                    margin-bottom: 0.3rem;
+                }
+                .options {
+                    margin-right: 1.5rem;
+                    margin-bottom: 0.5rem;
+                }
+                .option {
+                    margin: 0.2rem 0;
+                }
+                .answer-line {
+                    margin-top: 0.3rem;
+                    border-bottom: 1px dotted #aaa;
+                    width: 60px;
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+                hr {
+                    margin: 1rem 0;
+                    border: 0;
+                    border-top: 1px solid #eee;
+                }
+                @media print {
+                    body {
+                        padding: 0.8cm;
+                    }
+                    .question-item {
+                        break-inside: avoid;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+            <h1>📝 ${currentUnit.title}</h1>
+            <div class="subtitle">الاسم: ________________________ | التاريخ: ___________</div>
+            <div class="subtitle">عدد الأسئلة: ${questions.length}</div>
+            <hr>
+        `;
+        questions.forEach((q, idx) => {
+            htmlContent += `
+            <div class="question-item">
+                <div class="question-text">${idx+1}. ${q.text}</div>
+                <div class="options">
+                    ${q.options.map((opt, optIdx) => {
+                        const letter = String.fromCharCode(65+optIdx);
+                        return `<div class="option">${letter}. ${opt}</div>`;
+                    }).join('')}
+                </div>
+                <div>الإجابة: <span class="answer-line"></span></div>
+            </div>
+            <hr>
+            `;
+        });
+        htmlContent += `
+            <div style="margin-top: 1.5rem; font-size: 0.8rem; text-align: center;">
+                تمنياتنا لك بالتوفيق
+            </div>
+        </body>
+        </html>`;
+        printWindow.document.write(htmlContent);
+        printWindow.document.close();
+        printWindow.print();
     });
 
     loadConfig();
