@@ -1,273 +1,62 @@
 [
   {
-    "text": "What does 'heavy coat' mean?",
-    "options": ["سترة خفيفة", "معطف ثقيل ودافئ", "كنزة صغيرة", "معطف مطر"],
-    "correct": "معطف ثقيل ودافئ",
-    "explanation": "✅ صحيح: معطف ثقيل ودافئ للطقس البارد."
-  },
-  {
-    "text": "What does 'scarf' mean?",
-    "options": ["قبعة", "وشاح", "قفاز", "حذاء"],
-    "correct": "وشاح",
-    "explanation": "✅ صحيح: قطعة قماش تلف حول العنق للحماية من البرد."
-  },
-  {
-    "text": "What does 'put on' mean?",
-    "options": ["خلع", "ارتداء", "غسل", "شراء"],
-    "correct": "ارتداء",
-    "explanation": "✅ صحيح: ترتدي الملابس على جسدك."
-  },
-  {
-    "text": "What does 'take off' mean?",
-    "options": ["يرتدي", "يخلع", "يغسل", "يكوي"],
-    "correct": "يخلع",
-    "explanation": "✅ صحيح: يخلع الملابس من جسده."
+    "text": "What does 'casual' mean?",
+    "options": ["رسمي", "غير رسمي", "رياضي", "كلاسيكي"],
+    "correct": "غير رسمي",
+    "explanation": "✅ صحيح: ملابس غير رسمية. ❌ رسمي = formal."
   },
   {
     "text": "What does 'sneakers' mean?",
     "options": ["أحذية رسمية", "أحذية رياضية", "صنادل", "جوارب"],
     "correct": "أحذية رياضية",
-    "explanation": "✅ صحيح: حذاء رياضي مريح للجري والمشي."
-  },
-  {
-    "text": "What does 'gloves' mean?",
-    "options": ["قفازات", "جوارب", "قبعات", "أوشحة"],
-    "correct": "قفازات",
-    "explanation": "✅ صحيح: قطعة تلبس على اليدين للحماية من البرد أو للأعمال."
-  },
-  {
-    "text": "What does 'boots' mean?",
-    "options": ["أحذية طويلة", "صنادل", "جوارب", "قفازات"],
-    "correct": "أحذية طويلة",
-    "explanation": "✅ صحيح: أحذية تغطي الكاحل وقد تكون عازلة للماء."
-  },
-  {
-    "text": "What does 'sandals' mean?",
-    "options": ["أحذية مغلقة", "صنادل (صندل)", "جزم رياضية", "أحذية مطاطية"],
-    "correct": "صنادل (صندل)",
-    "explanation": "✅ صحيح: حذاء مفتوح يلبس في الطقس الحار."
-  },
-  {
-    "text": "What does 'graduation' mean?",
-    "options": ["تخرج", "زواج", "عطلة", "سفر"],
-    "correct": "تخرج",
-    "explanation": "✅ صحيح: إتمام مرحلة دراسية (مدرسة أو جامعة)."
-  },
-  {
-    "text": "What does 'wedding' mean?",
-    "options": ["تخرج", "زواج (حفل زفاف)", "حفلة ميلاد", "عطلة"],
-    "correct": "زواج (حفل زفاف)",
-    "explanation": "✅ صحيح: حفل الزواج."
-  },
-  {
-    "text": "What does 'transportation' mean?",
-    "options": ["تخرج", "وسيلة نقل", "جذب سياحي", "حفل زفاف"],
-    "correct": "وسيلة نقل",
-    "explanation": "✅ صحيح: أي وسيلة تنقل الأشخاص أو البضائع (سيارة، قطار، طائرة...)."
-  },
-  {
-    "text": "What does 'attraction' mean?",
-    "options": ["وسيلة نقل", "جذب سياحي أو مكان مثير للاهتمام", "تخرج", "طقس"],
-    "correct": "جذب سياحي أو مكان مثير للاهتمام",
-    "explanation": "✅ صحيح: مكان يجذب الزوار مثل الشلالات، المتاحف، المتنزهات."
-  },
-  {
-    "text": "What does 'waterfall' mean?",
-    "options": ["نهر", "شلال", "بحيرة", "محيط"],
-    "correct": "شلال",
-    "explanation": "✅ صحيح: تدفق مياه من ارتفاع (منحدر صخري)."
-  },
-  {
-    "text": "What does 'casual clothes' mean?",
-    "options": ["ملابس رسمية", "ملابس غير رسمية (يومية)", "ملابس رياضية", "ملابس نوم"],
-    "correct": "ملابس غير رسمية (يومية)",
-    "explanation": "✅ صحيح: ملابس مريحة تلبس في الحياة اليومية، ليست رسمية."
-  },
-  {
-    "text": "What does 'formal wear' mean?",
-    "options": ["ملابس غير رسمية", "ملابس رسمية (بدلة، ربطة عنق)", "ملابس رياضية", "ملابس شاطئ"],
-    "correct": "ملابس رسمية (بدلة، ربطة عنق)",
-    "explanation": "✅ صحيح: ملابس أنيقة للمناسبات الرسمية."
-  },
-  {
-    "text": "What does 'suit' mean?",
-    "options": ["بدلة رجالية", "فستان", "تنورة", "قميص"],
-    "correct": "بدلة رجالية",
-    "explanation": "✅ صحيح: طقم ملابس رسمي يتكون من سترة وبنطلون."
-  },
-  {
-    "text": "What does 'tie' mean?",
-    "options": ["ربطة عنق", "حزام", "قبعة", "وشاح"],
-    "correct": "ربطة عنق",
-    "explanation": "✅ صحيح: قطعة قماش تلبس حول الرقبة مع البدلة."
-  },
-  {
-    "text": "What does 'shirt' mean?",
-    "options": ["قميص", "بنطلون", "سترة", "حذاء"],
-    "correct": "قميص",
-    "explanation": "✅ صحيح: قطعة تلبس على الجزء العلوي من الجسم."
-  },
-  {
-    "text": "What does 'skirt' mean?",
-    "options": ["تنورة", "بنطلون", "فستان", "جاكيت"],
-    "correct": "تنورة",
-    "explanation": "✅ صحيح: قطعة تلبسها النساء تغطي الجزء السفلي."
-  },
-  {
-    "text": "What does 'dress' mean?",
-    "options": ["فستان (قطعة واحدة)", "تنورة", "بلوزة", "جاكيت"],
-    "correct": "فستان (قطعة واحدة)",
-    "explanation": "✅ صحيح: قطعة تلبسها النساء تغطي الجسم كاملاً."
-  },
-  {
-    "text": "What does 'thobe' mean?",
-    "options": ["ثوب رجالي تقليدي", "بدلة", "قميص", "جاكيت"],
-    "correct": "ثوب رجالي تقليدي",
-    "explanation": "✅ صحيح: لباس تقليدي في بعض الدول العربية."
-  },
-  {
-    "text": "What does 'abaya' mean?",
-    "options": ["عباءة نسائية", "فستان", "تنورة", "جلباب"],
-    "correct": "عباءة نسائية",
-    "explanation": "✅ صحيح: لباس خارجي فضفاض تلبسه النساء."
-  },
-  {
-    "text": "What does 'raincoat' mean?",
-    "options": ["معطف مطر", "معطف ثقيل", "سترة خفيفة", "جاكيت جلد"],
-    "correct": "معطف مطر",
-    "explanation": "✅ صحيح: معطف مقاوم للماء يلبس في المطر."
-  },
-  {
-    "text": "What does 'sunglasses' mean?",
-    "options": ["نظارة شمس", "نظارة طبية", "عدسات لاصقة", "قناع"],
-    "correct": "نظارة شمس",
-    "explanation": "✅ صحيح: نظارة تحمي العينين من أشعة الشمس."
-  },
-  {
-    "text": "What does 'hat' mean?",
-    "options": ["قبعة", "وشاح", "قفاز", "حذاء"],
-    "correct": "قبعة",
-    "explanation": "✅ صحيح: غطاء للرأس للحماية من الشمس أو البرد."
+    "explanation": "✅ صحيح: حذاء رياضي. ❌ رسمي، صنادل، جوارب."
   },
   {
     "text": "What does 'weather' mean?",
     "options": ["طقس", "مناخ", "فصل", "حرارة"],
     "correct": "طقس",
-    "explanation": "✅ صحيح: حالة الجو من حرارة ورياح وأمطار."
+    "explanation": "✅ صحيح: حالة الجو. ❌ مناخ (climate) أوسع."
   },
   {
-    "text": "What does 'snow' mean?",
-    "options": ["ثلج", "مطر", "رياح", "ضباب"],
-    "correct": "ثلج",
-    "explanation": "✅ صحيح: مطر متجمد يتساقط في الشتاء."
+    "text": "What does 'style' mean?",
+    "options": ["موضة", "أناقة", "طراز", "كل ما سبق"],
+    "correct": "كل ما سبق",
+    "explanation": "✅ صحيح: style تعني موضة، أناقة، أو طراز. ❌ أي خيار منفرد غير كافٍ."
   },
   {
-    "text": "What does 'plan' (noun) mean?",
-    "options": ["خطة", "فكرة", "حلم", "هدف"],
-    "correct": "خطة",
-    "explanation": "✅ صحيح: ترتيب مسبق لفعل شيء في المستقبل."
-  },
-  {
-    "text": "What does 'future' mean?",
-    "options": ["مستقبل", "ماضي", "حاضر", "زمن"],
-    "correct": "مستقبل",
-    "explanation": "✅ صحيح: الوقت القادم."
-  },
-  {
-    "text": "What does 'trip' mean?",
-    "options": ["رحلة", "عطلة", "سفر", "زيارة"],
-    "correct": "رحلة",
-    "explanation": "✅ صحيح: الذهاب إلى مكان لقضاء وقت ثم العودة."
-  },
-  {
-    "text": "What does 'vacation' mean?",
-    "options": ["إجازة / عطلة", "رحلة", "عمل", "دراسة"],
-    "correct": "إجازة / عطلة",
-    "explanation": "✅ صحيح: فترة راحة من العمل أو الدراسة."
-  },
-  {
-    "text": "What does 'abroad' mean?",
-    "options": ["في الخارج (بلد آخر)", "في الداخل", "بعيداً", "قريباً"],
-    "correct": "في الخارج (بلد آخر)",
-    "explanation": "✅ صحيح: السفر إلى بلد آخر."
-  },
-  {
-    "text": "What does 'pack' (verb) mean?",
-    "options": ["يحزم (الأمتعة)", "يفتح", "يشتري", "يبيع"],
-    "correct": "يحزم (الأمتعة)",
-    "explanation": "✅ صحيح: يضع الملابس والأغراض في الحقيبة للسفر."
-  },
-  {
-    "text": "What does 'lose' (clothes) mean?",
-    "options": ["يفقد", "يجد", "يشتري", "يكوي"],
-    "correct": "يفقد",
-    "explanation": "✅ صحيح: لا يعرف مكان الشيء."
-  },
-  {
-    "text": "What does 'match' (clothes) mean?",
-    "options": ["يتناسب (الألوان أو القطع)", "يطابق", "يزين", "يغسل"],
-    "correct": "يتناسب (الألوان أو القطع)",
-    "explanation": "✅ صحيح: أن تكون الألوان أو القطع منسجمة مع بعضها."
-  }
-][
-  {
-    "text": "What does 'heavy coat' mean?",
-    "options": ["سترة خفيفة", "معطف ثقيل ودافئ", "كنزة صغيرة", "معطف مطر"],
-    "correct": "معطف ثقيل ودافئ",
-    "explanation": "✅ صحيح: معطف ثقيل ودافئ للطقس البارد."
-  },
-  {
-    "text": "What does 'scarf' mean?",
-    "options": ["قبعة", "وشاح", "قفاز", "حذاء"],
-    "correct": "وشاح",
-    "explanation": "✅ صحيح: قطعة قماش تلف حول العنق."
-  },
-  {
-    "text": "What does 'put on' mean?",
-    "options": ["خلع", "ارتداء", "غسل", "شراء"],
-    "correct": "ارتداء",
-    "explanation": "✅ صحيح: ترتدي الملابس."
-  },
-  {
-    "text": "What does 'sneakers' mean?",
-    "options": ["أحذية رسمية", "أحذية رياضية", "صنادل", "جوارب"],
-    "correct": "أحذية رياضية",
-    "explanation": "✅ صحيح: حذاء رياضي مريح."
-  },
-  {
-    "text": "What does 'gloves' help with?",
-    "options": ["حماية اليدين", "حماية الرأس", "حماية القدمين", "حماية الرقبة"],
-    "correct": "حماية اليدين",
-    "explanation": "✅ صحيح: القفازات تحمي اليدين."
-  },
-  {
-    "text": "What does 'graduation' mean?",
-    "options": ["تخرج", "زواج", "عطلة", "سفر"],
-    "correct": "تخرج",
-    "explanation": "✅ صحيح: التخرج من المدرسة أو الجامعة."
-  },
-  {
-    "text": "What does 'wedding' mean?",
-    "options": ["تخرج", "زواج", "حفلة ميلاد", "عطلة"],
-    "correct": "زواج",
-    "explanation": "✅ صحيح: حفل الزفاف."
-  },
-  {
-    "text": "What does 'transportation' mean?",
-    "options": ["تخرج", "وسيلة نقل", "جذب سياحي", "حفل زفاف"],
-    "correct": "وسيلة نقل",
-    "explanation": "✅ صحيح: أي وسيلة تنقل الأشخاص أو البضائع."
-  },
-  {
-    "text": "What does 'attraction' mean?",
-    "options": ["وسيلة نقل", "جذب سياحي أو شيء مثير للاهتمام", "تخرج", "طقس"],
-    "correct": "جذب سياحي أو شيء مثير للاهتمام",
-    "explanation": "✅ صحيح: مكان أو شيء يجذب الزوار."
+    "text": "What does 'socks' mean?",
+    "options": ["جوارب", "قفازات", "قبعات", "أحذية"],
+    "correct": "جوارب",
+    "explanation": "✅ صحيح: تلبس على القدمين. ❌ قفازات لليدين."
   },
   {
     "text": "What does 'waterfall' mean?",
     "options": ["نهر", "شلال", "بحيرة", "محيط"],
     "correct": "شلال",
-    "explanation": "✅ صحيح: تدفق مياه من منحدر."
+    "explanation": "✅ صحيح: تدفق مياه من ارتفاع. ❌ نهر، بحيرة، محيط."
+  },
+  {
+    "text": "What does 'transportation' mean?",
+    "options": ["تخرج", "وسيلة نقل", "جذب سياحي", "حفل زفاف"],
+    "correct": "وسيلة نقل",
+    "explanation": "✅ صحيح: أي وسيلة تنقل. ❌ تخرج، جذب، زفاف."
+  },
+  {
+    "text": "What does 'attraction' mean?",
+    "options": ["وسيلة نقل", "جذب سياحي", "تخرج", "طقس"],
+    "correct": "جذب سياحي",
+    "explanation": "✅ صحيح: مكان يجذب الزوار. ❌ وسيلة نقل، تخرج، طقس."
+  },
+  {
+    "text": "What does 'graduation' mean?",
+    "options": ["تخرج", "زواج", "عطلة", "سفر"],
+    "correct": "تخرج",
+    "explanation": "✅ صحيح: إتمام مرحلة دراسية. ❌ زواج، عطلة، سفر."
+  },
+  {
+    "text": "What does 'wedding' mean?",
+    "options": ["تخرج", "زواج (حفل زفاف)", "حفلة ميلاد", "عطلة"],
+    "correct": "زواج (حفل زفاف)",
+    "explanation": "✅ صحيح: حفل الزواج. ❌ تخرج، ميلاد، عطلة."
   }
 ]

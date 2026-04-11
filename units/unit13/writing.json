@@ -1,10 +1,20 @@
 {
-  "title": "📝 My Favorite Piece of Clothes",
+  "title": "📝 كتابة موضوع عن قطعة الملابس المفضلة",
   "prompts": [
     "1. What is your favorite piece of clothes?",
     "2. Who helps you choose your clothes?",
     "3. How often do you buy clothes?",
-    "4. Do you prefer online shopping or in-store? Why?"
+    "4. What do you prefer: in-store or online shopping? Why?"
   ],
-  "model": "My favorite piece of clothes is a shirt. My mom usually helps me when buying my clothes. I often buy clothes once a month. I prefer online shopping because it is easier and cheaper."
+  "model": "My favorite piece of clothes is a shirt. My mom usually helps me when buying my clothes. I often buy clothes once a month. I prefer online shopping because it is easier and cheaper.",
+  "second_prompt": {
+    "title": "موضوع إضافي: ملابسك المفضلة",
+    "questions": [
+      "1. What kind of clothes do you usually wear?",
+      "2. Where do you usually buy clothes?",
+      "3. What's your favorite piece of clothing?",
+      "4. What do you do with clothes that you no longer wear? Why?"
+    ],
+    "model": "I usually wear a skirt and a blouse. I buy clothes from online stores like Amazon. Sometimes I buy them from Red Sea mall. My favorite items of clothing are T-shirts and trousers. I donate the clothes that I no longer need to help people in need. I like comfortable clothes. I don't like formal clothes. I wear skirts and blouses which are very cool. I don't worry about fashion, but I try to wear clothes that look good on me."
+  }
 }
