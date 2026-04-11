@@ -1,1 +1,45 @@
-{}
+{
+  "title": "📘 ملخص قواعد الوحدة 12",
+  "topics": [
+    {
+      "name": "1. Making Inferences (الاستدلال)",
+      "rule": "الاستدلال هو استنتاج معلومات غير مذكورة صراحة بناءً على القرائن.",
+      "examples": ["رؤية غيوم داكنة ومظلة → يستنتج القارئ أنه سيمطر."]
+    },
+    {
+      "name": "2. Story Structure (بنية القصة)",
+      "rule": "القصة تتكون من: مقدمة، صراع، ذروة، حل.",
+      "examples": ["المقدمة تعرف الشخصيات والمكان، الذروة هي لحظة التشويق."]
+    },
+    {
+      "name": "3. Word Relationships (علاقات الكلمات)",
+      "rule": "مرادفات، أضداد، جزء إلى كل، سبب ونتيجة، فرد وفئة.",
+      "examples": ["Big:Large (synonyms), Hot:Cold (antonyms), Wheel:Car (part-whole), Rain:Wet ground (cause-effect), Apple:Fruit (item-category)."]
+    },
+    {
+      "name": "4. Point of View (وجهة النظر)",
+      "rule": "ضمير المتكلم (I, we)، المخاطب (you)، الغائب (he, she, it, they).",
+      "examples": ["'I went to the park' → first person; 'You should study' → second person; 'He walked' → third person."]
+    },
+    {
+      "name": "5. Dangling & Misplaced Modifiers",
+      "rule": "التعديل المعلق يصف شيئاً غير موجود. التعديل في غير موضعه يغير المعنى.",
+      "examples": ["'Running quickly, the bus was missed' → خطأ. 'She almost drove her kids every day' → غامض."]
+    },
+    {
+      "name": "6. Colons (النقطتان)",
+      "rule": "تستخدم قبل قائمة أو شرح أو اقتباس، وتأتي بعد جملة كاملة.",
+      "examples": ["I need three things: apples, bananas, and milk."]
+    },
+    {
+      "name": "7. Main Clause, Noun Clause",
+      "rule": "الجملة الرئيسية لها معنى كامل. جملة الاسم تعمل كاسم (فاعل أو مفعول به).",
+      "examples": ["'She finished her work' (main clause). 'What he said is true' (noun clause)."]
+    },
+    {
+      "name": "8. Simple & Compound Sentences",
+      "rule": "البسيطة: جملة رئيسية واحدة. المركبة: جملتان رئيسيتان مرتبطتان بحرف عطف.",
+      "examples": ["Simple: I like tea. Compound: I like tea, and she likes coffee."]
+    }
+  ]
+}

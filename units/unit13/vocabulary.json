@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "text": "What does 'heavy coat' mean?",
+    "options": ["سترة خفيفة", "معطف ثقيل ودافئ", "كنزة صغيرة", "معطف مطر"],
+    "correct": "معطف ثقيل ودافئ",
+    "explanation": "✅ صحيح: معطف ثقيل ودافئ للطقس البارد."
+  },
+  {
+    "text": "What does 'scarf' mean?",
+    "options": ["قبعة", "وشاح", "قفاز", "حذاء"],
+    "correct": "وشاح",
+    "explanation": "✅ صحيح: قطعة قماش تلف حول العنق."
+  },
+  {
+    "text": "What does 'put on' mean?",
+    "options": ["خلع", "ارتداء", "غسل", "شراء"],
+    "correct": "ارتداء",
+    "explanation": "✅ صحيح: ترتدي الملابس."
+  },
+  {
+    "text": "What does 'sneakers' mean?",
+    "options": ["أحذية رسمية", "أحذية رياضية", "صنادل", "جوارب"],
+    "correct": "أحذية رياضية",
+    "explanation": "✅ صحيح: حذاء رياضي مريح."
+  },
+  {
+    "text": "What does 'gloves' help with?",
+    "options": ["حماية اليدين", "حماية الرأس", "حماية القدمين", "حماية الرقبة"],
+    "correct": "حماية اليدين",
+    "explanation": "✅ صحيح: القفازات تحمي اليدين."
+  },
+  {
+    "text": "What does 'graduation' mean?",
+    "options": ["تخرج", "زواج", "عطلة", "سفر"],
+    "correct": "تخرج",
+    "explanation": "✅ صحيح: التخرج من المدرسة أو الجامعة."
+  },
+  {
+    "text": "What does 'wedding' mean?",
+    "options": ["تخرج", "زواج", "حفلة ميلاد", "عطلة"],
+    "correct": "زواج",
+    "explanation": "✅ صحيح: حفل الزفاف."
+  },
+  {
+    "text": "What does 'transportation' mean?",
+    "options": ["تخرج", "وسيلة نقل", "جذب سياحي", "حفل زفاف"],
+    "correct": "وسيلة نقل",
+    "explanation": "✅ صحيح: أي وسيلة تنقل الأشخاص أو البضائع."
+  },
+  {
+    "text": "What does 'attraction' mean?",
+    "options": ["وسيلة نقل", "جذب سياحي أو شيء مثير للاهتمام", "تخرج", "طقس"],
+    "correct": "جذب سياحي أو شيء مثير للاهتمام",
+    "explanation": "✅ صحيح: مكان أو شيء يجذب الزوار."
+  },
+  {
+    "text": "What does 'waterfall' mean?",
+    "options": ["نهر", "شلال", "بحيرة", "محيط"],
+    "correct": "شلال",
+    "explanation": "✅ صحيح: تدفق مياه من منحدر."
+  }
+]

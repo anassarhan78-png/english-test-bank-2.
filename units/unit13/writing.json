@@ -1,1 +1,10 @@
-{}
+{
+  "title": "📝 My Favorite Piece of Clothes",
+  "prompts": [
+    "1. What is your favorite piece of clothes?",
+    "2. Who helps you choose your clothes?",
+    "3. How often do you buy clothes?",
+    "4. Do you prefer online shopping or in-store? Why?"
+  ],
+  "model": "My favorite piece of clothes is a shirt. My mom usually helps me when buying my clothes. I often buy clothes once a month. I prefer online shopping because it is easier and cheaper."
+}

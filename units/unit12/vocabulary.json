@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "text": "What is the meaning of 'infer'?",
+    "options": ["يخبر", "يستنتج", "يسأل", "يجيب"],
+    "correct": "يستنتج",
+    "explanation": "✅ صحيح: الاستدلال أو الاستنتاج من القرائن. ❌ الخيارات الأخرى لا تعطي نفس المعنى."
+  },
+  {
+    "text": "What is the meaning of 'slammed'?",
+    "options": ["فتح بهدوء", "أغلق بعنف", "طرق بلطف", "كسر"],
+    "correct": "أغلق بعنف",
+    "explanation": "✅ صحيح: أغلق بقوة وعنف. ❌ الفتح والطرق والكسر مختلفة."
+  },
+  {
+    "text": "What is the meaning of 'upset'?",
+    "options": ["سعيد", "منزعج/حزين", "غاضب جداً", "نشيط"],
+    "correct": "منزعج/حزين",
+    "explanation": "✅ صحيح: منزعج، مضطرب، حزين. ❌ سعيد وغاضب جداً ونشيط ليست مرادفات."
+  },
+  {
+    "text": "What is the meaning of 'yawning'?",
+    "options": ["التثاؤب", "الضحك", "البكاء", "العطس"],
+    "correct": "التثاؤب",
+    "explanation": "✅ صحيح: فتح الفم بسبب النعاس أو الملل. ❌ الضحك والبكاء والعطس مختلفة."
+  },
+  {
+    "text": "What is the meaning of 'driveway'?",
+    "options": ["طريق عام", "ممر خاص للسيارات", "رصيف المشاة", "موقف سيارات"],
+    "correct": "ممر خاص للسيارات",
+    "explanation": "✅ صحيح: الممر المؤدي من البوابة إلى المنزل. ❌ الطريق العام والرصيف وموقف السيارات ليست دقيقة."
+  },
+  {
+    "text": "What is the meaning of 'thick coat'?",
+    "options": ["معطف رفيع", "معطف سميك", "سترة رياضية", "عباءة مطر"],
+    "correct": "معطف سميك",
+    "explanation": "✅ صحيح: معطف ثقيل ودافئ. ❌ رفيع وسترة وعباءة مطر مختلفة."
+  },
+  {
+    "text": "What is the meaning of 'scarf'?",
+    "options": ["قبعة", "وشاح", "قفاز", "حذاء"],
+    "correct": "وشاح",
+    "explanation": "✅ صحيح: قطعة قماش تلف حول العنق. ❌ قبعة وقفاز وحذاء."
+  },
+  {
+    "text": "What is the meaning of 'anxious'?",
+    "options": ["غير مبال", "قلق/متوتر", "واثق", "هادئ"],
+    "correct": "قلق/متوتر",
+    "explanation": "✅ صحيح: قلق، متوتر، خائف. ❌ غير مبال، واثق، هادئ."
+  },
+  {
+    "text": "What is the meaning of 'courteously'?",
+    "options": ["بوقاحة", "بأدب", "بسرعة", "بصوت عال"],
+    "correct": "بأدب",
+    "explanation": "✅ صحيح: بأدب واحترام. ❌ بوقاحة، بسرعة، بصوت عال."
+  },
+  {
+    "text": "What is the meaning of 'declared'?",
+    "options": ["أخفى", "أعلن رسمياً", "همس", "سأل"],
+    "correct": "أعلن رسمياً",
+    "explanation": "✅ صحيح: أعلن بوضوح وجزم. ❌ أخفى، همس، سأل."
+  },
+  {
+    "text": "What is the meaning of 'process'?",
+    "options": ["نتيجة", "سلسلة خطوات", "فكرة", "مشكلة"],
+    "correct": "سلسلة خطوات",
+    "explanation": "✅ صحيح: مجموعة من الإجراءات المتسلسلة. ❌ نتيجة، فكرة، مشكلة."
+  },
+  {
+    "text": "What is the meaning of 'merit'?",
+    "options": ["سرعة", "قيمة أو استحقاق", "لون", "حجم"],
+    "correct": "قيمة أو استحقاق",
+    "explanation": "✅ صحيح: الجدارة، القيمة، ما يستحق الثناء. ❌ سرعة، لون، حجم."
+  },
+  {
+    "text": "What is the meaning of 'deceived'?",
+    "options": ["ساعد", "خدع", "أخبر الحقيقة", "تجاهل"],
+    "correct": "خدع",
+    "explanation": "✅ صحيح: خدع، غش، أوهم. ❌ ساعد، أخبر الحقيقة، تجاهل."
+  },
+  {
+    "text": "What is the meaning of 'cease'?",
+    "options": ["يبدأ", "يكمل", "يتوقف", "ينمو"],
+    "correct": "يتوقف",
+    "explanation": "✅ صحيح: يتوقف، يكف. ❌ يبدأ، يكمل، ينمو."
+  },
+  {
+    "text": "What is the meaning of 'disaster'?",
+    "options": ["كارثة", "نجاح", "حفلة", "مشكلة صغيرة"],
+    "correct": "كارثة",
+    "explanation": "✅ صحيح: حدث مدمر يسبب خسائر كبيرة. ❌ نجاح، حفلة، مشكلة صغيرة."
+  },
+  {
+    "text": "What is the meaning of 'commemorate'?",
+    "options": ["ينسى", "يحتفل/يحيي ذكرى", "يخفي", "يكسر"],
+    "correct": "يحتفل/يحيي ذكرى",
+    "explanation": "✅ صحيح: يخلد ذكرى حدث أو شخص. ❌ ينسى، يخفي، يكسر."
+  },
+  {
+    "text": "What is the meaning of 'kaleidoscope'?",
+    "options": ["مشكال (أنماط ملونة)", "تلسكوب", "مجهر", "كاميرا"],
+    "correct": "مشكال (أنماط ملونة)",
+    "explanation": "✅ صحيح: جهاز بصري يظهر رسوماً متغيرة. ❌ تلسكوب، مجهر، كاميرا."
+  },
+  {
+    "text": "What is the meaning of 'mural'?",
+    "options": ["لوحة جدارية", "تمثال", "فسيفساء", "نحت"],
+    "correct": "لوحة جدارية",
+    "explanation": "✅ صحيح: رسم كبير على جدار. ❌ تمثال، فسيفساء، نحت."
+  },
+  {
+    "text": "What is the meaning of 'elaborate' (adjective)?",
+    "options": ["بسيط", "مفصل ومعقد", "قصير", "غاضب"],
+    "correct": "مفصل ومعقد",
+    "explanation": "✅ صحيح: مفصل، دقيق، معقد. ❌ بسيط، قصير، غاضب."
+  },
+  {
+    "text": "What is the meaning of 'borrow'?",
+    "options": ["يعطي", "يستعير", "يملك", "يكسب"],
+    "correct": "يستعير",
+    "explanation": "✅ صحيح: يأخذ شيئاً مؤقتاً على أن يعيده. ❌ يعطي، يملك، يكسب."
+  },
+  {
+    "text": "What is the meaning of 'astronaut'?",
+    "options": ["طيار", "رائد فضاء", "بحار", "جيولوجي"],
+    "correct": "رائد فضاء",
+    "explanation": "✅ صحيح: شخص يسافر إلى الفضاء. ❌ طيار، بحار، جيولوجي."
+  },
+  {
+    "text": "What is the meaning of 'encourage'?",
+    "options": ["يثبط", "يشجع", "يمنع", "ينتقد"],
+    "correct": "يشجع",
+    "explanation": "✅ صحيح: يحفز، يعطي دعماً معنوياً. ❌ يثبط، يمنع، ينتقد."
+  }
+]

@@ -1,1 +1,11 @@
-{}
+{
+  "title": "📝 Writing Task: A Memorable Day at School",
+  "prompts": [
+    "1. What is one special event or activity you remember from school?",
+    "2. Where and when did it happen?",
+    "3. Who was with you?",
+    "4. Why was it memorable?",
+    "5. How did you feel?"
+  ],
+  "model": "One of the most memorable days at my school was the science fair last year. It happened in the school gym on a Thursday morning. My friend Ahmed and I worked together on a volcano project. We were nervous but excited. When the volcano erupted with baking soda and vinegar, everyone clapped. I felt proud because our hard work paid off. That day taught me that teamwork makes everything better."
+}

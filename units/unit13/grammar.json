@@ -1,1 +1,27 @@
-{}
+{
+  "title": "📘 قاعدة المستقبل: (be) going to",
+  "topics": [
+    {
+      "name": "1. الاستخدام",
+      "rule": "نستخدم 'going to' للتحدث عن خطط ونوايا مستقبلية، أو توقعات بناءً على دليل في الحاضر.",
+      "examples": ["I am going to study medicine. (خطة)", "Look at those dark clouds! It is going to rain. (توقع)"]
+    },
+    {
+      "name": "2. التشكيل (Form)",
+      "rule": "الفاعل + am/is/are + going to + الفعل المصدر",
+      "form": {
+        "positive": "I am going to travel. / She is going to buy a dress. / They are going to play.",
+        "negative": "I am not going to be late. / He isn't going to come.",
+        "question": "Are you going to join us? / Is she going to cook?"
+      }
+    },
+    {
+      "name": "3. ملاحظات مهمة",
+      "rule": "لا نستخدم 'going to' مع أفعال مثل 'go' و 'come' كثيراً؛ نفضل استخدام المضارع المستمر.",
+      "tips": [
+        "✅ 'going to' + مكان تعني الذهاب إلى مكان (I am going to school).",
+        "✅ 'going to' + فعل تعني سأفعل شيئاً (I am going to study)."
+      ]
+    }
+  ]
+}
