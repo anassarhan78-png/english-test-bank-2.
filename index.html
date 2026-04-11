@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Goal – نظام وحدات قابل للتوسع</title>
+    <title>Super Goal 3 – الوحدة 13</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -14,12 +14,29 @@
             direction: rtl;
         }
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: auto;
             background: white;
             border-radius: 32px;
             box-shadow: 0 20px 40px rgba(0,0,0,0.3);
             overflow: hidden;
+        }
+        .toolbar {
+            background: #2b7a4b;
+            padding: 12px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        .toolbar button {
+            background: white;
+            color: #2b7a4b;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: bold;
         }
         .unit-tabs {
             display: flex;
@@ -62,7 +79,6 @@
         }
         .content { padding: 25px; }
         h2 { color: #1e5a3a; margin-bottom: 15px; }
-        h3 { color: #2b7a4b; margin: 15px 0 10px; }
         .progress-area { margin-bottom: 20px; }
         .question {
             background: #fef5e8;
@@ -96,10 +112,6 @@
             padding: 20px;
             border-radius: 24px;
         }
-        .grammar-box ul, .grammar-box li {
-            margin-right: 20px;
-            line-height: 1.6;
-        }
         .word-list {
             display: flex;
             flex-wrap: wrap;
@@ -112,12 +124,48 @@
             border-radius: 30px;
             font-size: 0.9rem;
         }
+        /* تنسيق الطباعة PDF */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                margin: 0;
+            }
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+                max-width: 100%;
+            }
+            .toolbar, .unit-tabs, .sub-tabs, button, footer, .progress-area, .feedback, #submit-btn, #next-btn {
+                display: none !important;
+            }
+            .content {
+                padding: 0.5cm;
+            }
+            .question {
+                background: none;
+                border: 1px solid #ccc;
+                page-break-inside: avoid;
+            }
+            .option {
+                background: none;
+                border: 1px solid #ddd;
+                page-break-inside: avoid;
+            }
+            h2 {
+                color: black;
+            }
+        }
         footer { text-align: center; margin-top: 20px; font-size: 0.75rem; }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <div class="container">
+    <div class="toolbar">
+        <span><i class="fas fa-graduation-cap"></i> Super Goal 3 – الوحدة 13</span>
+        <button id="print-pdf"><i class="fas fa-print"></i> طباعة / حفظ PDF</button>
+    </div>
     <div class="unit-tabs" id="unit-tabs"></div>
     <div class="sub-tabs" id="sub-tabs" style="display:none;"></div>
     <div class="content">
@@ -173,7 +221,7 @@
     function renderSubTabs() {
         const container = document.getElementById('sub-tabs');
         container.innerHTML = `
-            <div class="sub-tab" data-mode="full">📚 شامل (قواعد + إملاء + قراءة)</div>
+            <div class="sub-tab" data-mode="full">📚 شامل (قواعد + مفردات + قراءة)</div>
             <div class="sub-tab" data-mode="vocab">📖 مفردات الوحدة</div>
             <div class="sub-tab" data-mode="writing">✍️ الكتابة</div>
             <div class="sub-tab" data-mode="grammar">📘 شرح القواعد</div>
@@ -295,8 +343,9 @@
         const html = `
             <div class="writing-box">
                 <h3>📝 ${writingData.title || "دليل كتابة الموضوع"}</h3>
-                ${writingData.steps ? writingData.steps.map(step => `<div style="margin-bottom:15px;"><strong>الخطوة ${step.step}: ${step.title}</strong><br>${step.explanation}</div>`).join('') : `<p>${writingData.prompts ? writingData.prompts.join('<br>') : "اكتب فقرة عن السلوك الجيد والسلوك السيء"}</p>`}
-                <textarea id="student-writing" rows="6" style="width:100%; margin:15px 0; padding:10px; border-radius:16px;"></textarea>
+                ${writingData.steps ? writingData.steps.map(step => `<div style="margin-bottom:15px;"><strong>الخطوة ${step.step}: ${step.title}</strong><br>${step.explanation}</div>`).join('') : `<p>${writingData.prompts ? writingData.prompts.join('<br>') : "اكتب فقرة عن قطعة الملابس المفضلة لديك"}</p>`}
+                ${writingData.model ? `<div style="background:#e9ecef; padding:12px; border-radius:16px; margin-top:15px;"><strong>نموذج إجابة:</strong><br>${writingData.model}</div>` : ''}
+                <textarea id="student-writing" rows="8" style="width:100%; margin:15px 0; padding:10px; border-radius:16px;"></textarea>
                 <button id="save-writing">💾 حفظ مسودتك</button>
                 <div id="writing-feedback" style="margin-top:15px;"></div>
             </div>
@@ -337,16 +386,6 @@
                     topic.examples.forEach(ex => html += `<li>📌 ${ex}</li>`);
                     html += `</ul>`;
                 }
-                if (topic.subtopics && topic.subtopics.length) {
-                    html += `<ul>`;
-                    topic.subtopics.forEach(sub => html += `<li><strong>${sub.word || sub.pattern || ''}:</strong> ${sub.meaning || sub.example || ''} — مثال: ${sub.example || ''}</li>`);
-                    html += `</ul>`;
-                }
-                if (topic.words && topic.words.length) {
-                    html += `<div class="word-list">`;
-                    topic.words.forEach(w => html += `<span>📖 ${w}</span>`);
-                    html += `</div>`;
-                }
                 html += `</div>`;
             });
         } else {
@@ -357,6 +396,11 @@
         document.getElementById('submit-btn').style.display = 'none';
         document.getElementById('next-btn').style.display = 'none';
     }
+
+    // زر الطباعة PDF
+    document.getElementById('print-pdf').addEventListener('click', () => {
+        window.print();
+    });
 
     loadConfig();
 </script>
