@@ -1,27 +1,138 @@
 {
-  "title": "📘 قاعدة المستقبل: (be) going to",
+  "title": "📘 قواعد الوحدة 13: المستقبل (going to) + أفعال الملابس",
   "topics": [
     {
-      "name": "1. الاستخدام",
-      "rule": "نستخدم 'going to' للتحدث عن خطط ونوايا مستقبلية، أو توقعات بناءً على دليل في الحاضر.",
-      "examples": ["I am going to study medicine. (خطة)", "Look at those dark clouds! It is going to rain. (توقع)"]
-    },
-    {
-      "name": "2. التشكيل (Form)",
-      "rule": "الفاعل + am/is/are + going to + الفعل المصدر",
+      "name": "🔷 1. زمن المستقبل: (be) going to",
+      "rule": "نستخدم 'going to' للتحدث عن خطط ونوايا مستقبلية، أو لتوقع شيء بناءً على دليل في الحاضر.",
       "form": {
-        "positive": "I am going to travel. / She is going to buy a dress. / They are going to play.",
-        "negative": "I am not going to be late. / He isn't going to come.",
-        "question": "Are you going to join us? / Is she going to cook?"
-      }
+        "positive": "الفاعل + am/is/are + going to + الفعل المصدر",
+        "negative": "الفاعل + am/is/are + not + going to + الفعل المصدر",
+        "question": "Am/Is/Are + الفاعل + going to + الفعل المصدر؟"
+      },
+      "examples": {
+        "positive": [
+          "I am going to study tomorrow. (سأدرس غداً – خطة)",
+          "She is going to buy a new dress. (ستشتري فستاناً جديداً – نية)",
+          "They are going to travel next week. (سيسافرون الأسبوع القادم)"
+        ],
+        "negative": [
+          "I am not going to be late. (لن أتأخر)",
+          "He isn't going to wear a tie. (لن يرتدي ربطة عنق)",
+          "We aren't going to stay home. (لن نبقى في المنزل)"
+        ],
+        "question": [
+          "Are you going to come with us? (هل ستأتي معنا؟)",
+          "Is she going to cook dinner? (هل ستطبخ العشاء؟)"
+        ]
+      },
+      "predictions_based_on_evidence": [
+        "Look at those dark clouds! It is going to rain. (انظر إلى تلك الغيوم الداكنة! ستمطر)",
+        "The traffic is very bad. We are going to be late. (الزحام شديد. سوف نتأخر)"
+      ]
     },
     {
-      "name": "3. ملاحظات مهمة",
-      "rule": "لا نستخدم 'going to' مع أفعال مثل 'go' و 'come' كثيراً؛ نفضل استخدام المضارع المستمر.",
+      "name": "🔷 2. كلمات الزمن التي تدل على المستقبل",
+      "rule": "تستخدم مع 'going to' أو المضارع المستمر للتعبير عن المستقبل القريب أو البعيد.",
+      "time_expressions": [
+        "tomorrow (غداً)",
+        "next week / month / year (الأسبوع / الشهر / السنة القادم)",
+        "tonight (هذه الليلة)",
+        "soon (قريباً)",
+        "later (لاحقاً)",
+        "in two days (بعد يومين)"
+      ],
+      "examples": [
+        "I am going to call you tomorrow.",
+        "She is going to start her new job next month."
+      ]
+    },
+    {
+      "name": "🔷 3. أفعال الملابس المركبة (Phrasal Verbs)",
+      "rule": "هي أفعال تتكون من فعل + حرف جر، ويكون لها معنى مختلف عن الفعل الأصلي. مع الضمائر (it, them, me) يجب أن تأتي بين الفعل والحرف.",
+      "phrasal_verbs": [
+        {
+          "verb": "put on",
+          "meaning": "يرتدي (يضع الملابس على جسده)",
+          "example": "Put on your jacket. It's cold. (ارتدي جاكيتك، الجو بارد)",
+          "with_pronoun": "Put it on (ارتديها)"
+        },
+        {
+          "verb": "take off",
+          "meaning": "يخلع (يزيل الملابس)",
+          "example": "Take off your shoes before entering. (اخلع حذائك قبل الدخول)",
+          "with_pronoun": "Take them off (اخلعها)"
+        },
+        {
+          "verb": "try on",
+          "meaning": "يجرب (الملابس لمعرفة المقاس)",
+          "example": "Can I try on this shirt? (هل يمكنني تجربة هذا القميص؟)",
+          "with_pronoun": "Try it on (جربه)"
+        },
+        {
+          "verb": "zip up",
+          "meaning": "يغلق بالسحاب (السترة، الجاكت)",
+          "example": "Zip up your coat. (أغلق سحاب معطفك)",
+          "with_pronoun": "Zip it up"
+        },
+        {
+          "verb": "button up",
+          "meaning": "يزرر (الأزرار)",
+          "example": "Button up your shirt. (زرر قميصك)"
+        }
+      ]
+    },
+    {
+      "name": "🔷 4. الأفعال التي يتبعها gerund (فعل + ing) في الوحدة 13",
+      "rule": "بعد بعض الأفعال نضيف ing للفعل الذي يليها. هذه الأفعال لا تتبعها 'to'.",
+      "verbs_list": [
+        "enjoy (يستمتع بـ)",
+        "like / love (يحب)",
+        "hate / dislike (يكره)",
+        "avoid (يتجنب)",
+        "keep (يستمر في)",
+        "suggest (يقترح)",
+        "can't stand (لا يطيق)"
+      ],
+      "examples": [
+        "I enjoy wearing casual clothes. (أستمتع بارتداء الملابس غير الرسمية)",
+        "He avoids buying expensive shoes. (يتجنب شراء أحذية غالية)",
+        "She can't stand waiting in long lines. (لا تطيق الانتظار في طوابير طويلة)"
+      ]
+    },
+    {
+      "name": "🔷 5. ملاحظات مهمة حول 'going to'",
       "tips": [
-        "✅ 'going to' + مكان تعني الذهاب إلى مكان (I am going to school).",
-        "✅ 'going to' + فعل تعني سأفعل شيئاً (I am going to study)."
+        "✅ لا نستخدم 'going to' مع أفعال الحركة مثل 'go' و 'come' غالباً؛ نفضل استخدام المضارع المستمر. مثال: I am going to the mall tomorrow (بدلاً من I am going to go to the mall).",
+        "✅ 'going to' + مكان تعني الذهاب إلى مكان. مثال: I am going to school (أنا ذاهب إلى المدرسة).",
+        "✅ 'going to' + فعل تعني سأفعل شيئاً. مثال: I am going to study (سأدرس).",
+        "❌ لا نستخدم 'going to' في السؤال إذا كان الفعل هو 'go' نفسه: نقول 'Are you going to the party?' وليس 'Are you going to go to the party?'"
+      ]
+    },
+    {
+      "name": "🔷 6. جدول تلخيصي سريع",
+      "summary_table": [
+        "✅ I am going to wear a suit → سأرتدي بدلة (خطة)",
+        "✅ She is going to travel → ستسافر (نية)",
+        "✅ Look at those clouds! It is going to rain → ستمطر (توقع)",
+        "✅ Put on your coat → ارتدي معطفك",
+        "✅ Take off your sneakers → اخلع حذاءك الرياضي",
+        "✅ Try on this dress → جربي هذا الفستان",
+        "✅ I enjoy wearing comfortable clothes → أستمتع بارتداء ملابس مريحة"
       ]
     }
+  ],
+  "common_mistakes": [
+    "❌ خطأ: I am going to the cinema tomorrow? (ترتيب السؤال خاطئ)",
+    "✅ صحيح: Are you going to the cinema tomorrow?",
+    "❌ خطأ: She is going to wears a dress.",
+    "✅ صحيح: She is going to wear a dress. (بعد going to نستخدم المصدر بدون s)",
+    "❌ خطأ: I am going to take off it.",
+    "✅ صحيح: I am going to take it off. (الضمير بين الفعل والحرف)"
+  ],
+  "final_exam_tips": [
+    "🎯 راجع تصريف فعل 'to be' (am/is/are) لأنك تحتاجه مع going to.",
+    "🎯 تذكر أن 'going to' تستخدم للخطط والتوقعات، وليس للأحداث المجدولة بمواعيد ثابتة (تلك تستخدم المضارع البسيط أو المستمر).",
+    "🎯 انتبه إلى ترتيب الضمير مع phrasal verbs: put it on, take them off, try it on.",
+    "🎯 استخدم كلمات المستقبل (tomorrow, next week) لتوضيح أنك تتحدث عن المستقبل."
   ]
 }
