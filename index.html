@@ -28,6 +28,8 @@
             justify-content: space-between;
             align-items: center;
             color: white;
+            flex-wrap: wrap;
+            gap: 10px;
         }
         .toolbar button {
             background: white;
@@ -37,6 +39,11 @@
             border-radius: 30px;
             cursor: pointer;
             font-weight: bold;
+            transition: 0.2s;
+        }
+        .toolbar button:hover {
+            background: #f0f0f0;
+            transform: scale(1.02);
         }
         .unit-tabs {
             display: flex;
@@ -107,6 +114,12 @@
             border-radius: 30px;
             cursor: pointer;
         }
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
         .writing-box, .grammar-box {
             background: #fef9e6;
             padding: 20px;
@@ -124,7 +137,6 @@
             border-radius: 30px;
             font-size: 0.9rem;
         }
-        /* تنسيق الطباعة PDF */
         @media print {
             body {
                 background: white;
@@ -136,7 +148,7 @@
                 border-radius: 0;
                 max-width: 100%;
             }
-            .toolbar, .unit-tabs, .sub-tabs, button, footer, .progress-area, .feedback, #submit-btn, #next-btn {
+            .toolbar, .unit-tabs, .sub-tabs, .nav-buttons, button, footer, .progress-area, .feedback, #submit-btn, #next-btn, #prev-btn {
                 display: none !important;
             }
             .content {
@@ -171,9 +183,10 @@
     <div class="content">
         <h2 id="mode-title"></h2>
         <div id="quiz-container"></div>
-        <div style="text-align:center; margin-top:20px;">
+        <div class="nav-buttons">
+            <button id="prev-btn" style="display:none;"><i class="fas fa-arrow-right"></i> السابق</button>
             <button id="submit-btn" style="display:none;">إرسال الإجابة ✅</button>
-            <button id="next-btn" style="display:none;">التالي ➡️</button>
+            <button id="next-btn" style="display:none;">التالي <i class="fas fa-arrow-left"></i></button>
         </div>
         <footer>✨ نظام وحدات قابل للتوسع – أضف وحدة جديدة بإنشاء مجلد وإضافة اسمه في config.json ✨</footer>
     </div>
@@ -256,6 +269,7 @@
             renderQuizInterface();
             showQuestion();
             document.getElementById('submit-btn').style.display = 'inline-block';
+            document.getElementById('prev-btn').style.display = 'none';
         } catch(err) {
             document.getElementById('quiz-container').innerHTML = `<div style="color:red;">⚠️ ${err.message}</div>`;
         }
@@ -266,6 +280,7 @@
         document.getElementById('quiz-container').innerHTML = '<div id="quiz-area"></div><div id="feedback"></div>';
         document.getElementById('submit-btn').style.display = 'inline-block';
         document.getElementById('next-btn').style.display = 'none';
+        document.getElementById('prev-btn').style.display = 'none';
     }
 
     function showQuestion() {
@@ -279,6 +294,7 @@
         container.innerHTML = html;
         attachOptionEvents();
         updateProgress();
+        updateNavButtons();
     }
 
     function attachOptionEvents() {
@@ -302,6 +318,15 @@
         document.getElementById('quiz-container').insertBefore(div, document.getElementById('quiz-area'));
     }
 
+    function updateNavButtons() {
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        if (currentIndex > 0) prevBtn.style.display = 'inline-block';
+        else prevBtn.style.display = 'none';
+        if (currentIndex < questions.length - 1) nextBtn.style.display = 'inline-block';
+        else nextBtn.style.display = 'none';
+    }
+
     document.getElementById('submit-btn').onclick = () => {
         if (!selectedAnswer) { alert('اختر إجابة'); return; }
         const q = questions[currentIndex];
@@ -320,16 +345,21 @@
 
     document.getElementById('next-btn').onclick = () => {
         currentIndex++;
-        if (currentIndex < questions.length) {
-            showQuestion();
-            document.getElementById('submit-btn').style.display = 'inline-block';
-            document.getElementById('next-btn').style.display = 'none';
-            document.getElementById('feedback').innerHTML = '';
-        } else {
-            document.getElementById('quiz-container').innerHTML = `<div style="text-align:center; padding:20px;"><h3>🎉 انتهى الاختبار</h3><p>الصحيحة: ${score} من ${questions.length}</p><button onclick="location.reload()">إعادة</button></div>`;
-            document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('next-btn').style.display = 'none';
-        }
+        showQuestion();
+        document.getElementById('submit-btn').style.display = 'inline-block';
+        document.getElementById('next-btn').style.display = 'none';
+        document.getElementById('feedback').innerHTML = '';
+        selectedAnswer = null;
+        updateProgress();
+    };
+
+    document.getElementById('prev-btn').onclick = () => {
+        currentIndex--;
+        showQuestion();
+        document.getElementById('submit-btn').style.display = 'inline-block';
+        document.getElementById('next-btn').style.display = 'none';
+        document.getElementById('feedback').innerHTML = '';
+        selectedAnswer = null;
         updateProgress();
     };
 
@@ -353,6 +383,7 @@
         document.getElementById('quiz-container').innerHTML = html;
         document.getElementById('submit-btn').style.display = 'none';
         document.getElementById('next-btn').style.display = 'none';
+        document.getElementById('prev-btn').style.display = 'none';
         document.getElementById('save-writing').onclick = () => {
             const text = document.getElementById('student-writing').value;
             localStorage.setItem(`writing_${currentUnit.id}`, text);
@@ -371,6 +402,7 @@
             document.getElementById('quiz-container').innerHTML = `<div class="grammar-box" style="color:red;">⚠️ ${e.message}<br>يمكنك إضافة ملف grammar.json داخل مجلد الوحدة لعرض شرح القواعد.</div>`;
             document.getElementById('submit-btn').style.display = 'none';
             document.getElementById('next-btn').style.display = 'none';
+            document.getElementById('prev-btn').style.display = 'none';
             return;
         }
         let html = `<div class="grammar-box">`;
@@ -395,6 +427,7 @@
         document.getElementById('quiz-container').innerHTML = html;
         document.getElementById('submit-btn').style.display = 'none';
         document.getElementById('next-btn').style.display = 'none';
+        document.getElementById('prev-btn').style.display = 'none';
     }
 
     // زر الطباعة PDF
