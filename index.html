@@ -3,280 +3,345 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎓 بنك الأسئلة - شامل & مفردات 🎓</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <title>Super Goal – نظام وحدات قابل للتوسع</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Tajawal', sans-serif;
-            background: linear-gradient(145deg, #1e2b3c 0%, #0f1a24 100%);
+            font-family: 'Segoe UI', 'Tajawal', sans-serif;
+            background: linear-gradient(135deg, #1e5a3a, #0f2a1c);
             min-height: 100vh;
             padding: 20px;
             direction: rtl;
         }
-        .quiz-wrapper { max-width: 950px; margin: 0 auto; animation: fadeInUp 0.6s ease-out; }
-        .quiz-card {
-            background: rgba(255, 255, 255, 0.97);
-            border-radius: 48px;
-            box-shadow: 0 25px 45px -12px rgba(0,0,0,0.4);
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
             overflow: hidden;
         }
-        /* شريط التبويب */
-        .tab-bar {
+        .unit-tabs {
             display: flex;
-            background: #fff0e0;
-            border-bottom: 2px solid #ffc299;
+            background: #eaf7ed;
+            border-bottom: 2px solid #b8d9c2;
+            overflow-x: auto;
         }
-        .tab {
+        .unit-tab {
+            padding: 12px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            background: #eaf7ed;
+            color: #1e5a3a;
+            border-bottom: 3px solid transparent;
+            white-space: nowrap;
+        }
+        .unit-tab.active {
+            background: white;
+            border-bottom-color: #2b7a4b;
+            color: #2b7a4b;
+        }
+        .sub-tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 1px solid #ddd;
+        }
+        .sub-tab {
             flex: 1;
             text-align: center;
-            padding: 16px 10px;
+            padding: 12px;
+            cursor: pointer;
+            background: #f8f9fa;
+            color: #2c3e6d;
             font-weight: bold;
-            font-size: 1.2rem;
-            cursor: pointer;
-            transition: 0.2s;
-            background: #fff0e0;
-            color: #b45a2b;
         }
-        .tab i { margin-left: 8px; }
-        .tab.active {
+        .sub-tab.active {
             background: white;
-            color: #ff6a3c;
-            border-bottom: 3px solid #ff6a3c;
-            border-radius: 30px 30px 0 0;
+            border-bottom: 3px solid #2b7a4b;
+            color: #2b7a4b;
         }
-        .tab:first-child { border-radius: 48px 0 0 0; }
-        .tab:last-child { border-radius: 0 48px 0 0; }
-        .quiz-header {
-            background: linear-gradient(135deg, #ff9a3c, #ff6a3c);
-            padding: 15px 30px;
-            color: white;
-            text-align: center;
-        }
-        .quiz-header h1 { font-size: 1.7rem; font-weight: 800; display: flex; align-items: center; justify-content: center; gap: 12px; }
-        .progress-area {
-            background: #fff0e0;
-            padding: 12px 25px;
-            border-bottom: 1px solid #ffe0c0;
-        }
-        .progress-stats { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 8px; color: #b45a2b; }
-        .progress-bar-container { background-color: #e9d6c0; border-radius: 60px; height: 14px; overflow: hidden; }
-        .progress-fill { background: linear-gradient(90deg, #ff9a3c, #ff6a3c); width: 0%; height: 100%; transition: width 0.4s; }
-        .passage {
+        .content { padding: 25px; }
+        h2 { color: #1e5a3a; margin-bottom: 15px; }
+        .progress-area { margin-bottom: 20px; }
+        .question {
             background: #fef5e8;
-            padding: 15px 20px;
-            margin: 20px 25px;
-            border-radius: 32px;
-            border-right: 8px solid #ff8c42;
-            font-size: 0.95rem;
-            line-height: 1.6;
+            padding: 15px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            font-weight: bold;
         }
-        .question-text {
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin: 20px 25px;
-            padding: 15px 20px;
-            background: #fef3e9;
-            border-radius: 28px;
-        }
-        .options-area { padding: 0 25px 20px; }
         .option {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            background: white;
-            border: 2px solid #ffe0c0;
-            border-radius: 50px;
-            margin: 12px 0;
-            padding: 12px 20px;
+            background: #f8f9fa;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-radius: 40px;
             cursor: pointer;
-            transition: 0.2s;
+            border: 1px solid #ddd;
         }
-        .option:hover { background: #fff4e8; transform: translateX(-5px); border-color: #ffaa66; }
-        .option.selected { background: #ffedd5; border-color: #ff8c42; box-shadow: 0 0 0 3px rgba(255,140,66,0.3); }
-        .option-letter { font-weight: 800; background: #ffeedd; width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; color: #c95a0f; }
-        .feedback { margin: 20px 25px; padding: 14px 20px; border-radius: 28px; font-weight: 500; }
-        .feedback.correct { background: #d4edda; color: #155724; border-right: 6px solid #28a745; }
-        .feedback.wrong { background: #f8d7da; color: #721c24; border-right: 6px solid #dc3545; }
-        .action-buttons { display: flex; justify-content: center; gap: 20px; margin: 15px 25px 30px; }
-        .btn { font-family: 'Tajawal'; font-weight: bold; padding: 10px 25px; border: none; border-radius: 60px; font-size: 1rem; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
-        .btn-submit { background: #2b9348; color: white; box-shadow: 0 4px 0 #1a5a2c; }
-        .btn-next { background: #ff8c42; color: white; box-shadow: 0 4px 0 #b45a2b; }
-        .btn:active { transform: translateY(2px); }
-        .completion-box { text-align: center; padding: 40px 20px; background: #e9f5e9; border-radius: 48px; margin: 20px; }
-        footer { text-align: center; margin-top: 20px; color: #aaa; font-size: 0.8rem; }
-        @keyframes fadeInUp { from { opacity:0; transform:translateY(30px);} to { opacity:1; transform:translateY(0);} }
+        .option.selected { background: #2b7a4b; color: white; }
+        .feedback { margin: 15px 0; padding: 12px; border-radius: 16px; }
+        .feedback.correct { background: #d4edda; color: #155724; }
+        .feedback.wrong { background: #f8d7da; color: #721c24; }
+        button {
+            background: #2b7a4b;
+            color: white;
+            border: none;
+            padding: 8px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .writing-box, .grammar-box {
+            background: #fef9e6;
+            padding: 20px;
+            border-radius: 24px;
+        }
+        footer { text-align: center; margin-top: 20px; font-size: 0.75rem; }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<div class="quiz-wrapper">
-    <div class="quiz-card">
-        <div class="tab-bar">
-            <div class="tab active" data-mode="full"><i class="fas fa-database"></i> بنك الأسئلة الشامل</div>
-            <div class="tab" data-mode="vocab"><i class="fas fa-book-open"></i> اختبار المفردات (VCAB)</div>
-        </div>
-        <div class="quiz-header">
-            <h1 id="mode-title"><i class="fas fa-graduation-cap"></i> الاختبار الشامل</h1>
-        </div>
-        <div class="progress-area">
-            <div class="progress-stats">
-                <span><i class="fas fa-question-circle"></i> <span id="current-q-num">1</span> / <span id="total-q-num">0</span></span>
-                <span><i class="fas fa-trophy"></i> النقاط: <span id="score-count">0</span></span>
-            </div>
-            <div class="progress-bar-container"><div class="progress-fill" id="progress-fill"></div></div>
-        </div>
+<div class="container">
+    <div class="unit-tabs" id="unit-tabs"></div>
+    <div class="sub-tabs" id="sub-tabs" style="display:none;"></div>
+    <div class="content">
+        <h2 id="mode-title"></h2>
         <div id="quiz-container"></div>
-        <div class="action-buttons">
-            <button id="submit-btn" class="btn btn-submit"><i class="fas fa-check-circle"></i> إجابة</button>
-            <button id="next-btn" class="btn btn-next" style="display:none;"><i class="fas fa-arrow-left"></i> التالي</button>
+        <div style="text-align:center; margin-top:20px;">
+            <button id="submit-btn" style="display:none;">إرسال الإجابة ✅</button>
+            <button id="next-btn" style="display:none;">التالي ➡️</button>
         </div>
+        <footer>✨ نظام وحدات قابل للتوسع – أضف وحدة جديدة بإنشاء مجلد وإضافة اسمه في config.json ✨</footer>
     </div>
-    <footer>✨ اختر الوضع المناسب: شامل (قواعد + قراءة + إملاء) أو مفردات فقط ✨</footer>
 </div>
 
 <script>
+    let config = { units: [] };
+    let currentUnit = null;
+    let currentSubMode = 'full';
     let questions = [];
-    let currentMode = 'full'; // 'full' or 'vocab'
-    let currentIndex = 0;
-    let selectedAnswer = null;
-    let score = 0;
+    let currentIndex = 0, selectedAnswer = null, score = 0;
 
-    // نصوص القطع للوضع الشامل
-    const passages = {
-        hassan: `📖 <i class="fas fa-laptop-code"></i> <strong>النص الأول: Hassan</strong><br>Hassan is a boy who loves technology. He lives in a modern city with his family. Every day, he spends time on his computer learning new things. He enjoys using different programs and discovering how they work. Hassan’s favorite activity is designing simple games. On weekends, Hassan watches videos about technology and learns new skills. He also helps his friends fix small problems with their computers. Hassan likes to explore new ideas and try them by himself. Sometimes, he joins online classes to improve his knowledge. His teachers are proud of him. Learning about technology makes Hassan excited and happy!`,
-        khalid: `📖 <i class="fas fa-paw"></i> <strong>النص الثاني: Khalid</strong><br>Khalid is a boy who loves animals. He lives in a small house with his family. Every day, he takes care of his pet dog. He feeds it, plays with it, and takes it for a walk in the park. Khalid’s favorite animal is the dog because it is friendly and loyal. On weekends, Khalid visits a nearby farm with his father. He enjoys watching different animals like cows, chickens, and horses. Khalid also reads books about animals to learn more about them. Sometimes, he helps his neighbors take care of their pets. They trust him because he is kind and responsible. Taking care of animals makes Khalid feel happy and proud!`,
-        amal: `📖 <i class="fas fa-pyramid"></i> <strong>النص الثالث: Amal</strong><br>Amal is in Egypt, and she is having a great time. Cairo is a very interesting city. There are lots of things to see and do. Yesterday she went on a boat ride down the Nile. It’s a wonderful way to explore the city. It was a hot day, but it was a great experience for her. She went out for dinner with her family at an Egyptian restaurant. She loves Egyptian food, it’s delicious! Tomorrow she is going to visit the Pyramids. She is also going to ride on camels.`
-    };
-
-    function showPassageIfNeeded(questionText) {
-        if (currentMode !== 'full') return '';
-        if (questionText.includes("Hassan") && (questionText.includes("love") || questionText.includes("favorite") || questionText.includes("help") || questionText.includes("feel")))
-            return `<div class="passage">${passages.hassan}</div>`;
-        if (questionText.includes("Khalid") && (questionText.includes("love") || questionText.includes("do every day") || questionText.includes("favorite") || questionText.includes("weekends") || questionText.includes("read") || questionText.includes("feel")))
-            return `<div class="passage">${passages.khalid}</div>`;
-        if (questionText.includes("Amal") || questionText.includes("her in line") || questionText.includes("Tomorrow she") || questionText.includes("main idea") || questionText.includes("city was cold") || questionText.includes("ride on camels"))
-            return `<div class="passage">${passages.amal}</div>`;
-        return '';
+    async function loadConfig() {
+        const res = await fetch('config.json');
+        config = await res.json();
+        renderUnitTabs();
+        if (config.units.length) loadUnit(config.units[0]);
     }
 
-    async function loadQuestions() {
-        const fileName = (currentMode === 'full') ? 'questions.json' : 'vocabulary.json';
+    function renderUnitTabs() {
+        const container = document.getElementById('unit-tabs');
+        container.innerHTML = '';
+        config.units.forEach((unit, idx) => {
+            const tab = document.createElement('div');
+            tab.className = 'unit-tab';
+            if (idx === 0) tab.classList.add('active');
+            tab.innerText = unit.title;
+            tab.onclick = () => {
+                document.querySelectorAll('.unit-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                loadUnit(unit);
+            };
+            container.appendChild(tab);
+        });
+    }
+
+    async function loadUnit(unit) {
+        currentUnit = unit;
+        currentSubMode = 'full';
+        document.getElementById('sub-tabs').style.display = 'flex';
+        renderSubTabs();
+        await loadSubMode();
+    }
+
+    function renderSubTabs() {
+        const container = document.getElementById('sub-tabs');
+        container.innerHTML = `
+            <div class="sub-tab" data-mode="full">📚 شامل (قواعد + إملاء + قراءة)</div>
+            <div class="sub-tab" data-mode="vocab">📖 مفردات الوحدة</div>
+            <div class="sub-tab" data-mode="writing">✍️ الكتابة</div>
+            <div class="sub-tab" data-mode="grammar">📘 شرح القواعد</div>
+        `;
+        document.querySelectorAll('.sub-tab').forEach(tab => {
+            tab.onclick = () => {
+                document.querySelectorAll('.sub-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentSubMode = tab.getAttribute('data-mode');
+                loadSubMode();
+            };
+        });
+        document.querySelector('.sub-tab[data-mode="full"]').classList.add('active');
+    }
+
+    async function loadSubMode() {
+        if (currentSubMode === 'writing') {
+            await loadWritingSection();
+            return;
+        }
+        if (currentSubMode === 'grammar') {
+            await loadGrammarSection();
+            return;
+        }
+        const fileName = (currentSubMode === 'full') ? 'questions.json' : 'vocabulary.json';
+        const filePath = `units/${currentUnit.id}/${fileName}`;
         try {
-            const res = await fetch(fileName);
-            if (!res.ok) throw new Error(`الملف ${fileName} غير موجود`);
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error(`الملف ${fileName} غير موجود للوحدة ${currentUnit.id}`);
             questions = await res.json();
-            currentIndex = 0;
-            score = 0;
-            updateUI();
+            currentIndex = 0; score = 0;
+            renderQuizInterface();
             showQuestion();
-        } catch(e) {
-            document.getElementById('quiz-container').innerHTML = `<div style="color:red; padding:20px;">⚠️ خطأ: ${e.message}</div>`;
+            document.getElementById('submit-btn').style.display = 'inline-block';
+        } catch(err) {
+            document.getElementById('quiz-container').innerHTML = `<div style="color:red;">⚠️ ${err.message}</div>`;
         }
     }
 
-    function updateUI() {
-        document.getElementById('total-q-num').innerText = questions.length;
-        document.getElementById('score-count').innerText = score;
-        const percent = ((currentIndex) / questions.length) * 100;
-        document.getElementById('progress-fill').style.width = percent + '%';
-        document.getElementById('current-q-num').innerText = currentIndex+1;
-        const title = (currentMode === 'full') ? '📚 الاختبار الشامل' : '📖 اختبار المفردات (VCAB)';
-        document.getElementById('mode-title').innerHTML = (currentMode === 'full') ? '<i class="fas fa-database"></i> بنك الأسئلة الشامل' : '<i class="fas fa-book-open"></i> اختبار المفردات (معاني الكلمات)';
+    function renderQuizInterface() {
+        document.getElementById('mode-title').innerHTML = `${currentUnit.title} – ${currentSubMode === 'full' ? 'اختبار شامل' : 'مفردات'}`;
+        document.getElementById('quiz-container').innerHTML = '<div id="quiz-area"></div><div id="feedback"></div>';
+        document.getElementById('submit-btn').style.display = 'inline-block';
+        document.getElementById('next-btn').style.display = 'none';
     }
 
     function showQuestion() {
         const q = questions[currentIndex];
-        let html = showPassageIfNeeded(q.text);
-        html += `<div class="question-text"><i class="fas fa-question-circle"></i> ${q.text}</div>`;
-        html += `<div class="options-area">`;
-        q.options.forEach((opt, idx) => {
-            const letter = String.fromCharCode(65+idx);
-            html += `<div class="option" data-letter="${letter}">
-                        <i class="fas fa-circle-notch"></i>
-                        <span class="option-letter">${letter}</span>
-                        <span>${opt}</span>
-                    </div>`;
+        const container = document.getElementById('quiz-area');
+        let html = `<div class="question">${q.text}</div>`;
+        const letters = ['A','B','C','D'];
+        q.options.forEach((opt,i) => {
+            html += `<div class="option" data-letter="${letters[i]}">${letters[i]}. ${opt}</div>`;
         });
-        html += `</div><div id="feedback"></div>`;
-        document.getElementById('quiz-container').innerHTML = html;
+        container.innerHTML = html;
         attachOptionEvents();
-        document.getElementById('submit-btn').style.display = 'inline-flex';
-        document.getElementById('next-btn').style.display = 'none';
-        selectedAnswer = null;
-        updateUI();
+        updateProgress();
     }
 
     function attachOptionEvents() {
         document.querySelectorAll('.option').forEach(opt => {
-            opt.removeEventListener('click', opt.clickHandler);
-            const handler = () => {
+            opt.onclick = () => {
                 document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
                 opt.classList.add('selected');
                 selectedAnswer = opt.getAttribute('data-letter');
             };
-            opt.clickHandler = handler;
-            opt.addEventListener('click', handler);
         });
     }
 
-    document.getElementById('submit-btn').addEventListener('click', () => {
-        if (!selectedAnswer) {
-            alert('⚠️ الرجاء اختيار إجابة أولاً');
-            return;
-        }
+    function updateProgress() {
+        const percent = ((currentIndex) / questions.length) * 100;
+        const progressHtml = `<div style="display:flex; justify-content:space-between;"><span>السؤال ${currentIndex+1} / ${questions.length}</span><span>⭐ النقاط: ${score}</span></div><div style="background:#ddd; border-radius:20px; height:8px;"><div style="background:#2b7a4b; width:${percent}%; height:8px; border-radius:20px;"></div></div>`;
+        const existing = document.querySelector('.progress-area');
+        if (existing) existing.remove();
+        const div = document.createElement('div');
+        div.className = 'progress-area';
+        div.innerHTML = progressHtml;
+        document.getElementById('quiz-container').insertBefore(div, document.getElementById('quiz-area'));
+    }
+
+    document.getElementById('submit-btn').onclick = () => {
+        if (!selectedAnswer) { alert('اختر إجابة'); return; }
         const q = questions[currentIndex];
         const isCorrect = (selectedAnswer === q.correct);
         const fbDiv = document.getElementById('feedback');
         if (isCorrect) {
             score++;
-            fbDiv.innerHTML = `<div class="feedback correct"><i class="fas fa-trophy"></i> ✅ صحيح! ${q.explanation[selectedAnswer]}</div>`;
+            fbDiv.innerHTML = `<div class="feedback correct">✅ صحيح! ${q.explanation[selectedAnswer]}</div>`;
         } else {
-            fbDiv.innerHTML = `<div class="feedback wrong"><i class="fas fa-times-circle"></i> ❌ خطأ. ${q.explanation[selectedAnswer]}<br><strong>✅ الصحيح: ${q.correct}</strong> — ${q.explanation[q.correct]}</div>`;
+            fbDiv.innerHTML = `<div class="feedback wrong">❌ خطأ. ${q.explanation[selectedAnswer]}<br>✅ الصحيح: ${q.correct} — ${q.explanation[q.correct]}</div>`;
         }
         document.getElementById('submit-btn').style.display = 'none';
-        document.getElementById('next-btn').style.display = 'inline-flex';
-        updateUI();
-    });
+        document.getElementById('next-btn').style.display = 'inline-block';
+        updateProgress();
+    };
 
-    document.getElementById('next-btn').addEventListener('click', () => {
+    document.getElementById('next-btn').onclick = () => {
         currentIndex++;
         if (currentIndex < questions.length) {
             showQuestion();
-        } else {
-            const total = questions.length;
-            const percentScore = Math.round((score / total) * 100);
-            let medal = (percentScore >= 90) ? '🏆 ممتاز! عبقرية' : (percentScore >= 70) ? '🎉 جيد جداً' : '💪 استمر في التدريب';
-            document.getElementById('quiz-container').innerHTML = `
-                <div class="completion-box">
-                    <i class="fas fa-flag-checkered" style="font-size:3rem; color:#ff8c42;"></i>
-                    <h2>🎊 انتهى الاختبار 🎊</h2>
-                    <p style="font-size:1.4rem;">إجاباتك الصحيحة: ${score} من ${total}</p>
-                    <p style="font-size:1.2rem;">⭐ النسبة: ${percentScore}% ⭐</p>
-                    <p>${medal}</p>
-                    <button onclick="location.reload()" style="margin-top:15px; background:#ff8c42; border:none; padding:8px 20px; border-radius:40px;"><i class="fas fa-sync-alt"></i> إعادة الاختبار</button>
-                </div>`;
+            document.getElementById('submit-btn').style.display = 'inline-block';
             document.getElementById('next-btn').style.display = 'none';
+            document.getElementById('feedback').innerHTML = '';
+        } else {
+            document.getElementById('quiz-container').innerHTML = `<div style="text-align:center; padding:20px;"><h3>🎉 انتهى الاختبار</h3><p>الصحيحة: ${score} من ${questions.length}</p><button onclick="location.reload()">إعادة</button></div>`;
             document.getElementById('submit-btn').style.display = 'none';
-            document.getElementById('progress-fill').style.width = '100%';
+            document.getElementById('next-btn').style.display = 'none';
         }
-        updateUI();
-    });
+        updateProgress();
+    };
 
-    // التبديل بين الوضعين
-    document.querySelectorAll('.tab').forEach(tab => {
-        tab.addEventListener('click', () => {
-            const mode = tab.getAttribute('data-mode');
-            if (mode === currentMode) return;
-            currentMode = mode;
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
-            loadQuestions();
-        });
-    });
+    async function loadWritingSection() {
+        const filePath = `units/${currentUnit.id}/writing.json`;
+        let writingData = { prompts: [], model: "" };
+        try {
+            const res = await fetch(filePath);
+            if (res.ok) writingData = await res.json();
+        } catch(e) { console.log("لا يوجد ملف writing.json"); }
+        const html = `
+            <div class="writing-box">
+                <h3>📝 ${writingData.title || "دليل كتابة الموضوع"}</h3>
+                ${writingData.steps ? writingData.steps.map(step => `<div style="margin-bottom:15px;"><strong>الخطوة ${step.step}: ${step.title}</strong><br>${step.explanation}</div>`).join('') : `<p>${writingData.prompts ? writingData.prompts.join('<br>') : "اكتب فقرة عن السلوك الجيد والسلوك السيء"}</p>`}
+                <textarea id="student-writing" rows="6" style="width:100%; margin:15px 0; padding:10px; border-radius:16px;"></textarea>
+                <button id="save-writing">💾 حفظ مسودتك</button>
+                <div id="writing-feedback" style="margin-top:15px;"></div>
+            </div>
+        `;
+        document.getElementById('quiz-container').innerHTML = html;
+        document.getElementById('submit-btn').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
+        document.getElementById('save-writing').onclick = () => {
+            const text = document.getElementById('student-writing').value;
+            localStorage.setItem(`writing_${currentUnit.id}`, text);
+            document.getElementById('writing-feedback').innerHTML = '✅ تم حفظ كتابتك محلياً.';
+        };
+    }
 
-    // تحميل أولي (الشامل)
-    loadQuestions();
+    async function loadGrammarSection() {
+        const filePath = `units/${currentUnit.id}/grammar.json`;
+        let grammarData = {};
+        try {
+            const res = await fetch(filePath);
+            if (!res.ok) throw new Error('لا يوجد ملف شرح القواعد لهذه الوحدة');
+            grammarData = await res.json();
+        } catch(e) {
+            document.getElementById('quiz-container').innerHTML = `<div class="grammar-box" style="color:red;">⚠️ ${e.message}<br>يمكنك إضافة ملف grammar.json داخل مجلد الوحدة لعرض شرح القواعد.</div>`;
+            document.getElementById('submit-btn').style.display = 'none';
+            document.getElementById('next-btn').style.display = 'none';
+            return;
+        }
+        let html = `<div class="grammar-box">`;
+        html += `<h2>${grammarData.title || "📘 شرح قواعد الوحدة"}</h2>`;
+        if (grammarData.topics && grammarData.topics.length) {
+            grammarData.topics.forEach(topic => {
+                html += `<div style="margin-bottom:25px; border-bottom:1px solid #e9ecef; padding-bottom:15px;">`;
+                html += `<h3>${topic.name}</h3>`;
+                if (topic.rule) html += `<p><strong>📌 القاعدة:</strong> ${topic.rule}</p>`;
+                if (topic.form) html += `<p><strong>🔧 الصيغة:</strong> ${topic.form}</p>`;
+                if (topic.examples && topic.examples.length) {
+                    html += `<ul>`;
+                    topic.examples.forEach(ex => html += `<li>📌 ${ex}</li>`);
+                    html += `</ul>`;
+                }
+                if (topic.subtopics && topic.subtopics.length) {
+                    html += `<ul>`;
+                    topic.subtopics.forEach(sub => html += `<li><strong>${sub.word || sub.pattern || ''}:</strong> ${sub.meaning || sub.example || ''} — مثال: ${sub.example || ''}</li>`);
+                    html += `</ul>`;
+                }
+                if (topic.words && topic.words.length) {
+                    html += `<div class="word-list">`;
+                    topic.words.forEach(w => html += `<span>📖 ${w}</span>`);
+                    html += `</div>`;
+                }
+                html += `</div>`;
+            });
+        } else {
+            html += `<p>لا توجد تفاصيل قواعد لهذه الوحدة بعد. يمكنك إضافتها في ملف grammar.json.</p>`;
+        }
+        html += `</div>`;
+        document.getElementById('quiz-container').innerHTML = html;
+        document.getElementById('submit-btn').style.display = 'none';
+        document.getElementById('next-btn').style.display = 'none';
+    }
+
+    loadConfig();
 </script>
 </body>
 </html>
