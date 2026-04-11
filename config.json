@@ -2,13 +2,13 @@
   "units": [
     {
       "id": "unit12",
-      "title": "الوحدة 12: Super Goal 1 (مراجعة)",
-      "description": "أسئلة شاملة: مفردات، قواعد، إملاء، قراءة"
+      "title": "الوحدة 12: مراجعة شاملة",
+      "description": "أسئلة سابقة"
     },
     {
       "id": "unit13",
       "title": "الوحدة 13: What Are You Going To Wear?",
-      "description": "قواعد المستقبل (going to)، مفردات الملابس، محادثات، قراءة"
+      "description": "مفردات الملابس، going to، قراءة"
     }
   ]
 }

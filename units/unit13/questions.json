@@ -1,0 +1,104 @@
+[
+  {
+    "text": "Which item is worn on your head?",
+    "options": ["tie", "boots", "shomagh", "jacket"],
+    "correct": "shomagh",
+    "explanation": {
+      "tie": "❌ ربطة العنق تلبس حول الرقبة.",
+      "boots": "❌ الأحذية تلبس على القدمين.",
+      "shomagh": "✅ صحيح: الشماغ هو غطاء رأس تقليدي.",
+      "jacket": "❌ السترة تلبس على الجذع."
+    }
+  },
+  {
+    "text": "Which clothing item is formal wear for men?",
+    "options": ["shorts", "suit", "skirt", "blouse"],
+    "correct": "suit",
+    "explanation": {
+      "shorts": "❌ الشورت غير رسمي.",
+      "suit": "✅ صحيح: البدلة هي لباس رسمي للرجال.",
+      "skirt": "❌ التنورة تلبسها النساء.",
+      "blouse": "❌ البلوزة تلبسها النساء."
+    }
+  },
+  {
+    "text": "What do you wear on your feet?",
+    "options": ["shirt", "pants", "shoes", "tie"],
+    "correct": "shoes",
+    "explanation": {
+      "shirt": "❌ القميص يلبس على الجذع.",
+      "pants": "❌ البنطلون يلبس على الأرجل.",
+      "shoes": "✅ صحيح: الأحذية تلبس على الأقدام.",
+      "tie": "❌ ربطة العنق تلبس حول الرقبة."
+    }
+  },
+  {
+    "text": "Steve is going to Rio de Janeiro for work. (True/False)",
+    "options": ["True", "False"],
+    "correct": "False",
+    "explanation": {
+      "True": "❌ غير صحيح، ستيف ذاهب لقضاء عطلة.",
+      "False": "✅ صحيح، ستيف ذاهب في عطلة."
+    }
+  },
+  {
+    "text": "He's going to need casual clothes. (True/False)",
+    "options": ["True", "False"],
+    "correct": "True",
+    "explanation": {
+      "True": "✅ صحيح، لأنه في عطلة يحتاج ملابس غير رسمية.",
+      "False": "❌ غير صحيح."
+    }
+  },
+  {
+    "text": "Nawal is going to get married next weekend. (True/False)",
+    "options": ["True", "False"],
+    "correct": "True",
+    "explanation": {
+      "True": "✅ صحيح حسب النص.",
+      "False": "❌ غير صحيح."
+    }
+  },
+  {
+    "text": "Sabah is going to buy an abaya. (True/False)",
+    "options": ["True", "False"],
+    "correct": "False",
+    "explanation": {
+      "True": "❌ النص لا يذكر ذلك.",
+      "False": "✅ صحيح، العبارة خاطئة."
+    }
+  },
+  {
+    "text": "Which item is traditional clothing worn in some Arab countries?",
+    "options": ["coat", "thobe", "jacket", "shorts"],
+    "correct": "thobe",
+    "explanation": {
+      "coat": "❌ معطف.",
+      "thobe": "✅ صحيح: الثوب.",
+      "jacket": "❌ جاكيت.",
+      "shorts": "❌ شورت."
+    }
+  },
+  {
+    "text": "Which item is typically worn by women?",
+    "options": ["tie", "boots", "dress", "pants"],
+    "correct": "dress",
+    "explanation": {
+      "tie": "❌ ربطة عنق.",
+      "boots": "❌ أحذية.",
+      "dress": "✅ فستان.",
+      "pants": "❌ بنطلون."
+    }
+  },
+  {
+    "text": "Which item is used to keep you warm?",
+    "options": ["skirt", "coat", "shirt", "shorts"],
+    "correct": "coat",
+    "explanation": {
+      "skirt": "❌ تنورة.",
+      "coat": "✅ معطف دافئ.",
+      "shirt": "❌ قميص خفيف.",
+      "shorts": "❌ شورت."
+    }
+  }
+]
