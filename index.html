@@ -199,48 +199,16 @@
     let questions = [];
     let currentIndex = 0, selectedAnswer = null, score = 0;
 
-    // نصوص القراءة للوحدة 11 (Maria & Sara)
-    const mariaPassage = `📖 <strong>النص: Maria and her sister Sara</strong><br><br>
-    My name is Maria and I’m fourteen years old. I’ve got a problem with my sister. Her name is Sara and she is six years old. You see, every Saturday morning our parents go shopping and I do the housework. I always tidy my room, hoover the flat and do the washing-up. My sister doesn’t help out at all. She always watches TV and plays computer games. She never takes out the rubbish or washes the car. She’s so lazy! Anyway, when my parents come home we always argue about the housework. I want to watch TV and play computer games, too. I hate weekends!`;
+    // نص القراءة للوحدة 11 (Maria & Sara)
+    const readingPassage = `📖 <strong>النص: Maria and her sister Sara</strong><br><br>
+    My name is Maria and I'm fourteen years old. I've got a problem with my sister. Her name is Sara and she is six years old. You see, every Saturday morning our parents go shopping and I do the housework. I always tidy my room, hoover the flat and do the washing-up. My sister doesn't help out at all. She always watches TV and plays computer games. She never takes out the rubbish or washes the car. She's so lazy! Anyway, when my parents come home we always argue about the housework. I want to watch TV and play computer games, too. I hate weekends!`;
 
-    // نصوص القراءة للوحدة 13 (Iguassu Falls و Andy conversation)
-    const iguassuPassage = `📖 <strong>النص: Iguassu Falls</strong><br><br>
-    Iguassu Falls are located on the border between Brazil and Argentina. They are one of the most beautiful waterfalls in the world. Visitors can take a train to get close to the falls. The weather is usually wet and cool, so visitors wear jackets and boots. There are many attractions near the falls, including a bird park and a boat ride. Tourists love to enjoy nature and take amazing photos.`;
-
-    const andyConversation = `📖 <strong>المحادثة: Andy and his friend</strong><br><br>
-    Andy: I'm going to Norway next week.<br>
-    Friend: Wow! Are you going to take warm clothes?<br>
-    Andy: Yes, I am going to take a heavy coat, gloves, and a scarf. It's very cold there.<br>
-    Friend: Why are you going to take sunglasses?<br>
-    Andy: Because of the snow. The sun reflects off the snow, and it's very bright.<br>
-    Friend: Have a great trip!`;
-
-    function showPassageIfNeeded(questionText, unitId) {
-        if (unitId === 'unit11') {
-            if (questionText.includes("Maria") || questionText.includes("Sara") || 
-                questionText.includes("active") || questionText.includes("trash") ||
-                questionText.includes("main idea") || questionText.includes("parents go shopping") ||
-                questionText.includes("wants to swim")) {
-                return `<div class="passage">${mariaPassage}</div>`;
-            }
-        } else if (unitId === 'unit13') {
-            // أسئلة Iguassu Falls
-            if (questionText.includes("Iguassu") || questionText.includes("waterfalls") || 
-                questionText.includes("South America") || questionText.includes("Brazil and Argentina") ||
-                questionText.includes("What do you think Iguassu Falls are") ||
-                questionText.includes("Where are the Iguassu Falls") ||
-                questionText.includes("How do visitors go to the falls") ||
-                questionText.includes("What do visitors wear at the falls")) {
-                return `<div class="passage">${iguassuPassage}</div>`;
-            }
-            // أسئلة Andy conversation
-            if (questionText.includes("Andy") || questionText.includes("heavy coat") ||
-                questionText.includes("scarf") || questionText.includes("put on") ||
-                questionText.includes("Where is Andy going to go") ||
-                questionText.includes("What is Andy going to wear") ||
-                questionText.includes("Why is Andy going to take sunglasses")) {
-                return `<div class="passage">${andyConversation}</div>`;
-            }
+    function showPassageIfNeeded(questionText) {
+        if (questionText.includes("Maria") || questionText.includes("Sara") || 
+            questionText.includes("active") || questionText.includes("trash") ||
+            questionText.includes("main idea") || questionText.includes("parents go shopping") ||
+            questionText.includes("wants to swim")) {
+            return `<div class="passage">${readingPassage}</div>`;
         }
         return '';
     }
@@ -332,7 +300,7 @@
     function showQuestion() {
         const q = questions[currentIndex];
         const container = document.getElementById('quiz-area');
-        let html = showPassageIfNeeded(q.text, currentUnit.id);
+        let html = showPassageIfNeeded(q.text);
         html += `<div class="question">${q.text}</div>`;
         const letters = ['A','B','C','D'];
         q.options.forEach((opt,i) => {
@@ -479,12 +447,10 @@
         document.getElementById('prev-btn').style.display = 'none';
     }
 
-    // زر الطباعة التفاعلي
     document.getElementById('print-pdf').addEventListener('click', () => {
         window.print();
     });
 
-    // زر طباعة الأسئلة (نسخة ورقية)
     document.getElementById('print-exam').addEventListener('click', async () => {
         const examFilePath = `units/${currentUnit.id}/questions.json`;
         let examQuestions = [];
