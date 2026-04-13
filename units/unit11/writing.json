@@ -1,37 +1,134 @@
+cd /workspaces/english-test-bank-2
+
+cat > units/unit11/writing.json << 'EOF'
 {
-  "title": "📝 My Typical Day at School",
-  "prompts": [
-    "1. What do you do before and after school?",
-    "2. When do you do your homework?",
-    "3. What days do you see your friends?",
-    "4. When do you watch TV?"
-  ],
-  "model": "Before I go to school, I get up. I always get up at 7:00 a.m. Then I take a shower and brush my teeth. I always eat breakfast at home. I eat breakfast at 7:30 a.m. Then I go to school. After school, I usually go to the park. Sometimes I play video games with my friend. I usually do my homework in the evening. Then I go to bed. I see my friends every day. I watch TV every day, too. I really like my school because the teachers and pupils are really nice and friendly!",
-  "steps": [
-    {
-      "step": 1,
-      "title": "ابدأ بالروتين الصباحي",
-      "explanation": "اذكر وقت استيقاظك، هل تتناول الفطور؟ كيف تذهب إلى المدرسة؟"
-    },
-    {
-      "step": 2,
-      "title": "النشاطات بعد المدرسة",
-      "explanation": "ماذا تفعل بعد العودة؟ تذهب إلى الحديقة؟ تلعب مع أصدقائك؟"
-    },
-    {
-      "step": 3,
-      "title": "الواجبات المنزلية",
-      "explanation": "متى تؤدي واجباتك؟ في المساء؟ بعد العشاء؟"
-    },
-    {
-      "step": 4,
-      "title": "الاسترخاء والتلفاز",
-      "explanation": "متى تشاهد التلفاز؟ كم مرة في الأسبوع؟"
-    },
-    {
-      "step": 5,
-      "title": "رأيك في مدرستك",
-      "explanation": "اختتم برأيك: هل تحب مدرستك؟ لماذا؟"
-    }
-  ]
+  "title": "📝 كتابة موضوع: يومي النموذجي في المدرسة",
+  "introduction": {
+    "text": "في هذا النشاط، ستتعلم كيف تكتب فقرة (paragraph) عن يومك المعتاد في المدرسة. الفقرة الجيدة تتكون من 3 أجزاء رئيسية:",
+    "parts": [
+      "1. 🏠 جملة افتتاحية (Topic sentence): تذكر الموضوع الرئيسي (مثلاً: يومي في المدرسة يبدأ مبكراً).",
+      "2. 🧱 جمل تفصيلية (Supporting sentences): تشرح ماذا تفعل قبل المدرسة، في المدرسة، وبعد المدرسة.",
+      "3. 🏁 جملة ختامية (Concluding sentence): تعطي رأيك أو انطباعك العام عن يومك."
+    ]
+  },
+  "model_paragraph": {
+    "title": "📌 نموذج كامل (يمكنك تقليده)",
+    "text": "Before I go to school, I get up. I always get up at 7:00 a.m. Then I take a shower and brush my teeth. I always eat breakfast at home. I eat breakfast at 7:30 a.m. Then I go to school. After school, I usually go to the park. Sometimes I play video games with my friend. I usually do my homework in the evening. Then I go to bed. I see my friends every day. I watch TV every day, too. I really like my school because the teachers and pupils are really nice and friendly!",
+    "analysis": [
+      "📌 الجملة الافتتاحية: 'Before I go to school, I get up.' → تخبرنا أن الموضوع سيبدأ قبل المدرسة.",
+      "📌 التفاصيل الصباحية: الجمل من 2 إلى 6 → تشرح وقت الاستيقاظ، الاستحمام، الإفطار، والذهاب للمدرسة.",
+      "📌 التفاصيل بعد المدرسة: الجمل من 7 إلى 9 → تشرح الذهاب للحديقة، لعب الألعاب، والواجبات المنزلية.",
+      "📌 الجملة الختامية: 'I really like my school...' → تعطي رأياً إيجابياً عن المدرسة."
+    ]
+  },
+  "guiding_questions": {
+    "title": "❓ أسئلة إرشادية لمساعدتك على الكتابة",
+    "questions": [
+      "1. ما هو الوقت الذي تستيقظ فيه عادةً؟ (What time do you usually get up?)",
+      "2. ماذا تفعل مباشرة بعد الاستيقاظ؟ (What do you do after you wake up?)",
+      "3. هل تتناول الفطور في المنزل؟ ماذا تأكل؟ (Do you eat breakfast at home? What do you eat?)",
+      "4. كيف تذهب إلى المدرسة؟ (How do you go to school?)",
+      "5. ماذا تفعل بعد العودة من المدرسة؟ (What do you do after school?)",
+      "6. متى تؤدي واجباتك المدرسية؟ (When do you do your homework?)",
+      "7. كم مرة تشاهد التلفاز أو تلعب ألعاب الفيديو؟ (How often do you watch TV or play video games?)",
+      "8. هل تحب مدرستك؟ لماذا؟ (Do you like your school? Why?)"
+    ]
+  },
+  "step_by_step_guide": {
+    "title": "📝 دليل الكتابة خطوة بخطوة",
+    "steps": [
+      {
+        "step": 1,
+        "title": "📌 اكتب جملة افتتاحية عن يومك",
+        "explanation": "مثال: 'My typical school day starts early.' أو 'Before I go to school, I get up at 7 o'clock.'",
+        "example": "→ Before I go to school, I get up."
+      },
+      {
+        "step": 2,
+        "title": "🧴 اكتب عن روتينك الصباحي",
+        "explanation": "اذكر: الاستيقاظ، الاستحمام، تنظيف الأسنان، ارتداء الملابس، تناول الفطور.",
+        "example": "→ I always get up at 7:00 a.m. Then I take a shower and brush my teeth. I eat breakfast at home."
+      },
+      {
+        "step": 3,
+        "title": "🚌 كيف تذهب إلى المدرسة؟",
+        "explanation": "اذكر وسيلة المواصلات: مشي، سيارة، حافلة.",
+        "example": "→ Then I go to school by bus."
+      },
+      {
+        "step": 4,
+        "title": "🎒 ماذا تفعل بعد المدرسة؟",
+        "explanation": "اذكر: العودة للمنزل، اللعب، أداء الواجبات، مشاهدة التلفاز.",
+        "example": "→ After school, I usually go to the park. Sometimes I play video games."
+      },
+      {
+        "step": 5,
+        "title": "📚 متى تؤدي واجباتك؟",
+        "explanation": "اذكر الوقت الذي تخصصه للدراسة في المنزل.",
+        "example": "→ I usually do my homework in the evening."
+      },
+      {
+        "step": 6,
+        "title": "💤 كيف تنهي يومك؟",
+        "explanation": "اذكر موعد النوم.",
+        "example": "→ Then I go to bed."
+      },
+      {
+        "step": 7,
+        "title": "⭐ اكتب جملة ختامية عن رأيك في مدرستك",
+        "explanation": "اذكر سبب حبك لمدرستك (معلمون لطفاء، أصدقاء، أنشطة).",
+        "example": "→ I really like my school because the teachers are nice and friendly."
+      }
+    ]
+  },
+  "useful_vocabulary": {
+    "title": "📖 كلمات وعبارات مفيدة لكتابة الموضوع",
+    "words": [
+      "get up (يستيقظ)",
+      "take a shower (يستحم)",
+      "brush my teeth (ينظف أسنانه)",
+      "eat breakfast / have breakfast (يتناول الفطور)",
+      "go to school (يذهب إلى المدرسة)",
+      "by bus / on foot (بالحافلة / مشياً)",
+      "after school (بعد المدرسة)",
+      "go to the park (يذهب إلى الحديقة)",
+      "play video games (يلعب ألعاب الفيديو)",
+      "do my homework (يؤدي واجبه)",
+      "watch TV (يشاهد التلفاز)",
+      "go to bed (يذهب إلى السرير)",
+      "every day (كل يوم)",
+      "sometimes (أحياناً)",
+      "usually (عادةً)",
+      "always (دائماً)",
+      "I like my school because... (أحب مدرستي لأن...)"
+    ]
+  },
+  "writing_task": {
+    "title": "✍️ مهمتك الكتابية",
+    "instruction": "اكتب فقرة من 5-7 جمل عن يومك النموذجي في المدرسة. استخدم الكلمات المفيدة والأسئلة الإرشادية لمساعدتك.",
+    "space": "استخدم المساحة أدناه لكتابة فقرتك. يمكنك حفظها بالضغط على الزر."
+  },
+  "self_checklist": {
+    "title": "✅ قائمة مراجعة ذاتية قبل التسليم",
+    "items": [
+      "هل بدأت بجملة افتتاحية واضحة؟",
+      "هل ذكرت روتينك الصباحي؟",
+      "هل وصفت كيف تذهب إلى المدرسة؟",
+      "هل كتبت عن نشاطاتك بعد المدرسة؟",
+      "هل ذكرت موعد أداء الواجبات؟",
+      "هل أنهيت بجملة ختامية تعبر عن رأيك؟",
+      "هل استخدمت كلمات مثل (always, usually, sometimes)؟",
+      "هل راجعت الأخطاء الإملائية؟"
+    ]
+  }
 }
+EOF
+
+echo "✅ تم تحديث writing.json للوحدة 11 بأسلوب تعليمي مفصل"
+
+git add units/unit11/writing.json
+git commit -m "تحديث writing.json للوحدة 11: نموذج محلل، أسئلة إرشادية، خطوات كتابة، كلمات مفيدة، قائمة مراجعة"
+git pull origin main --rebase
+git push origin main
+
+echo "✅ تم رفع الملف. افتح الموقع → الوحدة 11 → الكتابة لتشاهد التنسيق الجديد"
