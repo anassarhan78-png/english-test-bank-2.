@@ -1,36 +1,148 @@
+cd /workspaces/english-test-bank-2
+
+cat > units/unit13/grammar.json << 'EOF'
 {
-  "title": "📘 قاعدة المستقبل: (be) going to (الوحدة 13)",
-  "topics": [
-    {
-      "name": "1. الاستخدام",
-      "rule": "نستخدم 'going to' للتحدث عن خطط ونوايا مستقبلية، أو توقعات بناءً على دليل.",
-      "examples": [
-        "I am going to travel next week. (خطة)",
-        "Look at those clouds! It is going to rain. (توقع)"
-      ]
-    },
-    {
-      "name": "2. التشكيل (Form)",
-      "rule": "الفاعل + am/is/are + going to + الفعل المصدر",
-      "form": {
-        "positive": "I am going to eat. / She is going to study. / They are going to play.",
-        "negative": "I am not going to be late. / He isn't going to come.",
-        "question": "Are you going to join us? / Is she going to cook?"
+  "title": "📘 قاعدة المستقبل: (be) going to",
+  "subtitle": "شرح مبسط جداً – مناسب للطلاب الضعفاء",
+  "introduction": {
+    "text": "🌟 نستخدم 'going to' عندما نتحدث عن شيء نخطط لفعله في المستقبل، أو عندما نتوقع حدوث شيء بدليل في الحاضر.",
+    "simple_rule": "القاعدة الذهبية: <strong style='font-size:1.2rem; background:#ffcd3c; padding:4px 12px; border-radius:40px;'>الفاعل + am/is/are + going to + الفعل (المصدر)</strong>"
+  },
+  "usage": {
+    "title": "🎯 1. متى نستخدم (be) going to؟",
+    "points": [
+      {
+        "use": "🔹 خطط ونوايا مستقبلية",
+        "example": "I am going to study medicine. (سأدرس الطب – هذه خطتي)",
+        "arabic": "خططت لها مسبقاً"
+      },
+      {
+        "use": "🔹 توقعات بناءً على دليل نراه الآن",
+        "example": "Look at those dark clouds! It is going to rain. (انظر إلى تلك الغيوم الداكنة! ستمطر)",
+        "arabic": "الدليل: الغيوم الداكنة"
+      },
+      {
+        "use": "🔹 شيء سيحدث قريباً جداً",
+        "example": "She is going to have a baby. (هي على وشك الولادة)",
+        "arabic": "حدث وشيك"
       }
+    ]
+  },
+  "form_table": {
+    "title": "📊 2. التشكيل (Form) – بطريقة سهلة",
+    "positive": {
+      "title": "✅ الإثبات (Positive)",
+      "table": "<table dir='rtl' border='1' cellpadding='8' style='border-collapse:collapse; width:100%; background:#fef5e8;'> <tr style='background:#2b7a4b; color:white;'> <th>الفاعل</th> <th>الفعل المساعد</th> <th>going to</th> <th>المصدر</th> <th>مثال</th> </tr> <tr> <td>I</td> <td>am</td> <td>going to</td> <td>eat</td> <td>I am going to eat.</td刻意  </tr> <tr> <td>You/We/They</td> <td>are</td> <td>going to</td> <td>play</td> <td>They are going to play.</td> </tr> <tr> <td>He/She/It</td> <td>is</td> <td>going to</td> <td>study</td> <td>She is going to study.</td> </tr> </table>"
     },
-    {
-      "name": "3. ملاحظات مهمة",
-      "rule": "لا نستخدم 'going to' مع أفعال الحركة (go, come) كثيراً؛ نفضل المضارع المستمر.",
-      "tips": [
-        "✅ going to + مكان = الذهاب إلى مكان (I am going to school).",
-        "✅ going to + فعل = سأفعل شيئاً (I am going to study).",
-        "❌ I am going to go to the cinema → الأفضل I am going to the cinema."
-      ]
+    "negative": {
+      "title": "❌ النفي (Negative)",
+      "rule": "نضيف 'not' بعد am/is/are",
+      "table": "<table dir='rtl' border='1' cellpadding='8' style='border-collapse:collapse; width:100%; background:#fef5e8;'> <tr style='background:#2b7a4b; color:white;'> <th>الفاعل</th> <th>النفي</th> <th>going to</th> <th>المصدر</th> <th>مثال</th> </tr> <tr> <td>I</td> <td>am not</td> <td>going to</td> <td>be late</td> <td>I am not going to be late.</td> </tr> <tr> <td>You/We/They</td> <td>are not (aren't)</td> <td>going to</td> <td>come</td> <td>They aren't going to come.</td> </tr> <tr> <td>He/She/It</td> <td>is not (isn't)</td> <td>going to</td> <td>travel</td> <td>She isn't going to travel.</td> </tr> </table>"
+    },
+    "question": {
+      "title": "❓ السؤال (Yes/No Question)",
+      "rule": "نبدأ بـ Am/Is/Are ثم الفاعل ثم going to ثم المصدر",
+      "table": "<table dir='rtl' border='1' cellpadding='8' style='border-collapse:collapse; width:100%; background:#fef5e8;'> <tr style='background:#2b7a4b; color:white;'> <th>أداة السؤال</th> <th>الفاعل</th> <th>going to</th> <th>المصدر</th> <th>مثال</th> </tr> <tr> <td>Am</td> <td>I</td> <td>going to</td> <td>cook?</td> <td>Am I going to cook?</td> </tr> <tr> <td>Are</td> <td>you</td> <td>going to</td> <td>join?</td> <td>Are you going to join us?</td> </tr> <tr> <td>Is</td> <td>she</td> <td>going to</td> <td>come?</td> <td>Is she going to come?</td> </tr> </table>"
     }
-  ],
-  "common_mistakes": [
-    "❌ She is going to eats. → ✅ She is going to eat.",
-    "❌ They are go to play. → ✅ They are going to play.",
-    "❌ I am going to be sick? (سؤال) → ✅ Am I going to be sick?"
-  ]
+  },
+  "signal_words": {
+    "title": "⏰ 3. الدلالات (Signal Words) – كلمات تخبرنا أننا بحاجة لـ 'going to'",
+    "words": [
+      "tomorrow (غداً)",
+      "next week / month / year (الأسبوع / الشهر / السنة القادم)",
+      "tonight (هذه الليلة)",
+      "soon (قريباً)",
+      "later (لاحقاً)",
+      "in + فترة زمنية (in two days, in an hour)",
+      "look! / listen! (انظر! / اسمع!) – للتوقعات"
+    ],
+    "examples": [
+      "I am going to call you tomorrow.",
+      "Look at that car! It is going to crash."
+    ]
+  },
+  "tricks": {
+    "title": "🎓 4. حيل للحفظ (Tricks)",
+    "tricks_list": [
+      "💡 <strong>حيلة 1:</strong> تذكر أن 'going to' تشبه كلمة 'going' (ذاهب). أنت ذاهب لفعل شيء في المستقبل.",
+      "💡 <strong>حيلة 2:</strong> في النفي، فقط أضف 'not' بعد am/is/are ولا تغير أي شيء آخر.",
+      "💡 <strong>حيلة 3:</strong> في السؤال، قدم am/is/are إلى أول الجملة. بسيطة مثل تحريك قطعة شطرنج!",
+      "💡 <strong>حيلة 4:</strong> بعد 'going to'، الفعل يكون <strong>مصدراً</strong> (بدون s أو ing أو ed). تذكر: 'to' تطلب المصدر."
+    ]
+  },
+  "common_mistakes": {
+    "title": "⚠️ 5. الأخطاء الشائعة (Common Mistakes)",
+    "mistakes": [
+      {
+        "wrong": "❌ She is going to eats.",
+        "correct": "✅ She is going to eat.",
+        "reason": "بعد going to نستخدم المصدر (eat) وليس eats."
+      },
+      {
+        "wrong": "❌ They are go to play.",
+        "correct": "✅ They are going to play.",
+        "reason": "ناقص 'ing' في going."
+      },
+      {
+        "wrong": "❌ I am going to be sick?",
+        "correct": "✅ Am I going to be sick?",
+        "reason": "في السؤال، نبدأ بـ am/is/are."
+      },
+      {
+        "wrong": "❌ He isn't going to studies.",
+        "correct": "✅ He isn't going to study.",
+        "reason": "بعد going to نستخدم المصدر."
+      }
+    ]
+  },
+  "quick_quiz": {
+    "title": "🧠 6. اختبر نفسك (أسئلة وأجوبة)",
+    "questions": [
+      {
+        "question": "1. كيف تقول 'سأشتري سيارة جديدة' بالإنجليزية؟",
+        "answer": "I am going to buy a new car."
+      },
+      {
+        "question": "2. كيف تسأل 'هل ستسافر غداً؟'",
+        "answer": "Are you going to travel tomorrow?"
+      },
+      {
+        "question": "3. كيف تنفي 'هي ستأتي إلى الحفلة'؟",
+        "answer": "She is not going to come to the party."
+      },
+      {
+        "question": "4. املأ الفراغ: Look at those clouds! It _______ (rain).",
+        "answer": "is going to rain"
+      },
+      {
+        "question": "5. صحح الخطأ: They are going to playing football.",
+        "answer": "They are going to play football."
+      }
+    ]
+  },
+  "comparison_note": {
+    "title": "📌 7. ملاحظة مهمة: 'going to' vs المضارع المستمر للمستقبل",
+    "note": "يمكن استخدام المضارع المستمر (I am meeting him tomorrow) أيضاً للمستقبل، لكن 'going to' أقوى للخطط المسبقة. لا تقلق، كلاهما صحيح في أغلب الحالات.",
+    "example": "✅ I am going to meet him tomorrow. = ✅ I am meeting him tomorrow."
+  },
+  "final_summary": {
+    "title": "🎯 خلاصة القاعدة في 4 أسطر",
+    "lines": [
+      "📌 1. نستخدم (be) going to للخطط والتوقعات.",
+      "📌 2. التركيب: الفاعل + am/is/are + going to + المصدر.",
+      "📌 3. النفي: نضيف not بعد am/is/are.",
+      "📌 4. السؤال: نبدأ بـ Am/Is/Are ثم الفاعل."
+    ]
+  },
+  "encouragement": "💪 أنت الآن تعرف قاعدة 'going to'! تدرب على كتابة 5 جمل عن خططك للأسبوع القادم."
 }
+EOF
+
+echo "✅ تم تحديث grammar.json للوحدة 13 بشكل مبسط وجذاب"
+
+git add units/unit13/grammar.json
+git commit -m "تحديث شرح قاعدة going to للوحدة 13: جداول، أسئلة، حيل، أخطاء شائعة، دلالات"
+git pull origin main --rebase
+git push origin main
+
+echo "✅ تم رفع الملف. افتح الموقع → الوحدة 13 → شرح القواعد لتشاهد التصميم الجديد"
