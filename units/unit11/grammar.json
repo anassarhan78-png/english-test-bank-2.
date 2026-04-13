@@ -1,66 +1,94 @@
+cd /workspaces/english-test-bank-2
+
+cat > units/unit11/grammar.json << 'EOF'
 {
-  "title": "📘 قواعد الوحدة 11: المضارع البسيط، ظروف التكرار، المضارع المستمر، حروف الجر",
+  "title": "📘 قواعد الوحدة 11: المضارع البسيط والمستمر (شرح مع جداول)",
   "topics": [
     {
-      "name": "🔷 1. المضارع البسيط (Simple Present)",
-      "rule": "نستخدمه للتحدث عن عادات، حقائق عامة، جداول زمنية.",
-      "form": "I/You/We/They + فعل (مصدر) | He/She/It + فعل + s/es",
+      "name": "🔷 1. ظروف التكرار (Adverbs of Frequency)",
+      "rule": "تخبرنا كم مرة يحدث الفعل. ترتيبها في الجملة: قبل الفعل الرئيسي (باستثناء verb to be).",
+      "table": "<table dir='rtl' border='1' cellpadding='8' cellspacing='0' style='border-collapse:collapse; width:100%; margin:15px 0; background:#fef5e8;'> <tr style='background:#2b7a4b; color:white;'> <th>الظرف</th> <th>النسبة</th> <th>المعنى</th> <th>مثال</th> </tr> <tr> <td>always</td> <td>100%</td> <td>دائماً</td> <td>I always brush my teeth.</td> </tr> <tr> <td>usually</td> <td>90%</td> <td>عادةً</td> <td>I usually eat breakfast.</td> </tr> <tr> <td>often</td> <td>70%</td> <td>غالباً</td> <td>I often watch TV.</td> </tr> <tr> <td>sometimes</td> <td>50%</td> <td>أحياناً</td> <td>I sometimes play football.</td> </tr> <tr> <td>rarely</td> <td>20%</td> <td>نادراً</td> <td>I rarely eat fast food.</td> </tr> <tr> <td>never</td> <td>0%</td> <td>أبداً</td> <td>I never smoke.</td> </tr> </table>",
+      "position": "✅ توضع قبل الفعل الرئيسي: <strong>I always wake up early.</strong><br>✅ ولكن بعد فعل (am/is/are): <strong>She is always happy.</strong>",
       "examples": [
-        "I usually shop on Saturdays. (عادة)",
-        "She wakes up early. (حقيقة)",
-        "The train leaves at 8 pm. (جدول)"
+        "He never drinks coffee. (لا يشرب القهوة أبداً)",
+        "They usually arrive on time. (يصلون عادةً في الوقت المحدد)"
+      ]
+    },
+    {
+      "name": "🔷 2. النفي في المضارع البسيط (Negative Form)",
+      "rule": "نستخدم (don't / doesn't) + المصدر (بدون s).",
+      "table": "<table dir='rtl' border='1' cellpadding='8' style='border-collapse:collapse; width:100%; margin:15px 0; background:#fef5e8;'> <tr style='background:#2b7a4b; color:white;'> <th>الفاعل</th> <th>النفي</th> <th>مثال</th> </tr> <tr> <td>I / You / We / They</td> <td>don't + فعل (مصدر)</td> <td>I don't like coffee.</td> </tr> <tr> <td>He / She / It</td> <td>doesn't + فعل (مصدر)</td> <td>She doesn't eat meat.</td> </tr> </table>",
+      "notes": "⚠️ بعد doesn't، نستخدم الفعل بدون s: (doesn't play وليس doesn't plays).",
+      "examples": [
+        "He doesn't play football. (هو لا يلعب كرة القدم)",
+        "They don't live here. (هم لا يعيشون هنا)"
+      ]
+    },
+    {
+      "name": "🔷 3. السؤال (Yes/No Questions) في المضارع البسيط",
+      "rule": "نبدأ بـ Do / Does ثم الفاعل ثم الفعل (مصدر).",
+      "table": "<table dir='rtl' border='1' cellpadding='8' style='border-collapse:collapse; width:100%; margin:15px 0; background:#fef5e8;'> <tr style='background:#2b7a4b; color:white;'> <th>أداة السؤال</th> <th>الفاعل</th> <th>الفعل (مصدر)</th> <th>مثال</th> </tr> <tr> <td>Do</td> <td>I / you / we / they</td> <td>play</td> <td>Do you play tennis?</td> </tr> <tr> <td>Does</td> <td>he / she / it</td> <td>play</td> <td>Does she play tennis?</td> </tr> </table>",
+      "answers": "إجابة قصيرة: Yes, I do. / No, she doesn't.",
+      "examples": [
+        "Do they go to school by bus? (هل يذهبون إلى المدرسة بالباص؟)",
+        "Does your father work here? (هل يعمل والدك هنا؟)"
+      ]
+    },
+    {
+      "name": "🔷 4. أهم الدلالات (Signal Words) للمضارع البسيط والمستمر",
+      "rule": "هذه الكلمات تساعدك على تحديد الزمن الصحيح:",
+      "simple_present_signals": [
+        "✅ every day / every week / every month",
+        "✅ usually, always, never, sometimes, often, rarely",
+        "✅ on Mondays / in the morning (للعادة)",
+        "✅ once a week, twice a month"
       ],
-      "negative": "I/You/We/They + don't + فعل | He/She/It + doesn't + فعل",
-      "question": "Do + I/you/we/they + فعل? | Does + he/she/it + فعل?"
-    },
-    {
-      "name": "🔷 2. ظروف التكرار (Adverbs of Frequency)",
-      "rule": "تخبرنا كم مرة يحدث شيء. ترتيبها في الجملة: قبل الفعل الرئيسي ولكن بعد فعل 'be'.",
-      "adverbs": [
-        "always (100%) – دائماً",
-        "usually (90%) – عادة",
-        "often (70%) – غالباً",
-        "sometimes (50%) – أحياناً",
-        "rarely (20%) – نادراً",
-        "never (0%) – أبداً"
+      "present_progressive_signals": [
+        "✅ now, right now, at the moment",
+        "✅ today, tonight, this week",
+        "✅ Look! / Listen! (لجذب الانتباه لحدث يحدث الآن)",
+        "✅ tomorrow, next week (للخطط المستقبلية القريبة)"
       ],
       "examples": [
-        "I always walk to work.",
-        "She never drinks coffee."
+        "I read every day. (عادة → مضارع بسيط)",
+        "I am reading now. (الآن → مضارع مستمر)"
       ]
     },
     {
-      "name": "🔷 3. المضارع المستمر (Present Progressive)",
-      "rule": "نستخدمه للأحداث الجارية الآن (now, at the moment) أو الخطط المستقبلية القريبة.",
-      "form": "am/is/are + الفعل + ing",
+      "name": "🔷 5. الفرق بين المضارع البسيط والمستمر (بطريقة بسيطة)",
+      "comparison_table": "<table dir='rtl' border='1' cellpadding='8' style='border-collapse:collapse; width:100%; margin:15px 0; background:#fef5e8;'> <tr style='background:#2b7a4b; color:white;'> <th>المضارع البسيط</th> <th>المضارع المستمر</th> </tr> <tr> <td>عادة / حقيقة / جدول</td> <td>يحدث الآن / خطة قريبة</td> </tr> <tr> <td>every day, usually, always</td> <td>now, at the moment, tomorrow</td> </tr> <tr> <td>I work. / She works.</td> <td>I am working. / She is working.</td> </tr> </table>",
       "examples": [
-        "She is sleeping now.",
-        "They are swimming right now.",
-        "I am meeting him tomorrow."
+        "She usually wears jeans. (عادة)",
+        "She is wearing a dress today. (اليوم فقط)"
       ]
     },
     {
-      "name": "🔷 4. حروف الجر للوقت (Prepositions of Time: in, on, at)",
-      "rule": "نستخدمها مع التواريخ والزمن.",
-      "details": [
-        "at → مع الساعات (at 8 o'clock)، أو مع فترات قصيرة (at night).",
-        "on → مع الأيام (on Monday)، أو التواريخ (on May 5th).",
-        "in → مع الشهور، السنوات، أو أجزاء اليوم (in the morning)."
-      ]
-    },
-    {
-      "name": "🔷 5. الفرق بين المضارع البسيط والمستمر",
-      "rule": "البسيط = عادات / حقائق / جداول. المستمر = الآن أو خطة مستقبلية.",
-      "examples": [
-        "I read every day. (عادة)",
-        "I am reading now. (الآن)"
+      "name": "🔷 6. نصائح سريعة للطلاب",
+      "tips": [
+        "💡 إذا كان الفعل يعبر عن روتين يومي → استخدم المضارع البسيط.",
+        "💡 إذا كان هناك كلمة (now, at the moment) → استخدم المضارع المستمر.",
+        "💡 تذكر: He/She/It يأخذون (s) في الإثبات فقط، وليس في النفي أو السؤال.",
+        "💡 بعد (doesn't) أو (Does) نستخدم الفعل بدون s.",
+        "💡 ظروف التكرار تأتي قبل الفعل العادي ولكن بعد (am/is/are)."
       ]
     }
   ],
   "common_mistakes": [
     "❌ He don't like coffee. → ✅ He doesn't like coffee.",
-    "❌ She go to school. → ✅ She goes to school.",
+    "❌ She go to school every day. → ✅ She goes to school every day.",
     "❌ I am usually getting up early. → ✅ I usually get up early.",
-    "❌ on the morning → ✅ in the morning."
-  ]
+    "❌ Does she plays tennis? → ✅ Does she play tennis?",
+    "❌ She is often late. (هنا often بعد is – صحيح) لكن لا تقل She often is late (خطأ)."
+  ],
+  "final_summary": "✅ المضارع البسيط = عادات + حقائق + جداول.<br>✅ المضارع المستمر = الآن + هذه اللحظة + خطط قريبة.<br>✅ ظروف التكرار تخبرنا بالتكرار (always → never).<br>✅ النفي: don't / doesn't + مصدر.<br>✅ السؤال: Do / Does + فاعل + مصدر؟"
 }
+EOF
+
+echo "✅ تم تحديث grammar.json للوحدة 11 مع جداول واضحة وظروف التكرار والنفي والسؤال"
+
+git add units/unit11/grammar.json
+git commit -m "إضافة جداول ظروف التكرار، النفي، السؤال، والدلالات في شرح قواعد الوحدة 11"
+git pull origin main --rebase
+git push origin main
+
+echo "✅ تم رفع الملف. افتح الموقع واذهب إلى الوحدة 11 → شرح القواعد لترى الجداول."
