@@ -1,20 +1,128 @@
+cd /workspaces/english-test-bank-2
+
+cat > units/unit13/writing.json << 'EOF'
 {
   "title": "📝 كتابة موضوع عن قطعة الملابس المفضلة",
-  "prompts": [
-    "1. What is your favorite piece of clothes?",
-    "2. Who helps you choose your clothes?",
-    "3. How often do you buy clothes?",
-    "4. What do you prefer: in-store or online shopping? Why?"
-  ],
-  "model": "My favorite piece of clothes is a shirt. My mom usually helps me when buying my clothes. I often buy clothes once a month. I prefer online shopping because it is easier and cheaper.",
-  "second_prompt": {
-    "title": "موضوع إضافي: ملابسك المفضلة",
-    "questions": [
-      "1. What kind of clothes do you usually wear?",
-      "2. Where do you usually buy clothes?",
-      "3. What's your favorite piece of clothing?",
-      "4. What do you do with clothes that you no longer wear? Why?"
+  "introduction": {
+    "text": "في هذا النشاط، ستتعلم كيف تكتب فقرة (paragraph) عن قطعة الملابس التي تحبها أكثر. الفقرة الجيدة تتكون من 3 أجزاء رئيسية:",
+    "parts": [
+      "1. 🏠 جملة افتتاحية (Topic sentence): تذكر القطعة التي تفضلها (مثال: My favorite piece of clothes is a shirt).",
+      "2. 🧱 جمل تفصيلية (Supporting sentences): تشرح من يساعدك في اختيار ملابسك، كم مرة تشتري، وأين تفضل التسوق.",
+      "3. 🏁 جملة ختامية (Concluding sentence): تعطي رأيك أو سبب تفضيلك لهذه القطعة."
+    ]
+  },
+  "model_paragraph": {
+    "title": "📌 النموذج الأول: قطعة الملابس المفضلة",
+    "text": "My favorite piece of clothes is a shirt. My mom usually helps me when buying my clothes. I often buy clothes once a month. I prefer online shopping because it is easier and cheaper.",
+    "analysis": [
+      "📌 الجملة الافتتاحية: 'My favorite piece of clothes is a shirt.' → تذكر القطعة المفضلة بوضوح.",
+      "📌 التفاصيل: 'My mom usually helps me...' → تذكر من يساعدها.",
+      "📌 التفاصيل: 'I often buy clothes once a month.' → تخبرنا عن عدد مرات الشراء.",
+      "📌 التفاصيل: 'I prefer online shopping because it is easier and cheaper.' → تعطي سبباً للاختيار.",
+      "📌 ملاحظة: النموذج قصير لكنه واضح. يمكنك إضافة جملة ختامية مثل 'I love my shirt because it is comfortable.'"
+    ]
+  },
+  "model_paragraph2": {
+    "title": "📌 النموذج الثاني (أطول): ملابسك المعتادة",
+    "text": "I usually wear a skirt and a blouse. I buy clothes from online stores like Amazon. Sometimes I buy them from Red Sea mall. My favorite items of clothing are T-shirts and trousers. I donate the clothes that I no longer need to help people in need. I like comfortable clothes. I don't like formal clothes. I wear skirts and blouses which are very cool. I don't worry about fashion, but I try to wear clothes that look good on me.",
+    "analysis": [
+      "📌 الجملة الافتتاحية: 'I usually wear a skirt and a blouse.' → تخبرنا عن ملابسها المعتادة.",
+      "📌 التفاصيل: أين تشتري؟ (online stores, Red Sea mall).",
+      "📌 التفاصيل: ماذا تفعل بالملابس القديمة؟ (تتبرع بها).",
+      "📌 التفاصيل: رأيها في الموضة (لا تقلق بشأنها لكنها تحاول أن تبدو جيدة).",
+      "📌 الجملة الختامية غير موجودة بوضوح، يمكنك إضافة: 'I feel confident and happy in my clothes.'"
+    ]
+  },
+  "guiding_questions": {
+    "title": "❓ أسئلة إرشادية لمساعدتك على الكتابة (اختر أحد الموضوعين)",
+    "topic1": "🎯 الموضوع الأول: قطعة الملابس المفضلة",
+    "questions1": [
+      "1. What is your favorite piece of clothes? (قميص، فستان، بنطلون، حذاء؟)",
+      "2. Who helps you choose your clothes? (أمك؟ أبوك؟ صديقك؟)",
+      "3. How often do you buy new clothes? (كل شهر؟ كل أسبوعين؟ في المناسبات فقط؟)",
+      "4. Do you prefer shopping online or in stores? Why? (أسهل؟ أرخص؟ أسرع؟)"
     ],
-    "model": "I usually wear a skirt and a blouse. I buy clothes from online stores like Amazon. Sometimes I buy them from Red Sea mall. My favorite items of clothing are T-shirts and trousers. I donate the clothes that I no longer need to help people in need. I like comfortable clothes. I don't like formal clothes. I wear skirts and blouses which are very cool. I don't worry about fashion, but I try to wear clothes that look good on me."
+    "topic2": "🎯 الموضوع الثاني: ملابسك المعتادة",
+    "questions2": [
+      "1. What kind of clothes do you usually wear? (skirt, blouse, T-shirt, trousers?)",
+      "2. Where do you usually buy clothes? (online, mall, local shop?)",
+      "3. What is your favorite piece of clothing? (Why?)",
+      "4. What do you do with clothes that you no longer wear? (donate, throw away, give to a friend?) Why?"
+    ]
+  },
+  "step_by_step_guide": {
+    "title": "📝 دليل الكتابة خطوة بخطوة (للموضوع الأول)",
+    "steps": [
+      {
+        "step": 1,
+        "title": "📌 اكتب جملة افتتاحية تذكر فيها قطعة الملابس المفضلة",
+        "explanation": "مثال: 'My favorite piece of clothes is a shirt.' أو 'I love wearing my blue jeans.'",
+        "example": "→ My favorite piece of clothes is a comfortable T-shirt."
+      },
+      {
+        "step": 2,
+        "title": "👩‍👧 اكتب من يساعدك في اختيار ملابسك",
+        "explanation": "مثال: 'My mom usually helps me choose my clothes.' أو 'I choose my clothes by myself.'",
+        "example": "→ My mother always gives me advice when I buy new clothes."
+      },
+      {
+        "step": 3,
+        "title": "📅 كم مرة تشتري ملابس جديدة؟",
+        "explanation": "اذكر عدد المرات: 'once a month', 'every two weeks', 'on special occasions'.",
+        "example": "→ I buy new clothes once a month."
+      },
+      {
+        "step": 4,
+        "title": "🛒 أين تفضل التسوق؟ ولماذا؟",
+        "explanation": "اذكر: 'online shopping', 'in-store', 'from the mall'. ثم أعط سبباً: 'because it is easier / cheaper / faster'.",
+        "example": "→ I prefer online shopping because it is easier and I can compare prices."
+      },
+      {
+        "step": 5,
+        "title": "🏁 اكتب جملة ختامية عن شعورك تجاه قطعة الملابس",
+        "explanation": "مثال: 'I love my shirt because it makes me feel confident.' أو 'My clothes are simple but comfortable.'",
+        "example": "→ I really like my T-shirt because it is soft and matches almost everything."
+      }
+    ]
+  },
+  "useful_vocabulary": {
+    "title": "📖 كلمات وعبارات مفيدة لكتابة الموضوع",
+    "words": [
+      "favorite piece of clothes (قطعة الملابس المفضلة)",
+      "shirt (قميص), dress (فستان), trousers (بنطلون), jeans (جينز), skirt (تنورة), blouse (بلوزة), jacket (جاكيت), coat (معطف)",
+      "comfortable (مريح), soft (ناعم), warm (دافئ), cool (بارد/رائع), casual (غير رسمي), formal (رسمي)",
+      "choose (يختار), help (يساعد), buy (يشتري), prefer (يفضل)",
+      "online shopping (التسوق عبر الإنترنت), in-store (في المتجر), mall (مركز تجاري)",
+      "once a month (مرة في الشهر), twice a month (مرتين في الشهر), every week (كل أسبوع)",
+      "because (لأن), easier (أسهل), cheaper (أرخص), faster (أسرع), more convenient (أكثر راحة)",
+      "donate (يتبرع), throw away (يرمي), give away (يعطي)"
+    ]
+  },
+  "writing_task": {
+    "title": "✍️ مهمتك الكتابية",
+    "instruction": "اختر أحد الموضوعين أعلاه واكتب فقرة من 5-7 جمل. استخدم الكلمات المفيدة والأسئلة الإرشادية لمساعدتك.",
+    "space": "استخدم المساحة أدناه لكتابة فقرتك. يمكنك حفظها بالضغط على الزر."
+  },
+  "self_checklist": {
+    "title": "✅ قائمة مراجعة ذاتية قبل التسليم",
+    "items": [
+      "هل بدأت بجملة افتتاحية تذكر قطعة الملابس المفضلة أو ملابسك المعتادة؟",
+      "هل ذكرت من يساعدك في اختيار ملابسك (إن وجد)؟",
+      "هل ذكرت كم مرة تشتري ملابس جديدة؟",
+      "هل وصفت أين تفضل التسوق ولماذا؟",
+      "هل أنهيت بجملة ختامية تعبر عن رأيك؟",
+      "هل استخدمت كلمات مثل (usually, often, sometimes, prefer, because)؟",
+      "هل راجعت الأخطاء الإملائية؟"
+    ]
   }
 }
+EOF
+
+echo "✅ تم تحديث writing.json للوحدة 13 بأسلوب تعليمي مفصل"
+
+git add units/unit13/writing.json
+git commit -m "تحديث writing.json للوحدة 13: نموذج محلل، أسئلة إرشادية، خطوات كتابة، كلمات مفيدة، قائمة مراجعة"
+git pull origin main --rebase
+git push origin main
+
+echo "✅ تم رفع الملف. افتح الموقع → الوحدة 13 → الكتابة لتشاهد التنسيق الجديد"
