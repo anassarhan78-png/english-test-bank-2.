@@ -1,3 +1,6 @@
+cd /workspaces/english-test-bank-2
+
+cat > units/unit11/vocabulary.json << 'EOF'
 [
   {
     "text": "What does 'traffic' mean?",
@@ -58,5 +61,249 @@
     "options": ["كسول", "نشيط", "سريع", "جميل"],
     "correct": "كسول",
     "explanation": "✅ صحيح: لا يحب العمل أو الجهد. ❌ active نشيط، fast سريع، beautiful جميل."
+  },
+  {
+    "text": "What does 'always' mean?",
+    "options": ["دائماً", "أحياناً", "نادراً", "أبداً"],
+    "correct": "دائماً",
+    "explanation": "✅ صحيح: 100% من الوقت. ❌ sometimes أحياناً، rarely نادراً، never أبداً."
+  },
+  {
+    "text": "What does 'usually' mean?",
+    "options": ["عادةً", "دائماً", "أبداً", "نادراً"],
+    "correct": "عادةً",
+    "explanation": "✅ صحيح: 90% من الوقت. ❌ always دائماً، never أبداً، rarely نادراً."
+  },
+  {
+    "text": "What does 'often' mean?",
+    "options": ["غالباً", "دائماً", "أبداً", "نادراً"],
+    "correct": "غالباً",
+    "explanation": "✅ صحيح: 70% من الوقت. ❌ always دائماً، never أبداً، rarely نادراً."
+  },
+  {
+    "text": "What does 'sometimes' mean?",
+    "options": ["أحياناً", "دائماً", "أبداً", "غالباً"],
+    "correct": "أحياناً",
+    "explanation": "✅ صحيح: 50% من الوقت. ❌ always دائماً، never أبداً، often غالباً."
+  },
+  {
+    "text": "What does 'rarely' mean?",
+    "options": ["نادراً", "دائماً", "غالباً", "أحياناً"],
+    "correct": "نادراً",
+    "explanation": "✅ صحيح: 20% من الوقت. ❌ always دائماً، often غالباً، sometimes أحياناً."
+  },
+  {
+    "text": "What does 'never' mean?",
+    "options": ["أبداً", "دائماً", "غالباً", "أحياناً"],
+    "correct": "أبداً",
+    "explanation": "✅ صحيح: 0% من الوقت. ❌ always دائماً، often غالباً، sometimes أحياناً."
+  },
+  {
+    "text": "What does 'housework' mean?",
+    "options": ["أعمال منزلية", "واجب مدرسي", "عمل مكتبي", "رياضة"],
+    "correct": "أعمال منزلية",
+    "explanation": "✅ صحيح: تنظيف، كنس، غسل أطباق، إلخ. ❌ homework واجب، office work عمل مكتبي، sport رياضة."
+  },
+  {
+    "text": "What does 'tidy' (verb) mean?",
+    "options": ["يرتب", "يكنس", "يغسل", "يكوي"],
+    "correct": "يرتب",
+    "explanation": "✅ صحيح: ينظم المكان ويجعله نظيفاً. ❌ hoover يكنس، wash يغسل، iron يكوي."
+  },
+  {
+    "text": "What does 'hoover' mean?",
+    "options": ["يكنس بالمكنسة الكهربائية", "يرتب", "يغسل", "يكوي"],
+    "correct": "يكنس بالمكنسة الكهربائية",
+    "explanation": "✅ صحيح: يستخدم المكنسة الكهربائية لتنظيف السجاد. ❌ tidy يرتب، wash يغسل، iron يكوي."
+  },
+  {
+    "text": "What does 'washing-up' mean?",
+    "options": ["غسل الأطباق", "غسل الملابس", "كنس الأرض", "ترتيب الغرفة"],
+    "correct": "غسل الأطباق",
+    "explanation": "✅ صحيح: تنظيف الصحون والأواني بعد الطعام. ❌ laundry غسل ملابس، hoover كنس، tidy ترتيب."
+  },
+  {
+    "text": "What does 'argue' mean?",
+    "options": ["يتجادل", "يتفق", "يضحك", "يبكي"],
+    "correct": "يتجادل",
+    "explanation": "✅ صحيح: يتناقش بغضب. ❌ agree يتفق، laugh يضحك، cry يبكي."
+  },
+  {
+    "text": "What does 'weekend' mean?",
+    "options": ["عطلة نهاية الأسبوع", "يوم الأسبوع", "الجمعة", "السبت"],
+    "correct": "عطلة نهاية الأسبوع",
+    "explanation": "✅ صحيح: السبت والأحد في بعض الثقافات، أو الخميس والجمعة في ثقافات أخرى. ❌ weekday يوم أسبوع، Friday الجمعة، Saturday السبت."
+  },
+  {
+    "text": "What does 'homework' mean?",
+    "options": ["واجب مدرسي", "أعمال منزلية", "عمل مكتبي", "مشروع"],
+    "correct": "واجب مدرسي",
+    "explanation": "✅ صحيح: مهام يطلبها المعلم من الطلاب. ❌ housework أعمال منزلية، office work عمل مكتبي، project مشروع."
+  },
+  {
+    "text": "What does 'ride' (noun) mean?",
+    "options": ["ركوب (دراجة أو سيارة)", "مشي", "طيران", "سباحة"],
+    "correct": "ركوب (دراجة أو سيارة)",
+    "explanation": "✅ صحيح: استخدام وسيلة نقل مثل دراجة أو سيارة. ❌ walk مشي، fly طيران، swim سباحة."
+  },
+  {
+    "text": "What does 'activities' mean?",
+    "options": ["أنشطة", "ألعاب", "دراسة", "عمل"],
+    "correct": "أنشطة",
+    "explanation": "✅ صحيح: أشياء تفعلها في وقتك. ❌ games ألعاب، study دراسة، work عمل."
+  },
+  {
+    "text": "What does 'email' mean?",
+    "options": ["بريد إلكتروني", "رسالة ورقية", "هاتف", "فاكس"],
+    "correct": "بريد إلكتروني",
+    "explanation": "✅ صحيح: رسالة ترسل عبر الإنترنت. ❌ letter رسالة ورقية، phone هاتف، fax فاكس."
+  },
+  {
+    "text": "What does 'dinner' mean?",
+    "options": ["عشاء", "غداء", "فطور", "وجبة خفيفة"],
+    "correct": "عشاء",
+    "explanation": "✅ صحيح: الوجبة الرئيسية في المساء. ❌ lunch غداء، breakfast فطور، snack خفيفة."
+  },
+  {
+    "text": "What does 'bed' mean?",
+    "options": ["سرير", "كنبة", "كرسي", "طاولة"],
+    "correct": "سرير",
+    "explanation": "✅ صحيح: مكان النوم. ❌ sofa كنبة، chair كرسي، table طاولة."
+  },
+  {
+    "text": "What does 'martial' mean?",
+    "options": ["قتالي", "سلمي", "رياضي", "ثقافي"],
+    "correct": "قتالي",
+    "explanation": "✅ صحيح: متعلق بالقتال أو الفنون القتالية. ❌ peaceful سلمي، athletic رياضي، cultural ثقافي."
+  },
+  {
+    "text": "What does 'take out the rubbish' mean?",
+    "options": ["يخرج القمامة", "يجمع القمامة", "يحرق القمامة", "يشتري قمامة"],
+    "correct": "يخرج القمامة",
+    "explanation": "✅ صحيح: يضع القمامة خارج المنزل ليتم جمعها. ❌ collect يجمع، burn يحرق، buy يشتري."
+  },
+  {
+    "text": "What does 'wash the car' mean?",
+    "options": ["يغسل السيارة", "يصلح السيارة", "يقود السيارة", "يبيع السيارة"],
+    "correct": "يغسل السيارة",
+    "explanation": "✅ صحيح: ينظف السيارة بالماء والصابون. ❌ repair يصلح، drive يقود، sell يبيع."
+  },
+  {
+    "text": "What does 'play computer games' mean?",
+    "options": ["يلعب ألعاب الكمبيوتر", "يصلح الكمبيوتر", "يشغل الكمبيوتر", "يطفئ الكمبيوتر"],
+    "correct": "يلعب ألعاب الكمبيوتر",
+    "explanation": "✅ صحيح: يقضي وقتاً في التسلية على الكمبيوتر. ❌ repair يصلح، turn on يشغل، turn off يطفئ."
+  },
+  {
+    "text": "What does 'watch TV' mean?",
+    "options": ["يشاهد التلفاز", "يصلح التلفاز", "يشتري تلفاز", "يبيع تلفاز"],
+    "correct": "يشاهد التلفاز",
+    "explanation": "✅ صحيح: ينظر إلى البرامج على التلفاز. ❌ repair يصلح، buy يشتري، sell يبيع."
+  },
+  {
+    "text": "What does 'on time' mean?",
+    "options": ["في الوقت المحدد", "متأخراً", "مبكراً", "بعد قليل"],
+    "correct": "في الوقت المحدد",
+    "explanation": "✅ صحيح: ليس متأخراً ولا مبكراً. ❌ late متأخر، early مبكر، later بعد قليل."
+  },
+  {
+    "text": "What does 'go shopping' mean?",
+    "options": ["يذهب للتسوق", "يذهب للعمل", "يذهب للمدرسة", "يذهب للنوم"],
+    "correct": "يذهب للتسوق",
+    "explanation": "✅ صحيح: يشتري احتياجاته من المتاجر. ❌ go to work عمل، go to school مدرسة، go to sleep نوم."
+  },
+  {
+    "text": "What does 'help out' mean?",
+    "options": ["يساعد", "يؤذي", "يهم", "يضايق"],
+    "correct": "يساعد",
+    "explanation": "✅ صحيح: يقدم المساعدة. ❌ hurt يؤذي، ignore يهمل، annoy يضايق."
+  },
+  {
+    "text": "What does 'take up time' mean?",
+    "options": ["يستهلك الوقت", "يوفر الوقت", "ينظم الوقت", "يضيع الوقت"],
+    "correct": "يستهلك الوقت",
+    "explanation": "✅ صحيح: يجعل الوقت يمر بسرعة. ❌ save time يوفر، organize time ينظم، waste time يضيع."
+  },
+  {
+    "text": "What does 'arrive' mean?",
+    "options": ["يصل", "يغادر", "يسافر", "ينتظر"],
+    "correct": "يصل",
+    "explanation": "✅ صحيح: يأتي إلى مكان ما. ❌ leave يغادر، travel يسافر، wait ينتظر."
+  },
+  {
+    "text": "What does 'forget' mean?",
+    "options": ["ينسى", "يتذكر", "يعرف", "يفهم"],
+    "correct": "ينسى",
+    "explanation": "✅ صحيح: لا يتذكر شيئاً. ❌ remember يتذكر، know يعرف، understand يفهم."
+  },
+  {
+    "text": "What does 'in the morning' mean?",
+    "options": ["في الصباح", "في المساء", "في الظهيرة", "في الليل"],
+    "correct": "في الصباح",
+    "explanation": "✅ صحيح: من الفجر حتى الظهر. ❌ in the evening مساء، at noon ظهيرة، at night ليل."
+  },
+  {
+    "text": "What does 'in the evening' mean?",
+    "options": ["في المساء", "في الصباح", "في الظهيرة", "في الليل"],
+    "correct": "في المساء",
+    "explanation": "✅ صحيح: من غروب الشمس حتى منتصف الليل. ❌ in the morning صباح، at noon ظهيرة، at night ليل."
+  },
+  {
+    "text": "What does 'at night' mean?",
+    "options": ["في الليل", "في الصباح", "في المساء", "في الظهيرة"],
+    "correct": "في الليل",
+    "explanation": "✅ صحيح: وقت النوم والظلام. ❌ in the morning صباح، in the evening مساء، at noon ظهيرة."
+  },
+  {
+    "text": "What does 'on weekdays' mean?",
+    "options": ["في أيام الأسبوع (غير العطلة)", "في العطلة", "في الصباح", "في المساء"],
+    "correct": "في أيام الأسبوع (غير العطلة)",
+    "explanation": "✅ صحيح: من الأحد إلى الخميس. ❌ on weekends في العطلة، in the morning صباح، in the evening مساء."
+  },
+  {
+    "text": "What does 'on weekends' mean?",
+    "options": ["في عطلة نهاية الأسبوع", "في أيام الأسبوع", "في الصباح", "في المساء"],
+    "correct": "في عطلة نهاية الأسبوع",
+    "explanation": "✅ صحيح: الجمعة والسبت أو السبت والأحد حسب الثقافة. ❌ on weekdays أيام الأسبوع، in the morning صباح، in the evening مساء."
+  },
+  {
+    "text": "What does 'once a week' mean?",
+    "options": ["مرة في الأسبوع", "مرتين في الأسبوع", "كل يوم", "كل شهر"],
+    "correct": "مرة في الأسبوع",
+    "explanation": "✅ صحيح: يحدث أسبوعياً مرة واحدة. ❌ twice a week مرتين، every day كل يوم، every month كل شهر."
+  },
+  {
+    "text": "What does 'twice a month' mean?",
+    "options": ["مرتين في الشهر", "مرة في الشهر", "مرتين في الأسبوع", "كل أسبوعين"],
+    "correct": "مرتين في الشهر",
+    "explanation": "✅ صحيح: يحدث شهرياً مرتين. ❌ once a month مرة، twice a week مرتين أسبوعياً، every two weeks كل أسبوعين."
+  },
+  {
+    "text": "What does 'every day' mean?",
+    "options": ["كل يوم", "كل أسبوع", "كل شهر", "كل سنة"],
+    "correct": "كل يوم",
+    "explanation": "✅ صحيح: يومياً. ❌ every week أسبوعياً، every month شهرياً، every year سنوياً."
+  },
+  {
+    "text": "What does 'take a shower' mean?",
+    "options": ["يستحم", "يغسل يديه", "يغسل وجهه", "ينام"],
+    "correct": "يستحم",
+    "explanation": "✅ صحيح: يغسل جسده بالماء. ❌ wash hands يغسل يديه، wash face يغسل وجهه، sleep ينام."
+  },
+  {
+    "text": "What does 'brush teeth' mean?",
+    "options": ["يفرك أسنانه", "يغسل أسنانه", "ينظف أسنانه بالفرشاة", "يخلع أسنانه"],
+    "correct": "ينظف أسنانه بالفرشاة",
+    "explanation": "✅ صحيح: يستخدم الفرشاة والمعجون لتنظيف الأسنان. ❌ rub يفرك، wash يغسل، remove يخلع."
   }
 ]
+EOF
+
+echo "✅ تم إنشاء vocabulary.json للوحدة 11 بـ 50 كلمة"
+
+git add units/unit11/vocabulary.json
+git commit -m "توسيع مفردات الوحدة 11 إلى 50 كلمة (روتين يومي، أعمال منزلية، ظروف تكرار، وقت)"
+git pull origin main --rebase
+git push origin main
+
+echo "✅ تم رفع الملف. افتح الموقع واذهب إلى الوحدة 11 → مفردات الوحدة"
