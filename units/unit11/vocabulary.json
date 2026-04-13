@@ -1,6 +1,3 @@
-cd /workspaces/english-test-bank-2
-
-cat > units/unit11/vocabulary.json << 'EOF'
 [
   {
     "text": "What does 'traffic' mean?",
@@ -297,13 +294,3 @@ cat > units/unit11/vocabulary.json << 'EOF'
     "explanation": "✅ صحيح: يستخدم الفرشاة والمعجون لتنظيف الأسنان. ❌ rub يفرك، wash يغسل، remove يخلع."
   }
 ]
-EOF
-
-echo "✅ تم إنشاء vocabulary.json للوحدة 11 بـ 50 كلمة"
-
-git add units/unit11/vocabulary.json
-git commit -m "توسيع مفردات الوحدة 11 إلى 50 كلمة (روتين يومي، أعمال منزلية، ظروف تكرار، وقت)"
-git pull origin main --rebase
-git push origin main
-
-echo "✅ تم رفع الملف. افتح الموقع واذهب إلى الوحدة 11 → مفردات الوحدة"
