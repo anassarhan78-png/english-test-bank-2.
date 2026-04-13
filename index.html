@@ -87,6 +87,15 @@
         .content { padding: 25px; }
         h2 { color: #1e5a3a; margin-bottom: 15px; }
         .progress-area { margin-bottom: 20px; }
+        .passage {
+            background: #fef5e8;
+            padding: 15px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border-right: 6px solid #ff8c42;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
         .question {
             background: #fef5e8;
             padding: 15px;
@@ -190,6 +199,21 @@
     let questions = [];
     let currentIndex = 0, selectedAnswer = null, score = 0;
 
+    // نص القراءة للوحدة 11 (Maria & Sara)
+    const readingPassage = `📖 <strong>النص: Maria and her sister Sara</strong><br><br>
+    My name is Maria and I’m fourteen years old. I’ve got a problem with my sister. Her name is Sara and she is six years old. You see, every Saturday morning our parents go shopping and I do the housework. I always tidy my room, hoover the flat and do the washing-up. My sister doesn’t help out at all. She always watches TV and plays computer games. She never takes out the rubbish or washes the car. She’s so lazy! Anyway, when my parents come home we always argue about the housework. I want to watch TV and play computer games, too. I hate weekends!`;
+
+    function showPassageIfNeeded(questionText) {
+        // إذا كان السؤال يتعلق بنص Maria و Sara
+        if (questionText.includes("Maria") || questionText.includes("Sara") || 
+            questionText.includes("active") || questionText.includes("trash") ||
+            questionText.includes("main idea") || questionText.includes("parents go shopping") ||
+            questionText.includes("wants to swim")) {
+            return `<div class="passage">${readingPassage}</div>`;
+        }
+        return '';
+    }
+
     async function loadConfig() {
         const res = await fetch('config.json');
         config = await res.json();
@@ -277,7 +301,8 @@
     function showQuestion() {
         const q = questions[currentIndex];
         const container = document.getElementById('quiz-area');
-        let html = `<div class="question">${q.text}</div>`;
+        let html = showPassageIfNeeded(q.text);
+        html += `<div class="question">${q.text}</div>`;
         const letters = ['A','B','C','D'];
         q.options.forEach((opt,i) => {
             html += `<div class="option" data-letter="${letters[i]}">${letters[i]}. ${opt}</div>`;
@@ -409,6 +434,8 @@
                     topic.examples.forEach(ex => html += `<li>📌 ${ex}</li>`);
                     html += `</ul>`;
                 }
+                if (topic.table) html += `<div>${topic.table}</div>`;
+                if (topic.adverbs_table) html += `<div>${topic.adverbs_table}</div>`;
                 html += `</div>`;
             });
         } else {
@@ -428,7 +455,6 @@
 
     // زر طباعة الأسئلة (نسخة ورقية) - يطبع أسئلة الاختبار الشامل فقط (بدون المفردات)
     document.getElementById('print-exam').addEventListener('click', async () => {
-        // نحضر أسئلة الاختبار الشامل من questions.json بغض النظر عن التبويب الحالي
         const examFilePath = `units/${currentUnit.id}/questions.json`;
         let examQuestions = [];
         try {
