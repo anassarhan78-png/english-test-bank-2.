@@ -1,14 +1,212 @@
 [
   {
-    "text": "What does 'going to' express?",
-    "options": ["الماضي", "الحاضر", "المستقبل", "الزمن الماضي المستمر"],
-    "correct": "المستقبل",
-    "explanation": "✅ 'going to' تستخدم للمستقبل (خطط وتوقعات). ❌ الماضي، الحاضر، الماضي المستمر كلها خاطئة."
+    "text": "They ……….. going to eat their lunch.",
+    "options": ["be", "are", "is", "am"],
+    "correct": "are",
+    "explanation": "✅ صحيح: 'They' + are + going to. ❌ be (مصدر)، is (مفرد)، am (مع I)."
   },
   {
-    "text": "Choose the correct sentence:",
-    "options": ["She is going to eats.", "She is going to eat.", "She going to eat.", "She is go to eat."],
-    "correct": "She is going to eat.",
-    "explanation": "✅ الصحيح: She + is + going to + eat. ❌ eats (خطأ)، بدون is، go to eat (خطأ)."
+    "text": "I ………… going to wear blue shoes tonight.",
+    "options": ["is", "be", "am", "are"],
+    "correct": "am",
+    "explanation": "✅ صحيح: I + am + going to. ❌ is (مفرد)، be (مصدر)، are (جمع)."
+  },
+  {
+    "text": "…………… you going to cook dinner?",
+    "options": ["Are", "Am", "Is", "Be"],
+    "correct": "Are",
+    "explanation": "✅ صحيح: Are you going to...? ❌ Am (مع I)، Is (مفرد)، Be (مصدر)."
+  },
+  {
+    "text": "Sara …………… going to share her biscuits.",
+    "options": ["am not", "is not", "are not", "be not"],
+    "correct": "is not",
+    "explanation": "✅ صحيح: Sara (مفرد) + is not going to. ❌ am not (مع I)، are not (جمع)، be not (مصدر)."
+  },
+  {
+    "text": "They ………………… the house next week.",
+    "options": ["is leaving", "leaves", "leave", "are going to leave"],
+    "correct": "are going to leave",
+    "explanation": "✅ صحيح: They + are going to leave (خطة مستقبلية). ❌ is leaving (مفرد)، leaves (مضارع مفرد)، leave (مضارع جمع)."
+  },
+  {
+    "text": "Jack ………………………… home tomorrow.",
+    "options": ["walks", "walk", "is going to walk", "walking"],
+    "correct": "is going to walk",
+    "explanation": "✅ صحيح: Jack (مفرد) + is going to walk. ❌ walks (مضارع)، walk (مصدر)، walking (اسم فاعل)."
+  },
+  {
+    "text": "I am going to ……….. my hands.",
+    "options": ["washed", "wash", "washes", "washing"],
+    "correct": "wash",
+    "explanation": "✅ صحيح: بعد going to نستخدم المصدر (wash). ❌ washed (ماضي)، washes (مفرد)، washing (اسم فاعل)."
+  },
+  {
+    "text": "I ………………………….. to cinema next week.",
+    "options": ["am going to go", "be going to go", "are going to go", "is going to go"],
+    "correct": "am going to go",
+    "explanation": "✅ صحيح: I + am going to go. ❌ be (مصدر)، are (جمع)، is (مفرد)."
+  },
+  {
+    "text": "The rabbit is going to …………. the carrot.",
+    "options": ["ate", "eat", "eating", "eats"],
+    "correct": "eat",
+    "explanation": "✅ صحيح: بعد going to نستخدم المصدر (eat). ❌ ate (ماضي)، eating (اسم فاعل)، eats (مضارع مفرد)."
+  },
+  {
+    "text": "They are going to ………………… football.",
+    "options": ["plays", "playing", "play", "played"],
+    "correct": "play",
+    "explanation": "✅ صحيح: بعد going to نستخدم المصدر (play). ❌ plays (مفرد)، playing (اسم فاعل)، played (ماضي)."
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": ["She travels next month.", "She is going to travel next month.", "She am going to travel next month.", "She is going to traveling next month."],
+    "correct": "She is going to travel next month.",
+    "explanation": "✅ صحيح: She + is + going to + travel. ❌ travels (مضارع بسيط لا يعبر عن خطة مستقبلية)، am (مع I)، traveling (بعد to نستخدم المصدر)."
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": ["I is going to be sick.", "I am going to been sick.", "They am going to be sick.", "I am going to be sick."],
+    "correct": "I am going to be sick.",
+    "explanation": "✅ صحيح: I + am + going to + be. ❌ is مع I، been (past participle)، they am (خطأ)."
+  },
+  {
+    "text": "Tom doesn't wear a …………….. ring.",
+    "options": ["graduation", "wedding", "transportation", "attraction"],
+    "correct": "wedding",
+    "explanation": "✅ صحيح: wedding ring (خاتم زواج). ❌ graduation تخرج، transportation نقل، attraction جذب سياحي."
+  },
+  {
+    "text": "……………………… ceremony for the high school will be next month.",
+    "options": ["Attraction", "Transportation", "Graduation", "Wedding"],
+    "correct": "Graduation",
+    "explanation": "✅ صحيح: graduation ceremony (حفل تخرج). ❌ attraction جذب، transportation نقل، wedding زفاف."
+  },
+  {
+    "text": "Tracksuits and ………………………. belong at the gym.",
+    "options": ["sneakers", "raincoat", "abaya", "tie"],
+    "correct": "sneakers",
+    "explanation": "✅ صحيح: أحذية رياضية (sneakers) تلبس في النادي الرياضي. ❌ raincoat معطف مطر، abaya عباءة، tie ربطة عنق."
+  },
+  {
+    "text": "These …………… kept her hands warm.",
+    "options": ["sandals", "gloves", "sweaters", "socks"],
+    "correct": "gloves",
+    "explanation": "✅ صحيح: القفازات (gloves) تحمي اليدين. ❌ sandals صنادل، sweaters كنزات، socks جوارب."
+  },
+  {
+    "text": "This …………… and this blouse go together well.",
+    "options": ["shomagh", "dress", "thobe", "skirt"],
+    "correct": "skirt",
+    "explanation": "✅ صحيح: التنورة (skirt) تلبس مع البلوزة. ❌ shomagh شماغ، dress فستان، thobe ثوب."
+  },
+  {
+    "text": "The color of leaves is …………. in summer.",
+    "options": ["red", "beige", "green", "purple"],
+    "correct": "green",
+    "explanation": "✅ صحيح: لون الأوراق في الصيف أخضر. ❌ red أحمر، beige بيج، purple أرجواني."
+  },
+  {
+    "text": "He took his shoes and ………… off.",
+    "options": ["socks", "coats", "scarf", "suit"],
+    "correct": "socks",
+    "explanation": "✅ صحيح: خلع حذاءه وجواربه (socks). ❌ coats معاطف، scarf وشاح، suit بدلة."
+  },
+  {
+    "text": "The train is a safe means of ………………..",
+    "options": ["graduation", "transportation", "attraction", "wedding"],
+    "correct": "transportation",
+    "explanation": "✅ صحيح: وسيلة نقل (transportation). ❌ graduation تخرج، attraction جذب، wedding زفاف."
+  },
+  {
+    "text": "Students are celebrating their ……………………. party.",
+    "options": ["tea", "wedding", "graduation", "birthday"],
+    "correct": "graduation",
+    "explanation": "✅ صحيح: حفل التخرج (graduation party). ❌ tea شاي، wedding زفاف، birthday ميلاد."
+  },
+  {
+    "text": "They took lots of pictures at their son's gr__duation.",
+    "options": ["e", "a", "i", "o"],
+    "correct": "a",
+    "explanation": "✅ صحيح: graduation تكتب بحرف a. ❌ e, i, o."
+  },
+  {
+    "text": "Pi__k roses are beautiful.",
+    "options": ["s", "r", "m", "n"],
+    "correct": "n",
+    "explanation": "✅ صحيح: pink (وردي) تكتب بحرف n. ❌ s, r, m."
+  },
+  {
+    "text": "I'm wearing an __range T-shirt.",
+    "options": ["o", "i", "e", "a"],
+    "correct": "o",
+    "explanation": "✅ صحيح: orange (برتقالي) تكتب بحرف o. ❌ i, e, a."
+  },
+  {
+    "text": "He's got a great sense of s__yle.",
+    "options": ["v", "k", "t", "m"],
+    "correct": "t",
+    "explanation": "✅ صحيح: style (أناقة) تكتب بحرف t. ❌ v, k, m."
+  },
+  {
+    "text": "The collar of his sh__rt was dirty.",
+    "options": ["u", "i", "o", "a"],
+    "correct": "i",
+    "explanation": "✅ صحيح: shirt (قميص) تكتب بحرف i. ❌ u, o, a."
+  },
+  {
+    "text": "I will get __arried, and my w__dding will be next week.",
+    "options": ["t-u", "v-a", "j-i", "m-e"],
+    "correct": "m-e",
+    "explanation": "✅ صحيح: married (متزوج) بحرف m، wedding (زفاف) بحرف e. ❌ t-u, v-a, j-i."
+  },
+  {
+    "text": "They will wear green dr__sses in their graduation party.",
+    "options": ["e-d", "o-k", "a-g", "i-x"],
+    "correct": "e-d",
+    "explanation": "✅ صحيح: dresses (فساتين) تكتب بحرف e و d. ❌ o-k, a-g, i-x."
+  },
+  {
+    "text": "What do you think Iguassu Falls are? (Read the passage above)",
+    "options": ["a city", "waterfalls", "a desert", "a mountain"],
+    "correct": "waterfalls",
+    "explanation": "✅ صحيح: Iguassu Falls هي شلالات. ❌ مدينة، صحراء، جبل."
+  },
+  {
+    "text": "Where are the Iguassu Falls located?",
+    "options": ["Brazil and Chile", "Brazil and Argentina", "Argentina and Peru", "Brazil and Peru"],
+    "correct": "Brazil and Argentina",
+    "explanation": "✅ صحيح: تقع بين البرازيل والأرجنتين. ❌ تشيلي، بيرو."
+  },
+  {
+    "text": "How do visitors go to the falls?",
+    "options": ["By train", "By car only", "By bus", "By plane"],
+    "correct": "By train",
+    "explanation": "✅ صحيح: بالقطار (حسب النص). ❌ فقط بالسيارة، بالباص، بالطائرة."
+  },
+  {
+    "text": "What do visitors wear at the falls?",
+    "options": ["Jackets and boots", "Hats only", "Sunglasses", "T-shirts"],
+    "correct": "Jackets and boots",
+    "explanation": "✅ صحيح: سترات وأحذية لأن الطقس بارد ورطب. ❌ قبعات فقط، نظارات شمسية، تي شيرتات."
+  },
+  {
+    "text": "Where is Andy going to go? (Read the conversation)",
+    "options": ["Riyadh", "Norway", "London", "Dubai"],
+    "correct": "Norway",
+    "explanation": "✅ صحيح: أندي ذاهب إلى النرويج. ❌ الرياض، لندن، دبي."
+  },
+  {
+    "text": "What is Andy going to wear?",
+    "options": ["Light clothes", "A suit", "Warm clothes", "Sports clothes"],
+    "correct": "Warm clothes",
+    "explanation": "✅ صحيح: ملابس دافئة لأن النرويج باردة. ❌ ملابس خفيفة، بدلة، ملابس رياضية."
+  },
+  {
+    "text": "Why is Andy going to take sunglasses?",
+    "options": ["For the beach", "For fashion", "For the snow", "For school"],
+    "correct": "For the snow",
+    "explanation": "✅ صحيح: بسبب الثلج (الثلج يعكس أشعة الشمس). ❌ للشاطئ، للموضة، للمدرسة."
   }
 ]
