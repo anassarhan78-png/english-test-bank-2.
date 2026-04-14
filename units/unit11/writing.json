@@ -3,9 +3,9 @@
   "introduction": {
     "text": "في هذا النشاط، ستتعلم كيف تكتب فقرة (paragraph) عن يومك المعتاد في المدرسة. الفقرة الجيدة تتكون من 3 أجزاء رئيسية:",
     "parts": [
-      "1. 🏠 جملة افتتاحية (Topic sentence): تذكر الموضوع الرئيسي (مثلاً: يومي في المدرسة يبدأ مبكراً).",
+      "1. 🏠 جملة افتتاحية (Topic sentence): تذكر الموضوع الرئيسي (مثلاً: 'My typical school day starts early.').",
       "2. 🧱 جمل تفصيلية (Supporting sentences): تشرح ماذا تفعل قبل المدرسة، في المدرسة، وبعد المدرسة.",
-      "3. 🏁 جملة ختامية (Concluding sentence): تعطي رأيك أو انطباعك العام عن يومك."
+      "3. 🏁 جملة ختامية (Concluding sentence): تعطي رأيك أو انطباعك العام عن يومك (مثلاً: 'I love my school because it is fun.')."
     ]
   },
   "model_paragraph": {
@@ -37,8 +37,8 @@
       {
         "step": 1,
         "title": "📌 اكتب جملة افتتاحية عن يومك",
-        "explanation": "مثال: 'My typical school day starts early.' أو 'Before I go to school, I get up at 7 o'clock.'",
-        "example": "→ Before I go to school, I get up."
+        "explanation": "ابدأ بجملة تخبر القارئ أنك ستتحدث عن يومك في المدرسة. استخدم كلمات مثل 'My typical school day' أو 'Before I go to school'.",
+        "example": "→ Before I go to school, I get up at 7 o'clock."
       },
       {
         "step": 2,

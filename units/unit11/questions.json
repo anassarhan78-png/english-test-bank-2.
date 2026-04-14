@@ -1,14 +1,152 @@
 [
   {
-    "text": "What does 'always' mean?",
-    "options": ["دائماً", "أحياناً", "نادراً", "أبداً"],
-    "correct": "دائماً",
-    "explanation": "✅ دائماً تعني 100% من الوقت. ❌ أحياناً 50%، نادراً 20%، أبداً 0%."
+    "text": "I usually ………………….. for groceries on Saturday mornings.",
+    "options": ["shopped", "shop", "shopping", "shops"],
+    "correct": "shop",
+    "explanation": "✅ صحيح: 'usually' + مضارع بسيط (I shop). ❌ shopped ماضي، shopping اسم فاعل، shops للمفرد الغائب."
   },
   {
-    "text": "What does 'usually' mean?",
-    "options": ["دائماً", "عادةً", "أبداً", "نادراً"],
-    "correct": "عادةً",
-    "explanation": "✅ usually تعني في معظم الأحيان (90%). ❌ always دائماً، never أبداً، rarely نادراً."
+    "text": "I always ……………………… to work.",
+    "options": ["walk", "walks", "walking", "walked"],
+    "correct": "walk",
+    "explanation": "✅ صحيح: I + always + مضارع بسيط (walk). ❌ walks للمفرد، walking اسم فاعل، walked ماضي."
+  },
+  {
+    "text": "They usually ……………… late.",
+    "options": ["arrived", "arrives", "arrive", "arriving"],
+    "correct": "arrive",
+    "explanation": "✅ صحيح: They + مضارع بسيط (arrive). ❌ arrived ماضي، arrives للمفرد، arriving اسم فاعل."
+  },
+  {
+    "text": "My father often ……………….. his birthday.",
+    "options": ["forgetting", "forgot", "forget", "forgets"],
+    "correct": "forgets",
+    "explanation": "✅ صحيح: My father (مفرد) + often + مضارع بسيط (forgets). ❌ forgetting اسم فاعل، forgot ماضي، forget للجمع."
+  },
+  {
+    "text": "He sometimes …………………. up early.",
+    "options": ["waking", "wakes", "woke", "to wake"],
+    "correct": "wakes",
+    "explanation": "✅ صحيح: He (مفرد) + sometimes + مضارع بسيط (wakes). ❌ waking اسم فاعل، woke ماضي، to wake مصدر."
+  },
+  {
+    "text": "I rarely ………… tea in the morning.",
+    "options": ["drinks", "drank", "drink", "drinking"],
+    "correct": "drink",
+    "explanation": "✅ صحيح: I + rarely + مضارع بسيط (drink). ❌ drinks للمفرد، drank ماضي، drinking اسم فاعل."
+  },
+  {
+    "text": "Jenny never ……………. coffee in the evening.",
+    "options": ["drinks", "drinking", "drank", "drink"],
+    "correct": "drinks",
+    "explanation": "✅ صحيح: Jenny (مفرد) + never + مضارع بسيط (drinks). ❌ drinking اسم فاعل، drank ماضي، drink للجمع."
+  },
+  {
+    "text": "They sometimes …………………. at the library.",
+    "options": ["studies", "studied", "study", "studying"],
+    "correct": "study",
+    "explanation": "✅ صحيح: They + sometimes + مضارع بسيط (study). ❌ studies للمفرد، studied ماضي، studying اسم فاعل."
+  },
+  {
+    "text": "She sometimes ………….. basketball.",
+    "options": ["played", "play", "plays", "playing"],
+    "correct": "plays",
+    "explanation": "✅ صحيح: She (مفرد) + sometimes + مضارع بسيط (plays). ❌ played ماضي، play للجمع، playing اسم فاعل."
+  },
+  {
+    "text": "I don’t often …………… fast food.",
+    "options": ["eat", "eats", "ate", "eating"],
+    "correct": "eat",
+    "explanation": "✅ صحيح: I + don't + مصدر (eat). ❌ eats للمفرد، ate ماضي، eating اسم فاعل."
+  },
+  {
+    "text": "He doesn’t ………….. football.",
+    "options": ["plays", "play", "playing", "played"],
+    "correct": "play",
+    "explanation": "✅ صحيح: He doesn't + مصدر (play). ❌ plays للمفرد، playing اسم فاعل، played ماضي."
+  },
+  {
+    "text": "Do they ……………. to school?",
+    "options": ["go", "goes", "went", "going"],
+    "correct": "go",
+    "explanation": "✅ صحيح: Do they + مصدر (go). ❌ goes للمفرد، went ماضي، going اسم فاعل."
+  },
+  {
+    "text": "Does he ……………… in London?",
+    "options": ["lives", "lived", "living", "live"],
+    "correct": "live",
+    "explanation": "✅ صحيح: Does he + مصدر (live). ❌ lives للمفرد، lived ماضي، living اسم فاعل."
+  },
+  {
+    "text": "Do you ………………… by bus?",
+    "options": ["travels", "travelled", "travel", "travelling"],
+    "correct": "travel",
+    "explanation": "✅ صحيح: Do you + مصدر (travel). ❌ travels للمفرد، travelled ماضي، travelling اسم فاعل."
+  },
+  {
+    "text": "Does she ……………. to school?",
+    "options": ["goes", "go", "went", "going"],
+    "correct": "go",
+    "explanation": "✅ صحيح: Does she + مصدر (go). ❌ goes للمفرد، went ماضي، going اسم فاعل."
+  },
+  {
+    "text": "Can you come ………………… Monday?",
+    "options": ["in", "on", "at", "to"],
+    "correct": "on",
+    "explanation": "✅ صحيح: 'on' مع أيام الأسبوع. ❌ in مع شهور، at مع ساعات، to اتجاه."
+  },
+  {
+    "text": "I'm going to Italy …………… weekdays.",
+    "options": ["at", "up", "in", "on"],
+    "correct": "on",
+    "explanation": "✅ صحيح: 'on weekdays' (في أيام الأسبوع). ❌ at مع أوقات، in مع أشهر/سنوات، up غير صحيحة."
+  },
+  {
+    "text": "I usually get up ………… eight o'clock.",
+    "options": ["at", "from", "in", "on"],
+    "correct": "at",
+    "explanation": "✅ صحيح: 'at' مع الساعة. ❌ from من، in مع شهور/أجزاء اليوم، on مع أيام."
+  },
+  {
+    "text": "I'll meet you ……….. the morning.",
+    "options": ["at", "in", "on", "off"],
+    "correct": "in",
+    "explanation": "✅ صحيح: 'in the morning'. ❌ at مع ساعات، on مع أيام، off بعيداً."
+  },
+  {
+    "text": "I'm working ……. Sundays.",
+    "options": ["in", "out", "on", "at"],
+    "correct": "on",
+    "explanation": "✅ صحيح: 'on Sundays'. ❌ in مع شهور، out خارج، at مع ساعات."
+  },
+  {
+    "text": "She ………………………. now.",
+    "options": ["be sleeping", "are sleeping", "is sleeping", "am sleeping"],
+    "correct": "is sleeping",
+    "explanation": "✅ صحيح: She + is + sleeping (مضارع مستمر). ❌ be, are, am مع she خطأ."
+  },
+  {
+    "text": "He ………… a notebook at the moment.",
+    "options": ["is buying", "bought", "are buying", "buys"],
+    "correct": "is buying",
+    "explanation": "✅ صحيح: He + is + buying (مضارع مستمر مع at the moment). ❌ bought ماضي، are مع جمع، buys مضارع بسيط."
+  },
+  {
+    "text": "Right now, my mother …………….. in the kitchen.",
+    "options": ["cooks", "am cooking", "are cooking", "is cooking"],
+    "correct": "is cooking",
+    "explanation": "✅ صحيح: my mother (مفرد) + is + cooking. ❌ cooks مضارع بسيط، am مع I، are مع جمع."
+  },
+  {
+    "text": "The two little penguins are ……………………. very well.",
+    "options": ["swims", "swimming", "swam", "swim"],
+    "correct": "swimming",
+    "explanation": "✅ صحيح: are + swimming (مضارع مستمر). ❌ swims مضارع للمفرد، swam ماضي، swim مضارع للجمع."
+  },
+  {
+    "text": "I ………………………. my breakfast now.",
+    "options": ["are eating", "eats", "am eating", "is eating"],
+    "correct": "am eating",
+    "explanation": "✅ صحيح: I + am + eating (مضارع مستمر مع now). ❌ are مع جمع، eats للمفرد، is مع مفرد."
   }
 ]
