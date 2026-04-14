@@ -1,8 +1,14 @@
 [
   {
-    "text": "Example question?",
-    "options": ["Option A", "Option B", "Option C", "Option D"],
-    "correct": "A",
-    "explanation": "A is correct because..."
+    "text": "They ……….. going to eat their lunch.",
+    "options": ["be", "are", "is", "am"],
+    "correct": "are",
+    "explanation": "✅ صحيح: They + are + going to. ❌ be (مصدر)، is (مفرد)، am (مع I)."
+  },
+  {
+    "text": "I ………… going to wear blue shoes tonight.",
+    "options": ["is", "be", "am", "are"],
+    "correct": "am",
+    "explanation": "✅ صحيح: I + am + going to. ❌ is (مفرد)، be (مصدر)، are (جمع)."
   }
 ]

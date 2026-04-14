@@ -1,7 +1,19 @@
 {
   "units": [
-    { "id": "unit11", "title": "الوحدة 11: What Time Do You Get Up?", "description": "المضارع البسيط" },
-    { "id": "unit12", "title": "الوحدة 12: مراجعة شاملة", "description": "أسئلة شاملة" },
-    { "id": "unit13", "title": "الوحدة 13: What Are You Going To Wear?", "description": "قاعدة going to" }
+    {
+      "id": "unit11",
+      "title": "الوحدة 11: What Time Do You Get Up?",
+      "description": "المضارع البسيط، ظروف التكرار"
+    },
+    {
+      "id": "unit12",
+      "title": "الوحدة 12: مراجعة شاملة",
+      "description": "أسئلة شاملة"
+    },
+    {
+      "id": "unit13",
+      "title": "الوحدة 13: What Are You Going To Wear?",
+      "description": "قاعدة going to"
+    }
   ]
 }

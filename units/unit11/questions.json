@@ -1,3 +1,14 @@
-[然后把光标放在这里，粘贴你复制的内容，然后按回车，再输入EOF]
-cat > units/unit13/questions.json << 'EOF'
-[الصق المحتوى]
+[
+  {
+    "text": "I usually ………………….. for groceries on Saturday mornings.",
+    "options": ["shopped", "shop", "shopping", "shops"],
+    "correct": "shop",
+    "explanation": "✅ صحيح: 'usually' مع المضارع البسيط (I shop). ❌ shopped ماضي، shopping اسم فاعل، shops للمفرد."
+  },
+  {
+    "text": "I always ……………………… to work.",
+    "options": ["walk", "walks", "walking", "walked"],
+    "correct": "walk",
+    "explanation": "✅ صحيح: I + always + مضارع بسيط (walk). ❌ walks للمفرد، walking اسم فاعل، walked ماضي."
+  }
+]
