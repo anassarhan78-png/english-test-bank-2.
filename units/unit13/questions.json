@@ -1,14 +1,14 @@
 [
   {
-    "text": "They ……….. going to eat their lunch.",
-    "options": ["be", "are", "is", "am"],
-    "correct": "are",
-    "explanation": "✅ صحيح: They + are + going to. ❌ be (مصدر)، is (مفرد)، am (مع I)."
+    "text": "What does 'going to' express?",
+    "options": ["الماضي", "الحاضر", "المستقبل", "الزمن الماضي المستمر"],
+    "correct": "المستقبل",
+    "explanation": "✅ 'going to' تستخدم للمستقبل (خطط وتوقعات). ❌ الماضي، الحاضر، الماضي المستمر كلها خاطئة."
   },
   {
-    "text": "I ………… going to wear blue shoes tonight.",
-    "options": ["is", "be", "am", "are"],
-    "correct": "am",
-    "explanation": "✅ صحيح: I + am + going to. ❌ is (مفرد)، be (مصدر)، are (جمع)."
+    "text": "Choose the correct sentence:",
+    "options": ["She is going to eats.", "She is going to eat.", "She going to eat.", "She is go to eat."],
+    "correct": "She is going to eat.",
+    "explanation": "✅ الصحيح: She + is + going to + eat. ❌ eats (خطأ)، بدون is، go to eat (خطأ)."
   }
 ]

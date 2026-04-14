@@ -1,14 +1,14 @@
 [
   {
-    "text": "I usually ………………….. for groceries on Saturday mornings.",
-    "options": ["shopped", "shop", "shopping", "shops"],
-    "correct": "shop",
-    "explanation": "✅ صحيح: 'usually' مع المضارع البسيط (I shop). ❌ shopped ماضي، shopping اسم فاعل، shops للمفرد."
+    "text": "What does 'always' mean?",
+    "options": ["دائماً", "أحياناً", "نادراً", "أبداً"],
+    "correct": "دائماً",
+    "explanation": "✅ دائماً تعني 100% من الوقت. ❌ أحياناً 50%، نادراً 20%، أبداً 0%."
   },
   {
-    "text": "I always ……………………… to work.",
-    "options": ["walk", "walks", "walking", "walked"],
-    "correct": "walk",
-    "explanation": "✅ صحيح: I + always + مضارع بسيط (walk). ❌ walks للمفرد، walking اسم فاعل، walked ماضي."
+    "text": "What does 'usually' mean?",
+    "options": ["دائماً", "عادةً", "أبداً", "نادراً"],
+    "correct": "عادةً",
+    "explanation": "✅ usually تعني في معظم الأحيان (90%). ❌ always دائماً، never أبداً، rarely نادراً."
   }
 ]
