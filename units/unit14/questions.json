@@ -1,0 +1,236 @@
+[
+  {
+    "text": "My friend Tom lives in London. This is a parcel from ....................",
+    "options": ["her", "him", "us", "me"],
+    "correct": "B",
+    "explanation": "✅ Tom (مذكر مفرد) → ضمير المفعول به 'him'. ❌ her (مؤنث)، us (نحن)، me (أنا)."
+  },
+  {
+    "text": "The children are hungry. Give ........ an apple.",
+    "options": ["them", "us", "they", "her"],
+    "correct": "A",
+    "explanation": "✅ children (جمع) → ضمير المفعول 'them'. ❌ us (نحن)، they (فاعل)، her (مؤنث مفرد)."
+  },
+  {
+    "text": "We are thirsty. Can you give ........ some juice?",
+    "options": ["them", "her", "him", "us"],
+    "correct": "D",
+    "explanation": "✅ we (نحن) → ضمير المفعول 'us'. ❌ them (هم)، her (هي)، him (هو)."
+  },
+  {
+    "text": "Jack is in the garden. Bring ........ his football.",
+    "options": ["he", "you", "him", "it"],
+    "correct": "C",
+    "explanation": "✅ Jack (مذكر) → ضمير المفعول 'him'. ❌ he (فاعل)، you (أنت)، it (لغير العاقل)."
+  },
+  {
+    "text": "Ann and Paul can't do their homework. Can you help ....................?",
+    "options": ["them", "they", "it", "we"],
+    "correct": "A",
+    "explanation": "✅ Ann and Paul (جمع) → 'them'. ❌ they (فاعل)، it (مفرد)، we (نحن)."
+  },
+  {
+    "text": "This cake is for Carol and me. Please give ........ to us.",
+    "options": ["her", "it", "you", "me"],
+    "correct": "B",
+    "explanation": "✅ cake (مفرد غير عاقل) → 'it'. ❌ her (كارول)، you (أنت)، me (أنا)."
+  },
+  {
+    "text": "The roses are for mother. Please give ........ to her.",
+    "options": ["me", "us", "they", "them"],
+    "correct": "D",
+    "explanation": "✅ roses (جمع) → ضمير المفعول 'them'. ❌ me، us، they (فاعل)."
+  },
+  {
+    "text": "Where are my glasses? You are wearing ....................",
+    "options": ["him", "her", "them", "it"],
+    "correct": "C",
+    "explanation": "✅ glasses (جمع) → 'them'. ❌ him (مذكر)، her (مؤنث)، it (مفرد)."
+  },
+  {
+    "text": "My mother is fantastic. I like ........ very much.",
+    "options": ["him", "her", "me", "you"],
+    "correct": "B",
+    "explanation": "✅ mother (مؤنث) → 'her'. ❌ him (مذكر)، me (أنا)، you (أنت)."
+  },
+  {
+    "text": "I need ........ my bedroom.",
+    "options": ["to clean", "clean", "cleans", "cleaned"],
+    "correct": "A",
+    "explanation": "✅ need + to + مصدر. ❌ clean (بدون to)، cleans (مضارع مفرد)، cleaned (ماضي)."
+  },
+  {
+    "text": "She needs hot chocolate ........ to be happy.",
+    "options": ["drank", "drink", "to drink", "drinks"],
+    "correct": "C",
+    "explanation": "✅ need + to + مصدر. ❌ drank (ماضي)، drink (بدون to)، drinks (مضارع)."
+  },
+  {
+    "text": "I want ........",
+    "options": ["driving", "to drive", "drove", "drives"],
+    "correct": "B",
+    "explanation": "✅ want + to + مصدر. ❌ driving (ing)، drove (ماضي)، drives (مضارع)."
+  },
+  {
+    "text": "I want ........ a letter.",
+    "options": ["write", "writing", "writes", "to write"],
+    "correct": "D",
+    "explanation": "✅ want + to + مصدر. ❌ write (بدون to)، writing (ing)، writes (مضارع)."
+  },
+  {
+    "text": "I like omelette ........ for breakfast.",
+    "options": ["to eat", "ate", "eat", "eats"],
+    "correct": "A",
+    "explanation": "✅ like + to + مصدر (أو like + ing). الخيار to eat صحيح. ❌ ate (ماضي)، eat (بدون to)، eats (مضارع)."
+  },
+  {
+    "text": "I like jam ........ every year.",
+    "options": ["makes", "to make", "made", "make"],
+    "correct": "B",
+    "explanation": "✅ like + to + مصدر (أو like + ing). الخيار to make صحيح. ❌ makes (مضارع)، made (ماضي)، make (بدون to)."
+  },
+  {
+    "text": "Let's ........ the window.",
+    "options": ["closing", "closed", "close", "to close"],
+    "correct": "C",
+    "explanation": "✅ Let's + مصدر (بدون to). ❌ closing، closed، to close."
+  },
+  {
+    "text": "Let's ........ some water.",
+    "options": ["drink", "drinks", "drinking", "to drink"],
+    "correct": "A",
+    "explanation": "✅ Let's + مصدر. ❌ drinks، drinking، to drink."
+  },
+  {
+    "text": "Let's ........ a cake for her.",
+    "options": ["bought", "buys", "buy", "buying"],
+    "correct": "C",
+    "explanation": "✅ Let's + مصدر. ❌ bought، buys، buying."
+  },
+  {
+    "text": "You must ........ your homework.",
+    "options": ["did", "does", "done", "do"],
+    "correct": "D",
+    "explanation": "✅ must + مصدر (بدون to). ❌ did (ماضي)، does (مضارع مفرد)، done (تصريف ثالث)."
+  },
+  {
+    "text": "You mustn't ........ late.",
+    "options": ["be", "are", "am", "is"],
+    "correct": "A",
+    "explanation": "✅ mustn't + مصدر (be). ❌ are، am، is (أفعال مساعدة لا تأتي بعد mustn't)."
+  },
+  {
+    "text": "We should ........ to the park tomorrow.",
+    "options": ["going", "go", "goes", "went"],
+    "correct": "B",
+    "explanation": "✅ should + مصدر. ❌ going (ing)، goes (مضارع)، went (ماضي)."
+  },
+  {
+    "text": "They should ........ harder.",
+    "options": ["to study", "studied", "studies", "study"],
+    "correct": "D",
+    "explanation": "✅ should + مصدر. ❌ to study (مع to)، studied (ماضي)، studies (مضارع)."
+  },
+  {
+    "text": "They stood for the F_deration anthem. (Choose the missing letter)",
+    "options": ["o", "i", "e", "u"],
+    "correct": "A",
+    "explanation": "✅ Federation (اتحاد) تكتب بحرف o. ❌ i, e, u."
+  },
+  {
+    "text": "The boys loved watching the soldiers on p_rade. (Choose the missing letter)",
+    "options": ["a", "i", "e", "o"],
+    "correct": "A",
+    "explanation": "✅ parade (استعراض) تكتب بحرف a. ❌ i, e, o."
+  },
+  {
+    "text": "Every country has its national _lag. (Choose the missing letter)",
+    "options": ["p", "v", "h", "f"],
+    "correct": "D",
+    "explanation": "✅ flag (علم) يبدأ بحرف f. ❌ p, v, h."
+  },
+  {
+    "text": "I sh_re a bedroom with my sister. (Choose the missing letter)",
+    "options": ["e", "a", "u", "e"],
+    "correct": "A",
+    "explanation": "✅ share (يشارك) تكتب بحرف a. ❌ e, u, e (مكرر)."
+  },
+  {
+    "text": "Let me e_change seats with you. (Choose the missing letter)",
+    "options": ["z", "s", "x", "c"],
+    "correct": "C",
+    "explanation": "✅ exchange (يتبادل) تكتب بحرف x. ❌ z, s, c."
+  },
+  {
+    "text": "We have many fla_s National Day. (2 missing letters)",
+    "options": ["q-u", "t-e", "r-i", "g-a"],
+    "correct": "D",
+    "explanation": "✅ flags (أعلام) تكتب بحرفي g و a. ❌ qu, te, ri."
+  },
+  {
+    "text": "We in_ite our neighbors to get t_gether Eid Al-Fitr. (2 missing letters)",
+    "options": ["v-o", "g-i", "n-a", "s-e"],
+    "correct": "A",
+    "explanation": "✅ invite (ندعو) تكتب بحرف v، together (معاً) تكتب بحرف o. ❌ gi, na, se."
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": ["We must been kind to our neighbors.", "We must being kind to our neighbors.", "We must are kind to our neighbors.", "We must be kind to our neighbors."],
+    "correct": "D",
+    "explanation": "✅ must + مصدر (be). ❌ been (تصريف ثالث)، being (ing)، are (فعل مساعد)."
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": ["She needs to bought some snacks.", "She need to buy some snacks.", "She needs to buy some snacks.", "She needs to buys some snacks."],
+    "correct": "C",
+    "explanation": "✅ needs + to + مصدر (buy). ❌ to bought، need (بدون s)، to buys."
+  },
+  {
+    "text": "My ...... complained about the noise.",
+    "options": ["federation", "fireworks", "neighbor", "generosity"],
+    "correct": "C",
+    "explanation": "✅ neighbor (الجار). ❌ federation (اتحاد)، fireworks (ألعاب نارية)، generosity (كرم)."
+  },
+  {
+    "text": "We saw the ...... move down the street.",
+    "options": ["parade", "flag", "holiday", "gift"],
+    "correct": "A",
+    "explanation": "✅ parade (استعراض). ❌ flag (علم)، holiday (عطلة)، gift (هدية)."
+  },
+  {
+    "text": "Be very careful when lighting ......",
+    "options": ["flag", "celebration", "fireworks", "card"],
+    "correct": "C",
+    "explanation": "✅ fireworks (ألعاب نارية). ❌ flag، celebration، card."
+  },
+  {
+    "text": "Every country has its national ......",
+    "options": ["gift", "flag", "card", "snack"],
+    "correct": "B",
+    "explanation": "✅ flag (علم). ❌ gift، card، snack."
+  },
+  {
+    "text": "They killed a sheep as a ......",
+    "options": ["invite", "decorate", "share", "sacrifice"],
+    "correct": "D",
+    "explanation": "✅ sacrifice (قربان / تضحية). ❌ invite (يدعو)، decorate (يزين)، share (يشارك)."
+  },
+  {
+    "text": "They ...... a lot of money to us.",
+    "options": ["celebrate", "donate", "know", "decorate"],
+    "correct": "B",
+    "explanation": "✅ donate (يتبرع). ❌ celebrate (يحتفل)، know (يعرف)، decorate (يزين)."
+  },
+  {
+    "text": "We should ...... them to the party.",
+    "options": ["decorate", "cover", "invite", "exchange"],
+    "correct": "C",
+    "explanation": "✅ invite (ندعو). ❌ decorate، cover، exchange."
+  },
+  {
+    "text": "I ...... a camera for a guitar.",
+    "options": ["decorated", "covered", "invited", "exchanged"],
+    "correct": "D",
+    "explanation": "✅ exchanged (بادل). ❌ decorated، covered، invited."
+  }
+]

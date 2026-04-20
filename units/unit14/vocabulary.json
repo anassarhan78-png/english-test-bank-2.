@@ -1,0 +1,62 @@
+[
+  {
+    "text": "What does 'parade' mean?",
+    "options": ["قطعة قماش ترمز للدولة", "مجموعة من الناس يسيرون احتفالاً", "الانفجارات الملونة في الهواء", "وجبة صغيرة جداً"],
+    "correct": "مجموعة من الناس يسيرون احتفالاً",
+    "explanation": "✅ parade: استعراض أو موكب. ❌ القطعة قماش (flag)، الانفجارات (fireworks)، الوجبة الصغيرة (snack)."
+  },
+  {
+    "text": "What does 'fireworks' mean?",
+    "options": ["قطعة قماش", "ألعاب نارية ملونة", "ذبيحة لله", "هدية"],
+    "correct": "ألعاب نارية ملونة",
+    "explanation": "✅ fireworks: ألعاب نارية. ❌ قطعة قماش (flag)، ذبيحة (sacrifice)، هدية (gift)."
+  },
+  {
+    "text": "What does 'flag' mean?",
+    "options": ["قطعة قماش رمز للدولة", "موكب", "هدية", "وجبة صغيرة"],
+    "correct": "قطعة قماش رمز للدولة",
+    "explanation": "✅ flag: علم. ❌ موكب (parade)، هدية (gift)، وجبة صغيرة (snack)."
+  },
+  {
+    "text": "What does 'donate' mean?",
+    "options": ["يتبادل", "يتبرع بالمال", "يدعو", "يزين"],
+    "correct": "يتبرع بالمال",
+    "explanation": "✅ donate: يتبرع. ❌ يتبادل (exchange)، يدعو (invite)، يزين (decorate)."
+  },
+  {
+    "text": "What does 'neighbor' mean?",
+    "options": ["شخص يعيش بالقرب منك", "صديق", "قريب", "زائر"],
+    "correct": "شخص يعيش بالقرب منك",
+    "explanation": "✅ neighbor: الجار. ❌ صديق (friend)، قريب (relative)، زائر (visitor)."
+  },
+  {
+    "text": "What does 'sacrifice' mean?",
+    "options": ["يقتل حيواناً قرباناً لله", "يحتفل", "يتبادل", "يزين"],
+    "correct": "يقتل حيواناً قرباناً لله",
+    "explanation": "✅ sacrifice: قربان / تضحية. ❌ يحتفل (celebrate)، يتبادل (exchange)، يزين (decorate)."
+  },
+  {
+    "text": "What does 'exchange' mean?",
+    "options": ["يتبادل", "يدعو", "يتبرع", "يزين"],
+    "correct": "يتبادل",
+    "explanation": "✅ exchange: يتبادل. ❌ يدعو (invite)، يتبرع (donate)، يزين (decorate)."
+  },
+  {
+    "text": "What does 'invite' mean?",
+    "options": ["يدعو", "يتبادل", "يتبرع", "يحتفل"],
+    "correct": "يدعو",
+    "explanation": "✅ invite: يدعو. ❌ يتبادل (exchange)، يتبرع (donate)، يحتفل (celebrate)."
+  },
+  {
+    "text": "What does 'generosity' mean?",
+    "options": ["كرم وعطاء", "هدية", "احتفال", "وجبة خفيفة"],
+    "correct": "كرم وعطاء",
+    "explanation": "✅ generosity: كرم. ❌ هدية (gift)، احتفال (celebration)، وجبة خفيفة (snack)."
+  },
+  {
+    "text": "What does 'snack' mean?",
+    "options": ["وجبة صغيرة جداً", "هدية", "علم", "موكب"],
+    "correct": "وجبة صغيرة جداً",
+    "explanation": "✅ snack: وجبة خفيفة. ❌ هدية (gift)، علم (flag)، موكب (parade)."
+  }
+]

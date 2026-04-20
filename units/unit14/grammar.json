@@ -1,0 +1,51 @@
+{
+  "title": "📘 قواعد الوحدة 14: ضمائر المفعول، need/want + to، must/should، Let's",
+  "topics": [
+    {
+      "name": "1. ضمائر المفعول (Object Pronouns)",
+      "rule": "ضمائر المفعول تأتي بعد الفعل أو حرف الجر. وهي: me (إياي)، you (إياك)، him (إياه)، her (إياها)، it (إياه لغير العاقل)، us (إيانا)، them (إياهم).",
+      "examples": [
+        "Please give him the book. (أعطه الكتاب)",
+        "I like her very much. (أحبها كثيراً)"
+      ]
+    },
+    {
+      "name": "2. need / want + to + المصدر",
+      "rule": "بعد الأفعال need و want نستخدم 'to' ثم الفعل في المصدر (بدون إضافة s أو ing).",
+      "examples": [
+        "I need to clean my room.",
+        "She wants to buy a new dress."
+      ]
+    },
+    {
+      "name": "3. must / mustn't + المصدر (بدون to)",
+      "rule": "must تعني 'يجب'، mustn't تعني 'لا يجب'. يتبعهما الفعل في المصدر.",
+      "examples": [
+        "You must do your homework.",
+        "You mustn't be late."
+      ]
+    },
+    {
+      "name": "4. should / shouldn't + المصدر (بدون to)",
+      "rule": "should تعني 'ينبغي'، shouldn't تعني 'لا ينبغي'. يتبعهما الفعل في المصدر.",
+      "examples": [
+        "We should go to the park.",
+        "They shouldn't study harder? (بل should study harder)"
+      ]
+    },
+    {
+      "name": "5. Let's + المصدر (بدون to)",
+      "rule": "Let's تعني 'دعنا' وتستخدم للاقتراح، ويتبعها الفعل في المصدر.",
+      "examples": [
+        "Let's close the window.",
+        "Let's drink some water."
+      ]
+    }
+  ],
+  "common_mistakes": [
+    "❌ I need clean my room. → ✅ I need to clean my room.",
+    "❌ She wants buy a car. → ✅ She wants to buy a car.",
+    "❌ You must to go. → ✅ You must go.",
+    "❌ Let's to play. → ✅ Let's play."
+  ]
+}

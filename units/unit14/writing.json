@@ -1,0 +1,22 @@
+{
+  "title": "📝 كتابة موضوع عن عطلة وطنية (مثل عيد الأضحى أو اليوم الوطني)",
+  "introduction": "اكتب فقرة عن احتفال في بلدك. اذكر: التاريخ، الملابس، الطعام، الأحداث أو التقاليد الخاصة.",
+  "model": "Muslims celebrate Eid al-Adha on the tenth of Hajj. We celebrate it with our families and friends. Muslims sacrifice an animal and visit each other. Sweets and gifts are given, and extended family members are typically visited and welcomed.",
+  "prompts": [
+    "1. ما هي العطلة التي تكتب عنها؟ (مثال: Eid al-Adha, National Day)",
+    "2. متى يحتفل بها؟ (التاريخ)",
+    "3. ماذا ترتدي في هذه العطلة؟ (ملابس تقليدية)",
+    "4. ما هي الأكلات الخاصة؟",
+    "5. ما هي الأنشطة أو الطقوس التقليدية؟"
+  ],
+  "useful_vocabulary": [
+    "celebrate (يحتفل)",
+    "festival (مهرجان)",
+    "traditional clothes (ملابس تقليدية)",
+    "special meal (وجبة خاصة)",
+    "gifts (هدايا)",
+    "visit relatives (زيارة الأقارب)",
+    "fireworks (ألعاب نارية)",
+    "parade (استعراض)"
+  ]
+}

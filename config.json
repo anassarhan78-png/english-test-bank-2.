@@ -3,17 +3,22 @@
     {
       "id": "unit11",
       "title": "الوحدة 11: What Time Do You Get Up?",
-      "description": "المضارع البسيط، ظروف التكرار"
+      "description": "المضارع البسيط، ظروف التكرار، الروتين اليومي"
     },
     {
       "id": "unit12",
       "title": "الوحدة 12: مراجعة شاملة",
-      "description": "أسئلة شاملة"
+      "description": "أسئلة شاملة (استدلال، بنية القصة، قواعد، مفردات)"
     },
     {
       "id": "unit13",
       "title": "الوحدة 13: What Are You Going To Wear?",
-      "description": "قاعدة going to"
+      "description": "مفردات الملابس، قاعدة going to، محادثات، قراءة"
+    },
+    {
+      "id": "unit14",
+      "title": "الوحدة 14: Super Goal 1 Revision",
+      "description": "ضمائر المفعول، need/want + to، must/should، Let's، مفردات الاحتفالات والأعياد"
     }
   ]
 }
