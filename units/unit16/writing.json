@@ -1,0 +1,23 @@
+{
+  "title": "📝 كتابة موضوع عن طعامك المفضل (My Favorite Food)",
+  "introduction": "اكتب فقرة عن طعامك المفضل. استخدم الأسئلة الإرشادية أدناه لمساعدتك.",
+  "prompts": [
+    "1. How many meals a day do you eat? (كم وجبة تأكل في اليوم؟)",
+    "2. What food can you cook? (ما هو الطعام الذي يمكنك طبخه؟)",
+    "3. How often do you eat out? (كم مرة تأكل خارج المنزل؟)",
+    "4. Which fast food restaurants do you like? (ما مطاعم الوجبات السريعة التي تحبها؟)",
+    "5. What is your favorite food? Why? (ما طعامك المفضل؟ ولماذا؟)"
+  ],
+  "model": "I eat three meals a day. I can cook pizza. I usually eat out twice a week. McDonald's or KFC is my favorite fast-food restaurant because it has everything I love, and the service is good. My favorite food is pizza with lots of tomato sauce and melted cheese. I like pizza because it is so tasty and I can cook it.",
+  "tips": [
+    "استخدم كلمات مثل: delicious (لذيذ), tasty (لذيذ), favorite (مفضل), because (لأن).",
+    "استخدم Simple Past إذا كنت تتحدث عن وجبة أكلتها في الماضي.",
+    "يمكنك ذكر مكونات الطعام (ingredients) مثل: cheese, tomato sauce, pepperoni."
+  ],
+  "checklist": [
+    "✅ هل ذكرت عدد وجباتك؟",
+    "✅ هل ذكرت طعاماً يمكنك طبخه؟",
+    "✅ هل ذكرت مطعمك المفضل؟",
+    "✅ هل وصفت طعامك المفضل وذكرت السبب؟"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "title": "📘 قواعد الوحدة 16: Simple Past Tense (الماضي البسيط)",
+  "topics": [
+    {
+      "name": "1. متى نستخدم الماضي البسيط؟",
+      "rule": "نستخدم الماضي البسيط للتحدث عن أحداث انتهت في وقت محدد في الماضي. غالباً مع كلمات مثل: yesterday, last night, last week, two days ago, in 2010، etc.",
+      "examples": [
+        "I visited my grandmother yesterday.",
+        "We played football last night.",
+        "She was born in 2005."
+      ]
+    },
+    {
+      "name": "2. تكوين الماضي البسيط (Form)",
+      "rule": "الفعل المنتظم: نضيف ed (play → played). الفعل غير المنتظم: له تصريف خاص (go → went, eat → ate). الفعل 'to be' يصبح was (للمفرد) و were (للكسر).",
+      "forms": {
+        "positive": "I played football. / She went to school.",
+        "negative": "I didn't play football. / She didn't go to school. / He wasn't late.",
+        "question": "Did you play football? / Did she go to school? / Was he late?"
+      }
+    },
+    {
+      "name": "3. كلمات دالة على الماضي (Signal Words)",
+      "words": [
+        "yesterday (أمس)",
+        "last night / last week / last month (الليلة / الأسبوع / الشهر الماضي)",
+        "ago (منذ – two hours ago, three days ago)",
+        "in 2010, in 1995 (في سنة)",
+        "when (عندما)"
+      ]
+    },
+    {
+      "name": "4. النفي والسؤال",
+      "rule": "النفي: didn't + مصدر الفعل (باستثناء 'to be' نضيف not مباشرة). السؤال: Did + فاعل + مصدر الفعل.",
+      "examples": [
+        "I didn't see him yesterday.",
+        "Did you eat breakfast this morning?",
+        "Were they at home?"
+      ]
+    }
+  ],
+  "common_mistakes": [
+    "❌ I didn't went to the party. → ✅ I didn't go to the party.",
+    "❌ Did you saw the movie? → ✅ Did you see the movie?",
+    "❌ She was go to school. → ✅ She went to school."
+  ]
+}

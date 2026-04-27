@@ -1,0 +1,220 @@
+[
+  {
+    "text": "I _________ a car a few weeks ago.",
+    "options": ["buying", "bought", "buy", "buys"],
+    "correct": "B",
+    "explanation": "✅ ماضي بسيط: bought. ❌ buying (ing)، buy (مضارع)، buys (مضارع مفرد)."
+  },
+  {
+    "text": "I ………………. to Disneyland last summer.",
+    "options": ["to go", "going", "go", "went"],
+    "correct": "D",
+    "explanation": "✅ last summer → ماضي: went. ❌ to go (مصدر)، going (ing)، go (مضارع)."
+  },
+  {
+    "text": "I ……………. lunch two hours ago.",
+    "options": ["had", "have", "has", "none"],
+    "correct": "A",
+    "explanation": "✅ two hours ago → ماضي: had. ❌ have (مضارع)، has (مفرد)، none."
+  },
+  {
+    "text": "Yesterday morning, I ……………………. the house at 6:30.",
+    "options": ["leaving", "leaves", "left", "to leave"],
+    "correct": "C",
+    "explanation": "✅ yesterday morning → ماضي: left. ❌ leaving (ing)، leaves (مضارع)، to leave (مصدر)."
+  },
+  {
+    "text": "We ……………………. football last night.",
+    "options": ["plays", "played", "to play", "play"],
+    "correct": "B",
+    "explanation": "✅ last night → ماضي: played. ❌ plays (مضارع)، to play (مصدر)، play (مضارع)."
+  },
+  {
+    "text": "I …………………………. go home last weekend.",
+    "options": ["none", "don't", "doesn't", "didn't"],
+    "correct": "D",
+    "explanation": "✅ last weekend → ماضي منفي: didn't. ❌ don't (حاضر)، doesn't (حاضر مفرد)، none."
+  },
+  {
+    "text": "They _________ to Spain last week.",
+    "options": ["went", "goes", "go", "going"],
+    "correct": "A",
+    "explanation": "✅ last week → ماضي: went. ❌ goes (مضارع)، go (مضارع)، going (ing)."
+  },
+  {
+    "text": "The lesson ……………….. five minutes ago.",
+    "options": ["starting", "starts", "started", "start"],
+    "correct": "C",
+    "explanation": "✅ five minutes ago → ماضي: started. ❌ starting (ing)، starts (مضارع)، start (مضارع)."
+  },
+  {
+    "text": "He …………….. born two months ago.",
+    "options": ["was", "were", "is", "are"],
+    "correct": "A",
+    "explanation": "✅ he (مفرد) + two months ago → was. ❌ were (جمع)، is/are (حاضر)."
+  },
+  {
+    "text": "We ……………………. in Mexico three years ago.",
+    "options": ["lived", "lives", "live", "to live"],
+    "correct": "A",
+    "explanation": "✅ three years ago → ماضي: lived. ❌ lives (مضارع)، live (مضارع)، to live (مصدر)."
+  },
+  {
+    "text": "My brother _____ a bear an hour ago.",
+    "options": ["to see", "see", "seen", "saw"],
+    "correct": "D",
+    "explanation": "✅ an hour ago → ماضي: saw. ❌ to see (مصدر)، see (مضارع)، seen (تصريف ثالث)."
+  },
+  {
+    "text": "____ Mike visit his grandmother last night?",
+    "options": ["Does", "Did", "Do", "none"],
+    "correct": "B",
+    "explanation": "✅ last night → سؤال ماضي: Did. ❌ Does (حاضر)، Do (حاضر)، none."
+  },
+  {
+    "text": "Alex did not _____ last weekend.",
+    "options": ["worked", "working", "to work", "work"],
+    "correct": "D",
+    "explanation": "✅ did not + مصدر: work. ❌ worked (ماضي)، working (ing)، to work (مصدر مع to)."
+  },
+  {
+    "text": "____ you see Jody's new dog yesterday?",
+    "options": ["Did", "Do", "Does", "Done"],
+    "correct": "A",
+    "explanation": "✅ yesterday → سؤال ماضي: Did. ❌ Do/Does (حاضر)، Done (تصريف ثالث)."
+  },
+  {
+    "text": "I _____ English last night.",
+    "options": ["studies", "study", "studied", "studying"],
+    "correct": "C",
+    "explanation": "✅ last night → ماضي: studied. ❌ studies (مضارع)، study (مضارع)، studying (ing)."
+  },
+  {
+    "text": "What did you ………………… for lunch yesterday?",
+    "options": ["eat", "ate", "eating", "eats"],
+    "correct": "A",
+    "explanation": "✅ Did you + مصدر: eat. ❌ ate (ماضي)، eating (ing)، eats (مضارع)."
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": ["She works yesterday.", "She working yesterday.", "She worked yesterday.", "She worked now."],
+    "correct": "C",
+    "explanation": "✅ yesterday → ماضي: She worked yesterday. ❌ works (حاضر)، working (ing)، worked now (تناقض زمني)."
+  },
+  {
+    "text": "Choose the correct structure:",
+    "options": ["Did he went out with his friend?", "Did he go out with her friend?", "Did he go out with his friend?", "Did he go out with my friend?"],
+    "correct": "C",
+    "explanation": "✅ Did + مصدر: go out with his friend. ❌ went (خطأ)، her (غير مناسب)، my (غير مناسب)."
+  },
+  {
+    "text": "I'm eating r__ce now.",
+    "options": ["a", "i", "o", "e"],
+    "correct": "A",
+    "explanation": "✅ rice (أرز) – الحرف الناقص i؟ لا، rice تكتب i. لكن الخيارات a,i,o,e. الصحيح i (الخيار الثاني). سأصحح: الإجابة B (i).",
+    "correct": "B",
+    "explanation": "✅ rice – الحرف الناقص i. ❌ a,o,e."
+  },
+  {
+    "text": "How many __uests did you invite?",
+    "options": ["r", "m", "k", "g"],
+    "correct": "D",
+    "explanation": "✅ guests – الحرف الناقص g. ❌ r,m,k."
+  },
+  {
+    "text": "What t__ppings do you want on the pizza?",
+    "options": ["i", "e", "o", "u"],
+    "correct": "C",
+    "explanation": "✅ toppings – الحرف الناقص o. ❌ i,e,u."
+  },
+  {
+    "text": "She won first prize in the r__ce.",
+    "options": ["a", "i", "o", "e"],
+    "correct": "A",
+    "explanation": "✅ race (سباق) – الحرف الناقص a. ❌ i,o,e."
+  },
+  {
+    "text": "I saw a r__ce car acci__ent last month.",
+    "options": ["e-m", "i-v", "a-d", "u-t"],
+    "correct": "C",
+    "explanation": "✅ race car accident – الحرفان a و d. ❌ e-m, i-v, u-t."
+  },
+  {
+    "text": "She worked hard to im__ress her teacher with her assign__nt.",
+    "options": ["f-u", "p-e", "s-i", "l-o"],
+    "correct": "C",
+    "explanation": "✅ impress, assignment – الحرفان s و i. ❌ f-u, p-e, l-o."
+  },
+  {
+    "text": "The ……………. was a melted chocolate bar.",
+    "options": ["guest", "accident", "topping", "race"],
+    "correct": "C",
+    "explanation": "✅ topping (طبقة علوية) – شوكولاتة ذائبة كطبقة. ❌ guest (ضيف)، accident (حادث)، race (سباق)."
+  },
+  {
+    "text": "________ grows in warm climates.",
+    "options": ["Rice", "Race", "Console", "Assignment"],
+    "correct": "A",
+    "explanation": "✅ Rice (الأرز) – ينمو في مناخات دافئة. ❌ race (سباق)، console (وحدة تحكم)، assignment (واجب)."
+  },
+  {
+    "text": "You are always a welcome …………….. in our house.",
+    "options": ["accident", "guest", "volleyball", "rice"],
+    "correct": "B",
+    "explanation": "✅ guest (ضيف). ❌ accident (حادث)، volleyball (كرة طائرة)، rice (أرز)."
+  },
+  {
+    "text": "The teacher set an ……………………. on pollution.",
+    "options": ["assignment", "accident", "console", "beach"],
+    "correct": "A",
+    "explanation": "✅ assignment (واجب/مهمة). ❌ accident (حادث)، console (وحدة تحكم)، beach (شاطئ)."
+  },
+  {
+    "text": "He won the …………….. easily.",
+    "options": ["console", "rice", "guest", "race"],
+    "correct": "D",
+    "explanation": "✅ race (سباق) – يربحه. ❌ console (وحدة تحكم)، rice (أرز)، guest (ضيف)."
+  },
+  {
+    "text": "It happened by …………...",
+    "options": ["console", "assignment", "accident", "topping"],
+    "correct": "C",
+    "explanation": "✅ by accident (بالصدفة). ❌ console، assignment، topping."
+  },
+  {
+    "text": "He tried to ……………… .. his teachers by doing his homework.",
+    "options": ["go", "stay", "melt", "impress"],
+    "correct": "D",
+    "explanation": "✅ impress (يُعجب / يؤثر إيجاباً). ❌ go (يذهب)، stay (يبقى)، melt (يذوب)."
+  },
+  {
+    "text": "Don't let your ice cream ……………...",
+    "options": ["stay", "melt", "impress", "clean"],
+    "correct": "B",
+    "explanation": "✅ melt (يذوب) – الآيس كريم يذوب. ❌ stay (يبقى)، impress (يؤثر)، clean (ينظف)."
+  },
+  {
+    "text": "My grandma became very ……………………… as she got older.",
+    "options": ["demanding", "expensive", "spicy", "common"],
+    "correct": "A",
+    "explanation": "✅ demanding (متطلبة / صعبة الإرضاء). ❌ expensive (مكلف)، spicy (حار)، common (شائع)."
+  },
+  {
+    "text": "She loves …………………… foods, especially Japanese.",
+    "options": ["beautiful", "interesting", "ethnic", "fast"],
+    "correct": "C",
+    "explanation": "✅ ethnic (ثقافي / عرقي) – طعام من ثقافات مختلفة. ❌ beautiful (جميل)، interesting (ممتع)، fast (سريع)."
+  },
+  {
+    "text": "Tom ate some …………… Indian food.",
+    "options": ["short", "clean", "demanding", "spicy"],
+    "correct": "D",
+    "explanation": "✅ spicy (حار) – الطعام الهندي حار عادة. ❌ short (قصير)، clean (نظيف)، demanding (متطلب)."
+  },
+  {
+    "text": "English is like a world-wide ……………. language.",
+    "options": ["expensive", "common", "spicy", "healthy"],
+    "correct": "B",
+    "explanation": "✅ common (شائع) – الإنجليزية لغة شائعة حول العالم. ❌ expensive (مكلف)، spicy (حار)، healthy (صحي)."
+  }
+]

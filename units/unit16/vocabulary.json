@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Tom tried to impress his boss. What does 'impress' mean?",
+    "options": ["to admire or respect you", "to make someone feel admiration", "to ignore", "to help"],
+    "correct": "to make someone feel admiration",
+    "explanation": "✅ impress: يؤثر إيجابياً ويجعل الشخص الآخر يعجب بك. ❌ to admire or respect you (معكوس)، to ignore (يتجاهل)، to help (يساعد)."
+  },
+  {
+    "text": "I got it right by accident. What does 'by accident' mean?",
+    "options": ["بالصدفة", "بخطأ", "بشكل متعمد", "بسرعة"],
+    "correct": "بالصدفة",
+    "explanation": "✅ by accident: دون قصد. ❌ intentionally (بشكل متعمد) خطأ، quickly (بسرعة)، wrongly (بخطأ)."
+  },
+  {
+    "text": "He finished his assignment. What does 'assignment' mean?",
+    "options": ["مهمة أو واجب", "سباق", "ضيف", "طبقة علوية"],
+    "correct": "مهمة أو واجب",
+    "explanation": "✅ assignment: واجب أو مهمة مطلوبة. ❌ race (سباق)، guest (ضيف)، topping (طبقة علوية)."
+  },
+  {
+    "text": "Do not put any objects on the console. What does 'console' mean?",
+    "options": ["جهاز تحكم (ألعاب)", "سباق", "أرز", "طبقة علوية"],
+    "correct": "جهاز تحكم (ألعاب)",
+    "explanation": "✅ console: جهاز التحكم في الألعاب الإلكترونية. ❌ race، rice، topping."
+  },
+  {
+    "text": "We're having five guests tonight. What does 'guest' mean?",
+    "options": ["شخص تتم دعوته", "صديق", "قريب", "جار"],
+    "correct": "شخص تتم دعوته",
+    "explanation": "✅ guest: ضيف. ❌ friend، relative، neighbor."
+  },
+  {
+    "text": "Tom lost the race. What does 'race' mean?",
+    "options": ["سباق", "مكان", "شيء ثمين", "هدية"],
+    "correct": "سباق",
+    "explanation": "✅ race: منافسة في السرعة. ❌ place، valuable thing، gift."
+  },
+  {
+    "text": "Can you cook rice well? What does 'rice' mean?",
+    "options": ["أرز", "ذرة", "قمح", "شعير"],
+    "correct": "أرز",
+    "explanation": "✅ rice: حبوب الأرز. ❌ corn، wheat، barley."
+  },
+  {
+    "text": "You can add any toppings of your choice. What does 'topping' mean?",
+    "options": ["طبقة علوية توضع على الطعام", "حادث", "ضيف", "سباق"],
+    "correct": "طبقة علوية توضع على الطعام",
+    "explanation": "✅ topping: طبقة مثل الجبن أو الكريمة توضع على الطعام. ❌ accident، guest، race."
+  },
+  {
+    "text": "When ice melts, it becomes water. What does 'melt' mean?",
+    "options": ["يذوب", "يتجمد", "يتبخر", "ينضج"],
+    "correct": "يذوب",
+    "explanation": "✅ melt: يتحول من صلب إلى سائل بالحرارة. ❌ freeze، evaporate، cook."
+  },
+  {
+    "text": "Ricky was a very demanding child. What does 'demanding' mean?",
+    "options": ["متطلب / صعب الإرضاء", "سعيد", "هادئ", "مطيع"],
+    "correct": "متطلب / صعب الإرضاء",
+    "explanation": "✅ demanding: يطلب الكثير. ❌ happy، quiet، obedient."
+  },
+  {
+    "text": "The pupils are from many different ethnic backgrounds. What does 'ethnic' mean?",
+    "options": ["ثقافي / عرقي", "ديني", "لغوي", "سياسي"],
+    "correct": "ثقافي / عرقي",
+    "explanation": "✅ ethnic: متعلق بعرق أو ثقافة مجموعة. ❌ religious، linguistic، political."
+  },
+  {
+    "text": "It is expensive to travel by plane. What does 'expensive' mean?",
+    "options": ["مكلف", "رخيص", "سريع", "بطيء"],
+    "correct": "مكلف",
+    "explanation": "✅ expensive: غالي الثمن. ❌ cheap، fast، slow."
+  },
+  {
+    "text": "'Smith' is a very common name in Britain. What does 'common' mean?",
+    "options": ["شائع", "نادر", "غريب", "قديم"],
+    "correct": "شائع",
+    "explanation": "✅ common: منتشر وكثير الاستخدام. ❌ rare، strange، old."
+  },
+  {
+    "text": "This soup is too spicy. What does 'spicy' mean?",
+    "options": ["حار (بهارات)", "بارد", "مالح", "حامض"],
+    "correct": "حار (بهارات)",
+    "explanation": "✅ spicy: يحتوي على الكثير من البهارات الحارة. ❌ cold، salty، sour."
+  },
+  {
+    "text": "He searched for the key. What does 'search' mean?",
+    "options": ["يبحث", "يجد", "يفقد", "يكسر"],
+    "correct": "يبحث",
+    "explanation": "✅ search: يحاول العثور على شيء. ❌ find، lose، break."
+  }
+]
