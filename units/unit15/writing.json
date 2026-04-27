@@ -1,0 +1,38 @@
+{
+  "title": "📝 كتابة موضوع عن المشاهير (Celebrities)",
+  "introduction": "اكتب فقرة عن المشاهير. يمكنك اختيار أحد الموضوعين أدناه.",
+  "topics": [
+    {
+      "title": "الموضوع الأول: A Celebrity (شخص مشهور)",
+      "questions": [
+        "1. What is a celebrity?",
+        "2. Who is your favorite celebrity?",
+        "3. Why do we follow celebrities?",
+        "4. Why do you like to be famous / a celebrity?"
+      ]
+    },
+    {
+      "title": "الموضوع الثاني: Good and Bad Points of Being a Celebrity",
+      "questions": [
+        "1. What is a celebrity?",
+        "2. What are the good and bad points of being a celebrity?",
+        "3. What celebrities do you follow on social media?",
+        "4. Which celebrity do you most admire and why?"
+      ]
+    }
+  ],
+  "model": "A celebrity is a person who is well known or famous and gets lots of public attention. I have never met a real famous person in my life. But my favorite celebrity is Mohammed bin Salman bin Abdulaziz Al Saud. I don't follow celebrities on social media but sometimes I like to read their thoughts, stories and memories on their Instagram accounts. This makes me feel that I am participating and taking part in their glory, and this gives me a good feeling. They have a huge influence on people, if they can be good role models and famous that would be awesome.",
+  "vocabulary": [
+    "celebrity (مشهور)",
+    "famous (مشهور)",
+    "role model (قدوة حسنة)",
+    "influence (تأثير)",
+    "social media (وسائل التواصل الاجتماعي)"
+  ],
+  "checklist": [
+    "✅ هل عرفت معنى celebrity؟",
+    "✅ هل ذكرت اسماً لشخص مشهور تفضله؟",
+    "✅ هل ذكرت رأيك في متابعة المشاهير؟",
+    "✅ هل استخدمت was/were بشكل صحيح؟"
+  ]
+}

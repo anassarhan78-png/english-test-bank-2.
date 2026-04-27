@@ -3,7 +3,7 @@
     {
       "id": "unit11",
       "title": "الوحدة 11: What Time Do You Get Up?",
-      "description": "المضارع البسيط، ظروف التكرار، الروتين اليومي"
+      "description": "المضارع البسيط، ظروف التكرار"
     },
     {
       "id": "unit12",
@@ -13,12 +13,17 @@
     {
       "id": "unit13",
       "title": "الوحدة 13: What Are You Going To Wear?",
-      "description": "مفردات الملابس، قاعدة going to، محادثات، قراءة"
+      "description": "مفردات الملابس، قاعدة going to"
     },
     {
       "id": "unit14",
       "title": "الوحدة 14: Super Goal 1 Revision",
-      "description": "ضمائر المفعول، need/want + to، must/should، Let's، مفردات الاحتفالات والأعياد"
+      "description": "ضمائر المفعول، need/want + to، must/should، Let's"
+    },
+    {
+      "id": "unit15",
+      "title": "الوحدة 15: Celebrity & Past Simple",
+      "description": "ماضي كان (was/were)، مفردات المشاهير والرياضة، قراءة عن المشاهير"
     }
   ]
 }

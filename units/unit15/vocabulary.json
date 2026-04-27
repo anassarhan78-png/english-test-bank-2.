@@ -1,0 +1,56 @@
+[
+  {
+    "text": "What does 'celebrity' mean?",
+    "options": ["شخص مشهور", "رجل أعمال", "مهاجم كرة قدم", "مستشار"],
+    "correct": "شخص مشهور",
+    "explanation": "✅ celebrity: شخصية مشهورة. ❌ businessman، striker، consultant."
+  },
+  {
+    "text": "What does 'striker' mean in football?",
+    "options": ["مهاجم", "مدافع", "حارس مرمى", "وسط"],
+    "correct": "مهاجم",
+    "explanation": "✅ striker: لاعب هجوم. ❌ defender, goalkeeper, midfielder."
+  },
+  {
+    "text": "What does 'tournament' mean?",
+    "options": ["بطولة", "مباراة", "تدريب", "جمهور"],
+    "correct": "بطولة",
+    "explanation": "✅ tournament: منافسة بين عدة فرق. ❌ match, training, audience."
+  },
+  {
+    "text": "What does 'pedestrian' mean?",
+    "options": ["شخص ماشٍ على قدميه", "سائق", "راكب دراجة", "شرطي"],
+    "correct": "شخص ماشٍ على قدميه",
+    "explanation": "✅ pedestrian: شخص يمشي في الشارع. ❌ driver, cyclist, policeman."
+  },
+  {
+    "text": "What does 'vendor' mean?",
+    "options": ["بائع متجول", "مشتر", "مدير", "عامل"],
+    "correct": "بائع متجول",
+    "explanation": "✅ vendor: شخص يبيع في الشارع أو السوق. ❌ buyer, manager, worker."
+  },
+  {
+    "text": "What does 'boss' mean?",
+    "options": ["مدير", "موظف", "زائر", "عميل"],
+    "correct": "مدير",
+    "explanation": "✅ boss: الشخص المسؤول عن العمال. ❌ employee, visitor, customer."
+  },
+  {
+    "text": "What does 'shelter' mean?",
+    "options": ["مأوى", "غرفة", "شارع", "جدار"],
+    "correct": "مأوى",
+    "explanation": "✅ shelter: مكان يحمي من المطر أو الخطر. ❌ room, street, wall."
+  },
+  {
+    "text": "What does 'skyscraper' mean?",
+    "options": ["ناطحة سحاب", "جسر", "برج", "مبنى حكومي"],
+    "correct": "ناطحة سحاب",
+    "explanation": "✅ skyscraper: مبنى طويل جداً. ❌ bridge, tower (although tall, but specific), government building."
+  },
+  {
+    "text": "What does 'consultant' mean?",
+    "options": ["مستشار", "مدير", "عامل", "طالب"],
+    "correct": "مستشار",
+    "explanation": "✅ consultant: شخص يقدم استشارات. ❌ manager, worker, student."
+  }
+]

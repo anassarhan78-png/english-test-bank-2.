@@ -1,0 +1,44 @@
+{
+  "title": "📘 قواعد الوحدة 15: Past Simple of 'to be' (was/were) & There was/There were",
+  "topics": [
+    {
+      "name": "1. الماضي البسيط للفعل (be)",
+      "rule": "نستخدم was مع المفرد (I, he, she, it) و were مع الجمع (we, you, they). يدل على أحداث في الماضي.",
+      "examples": [
+        "I was tired yesterday.",
+        "She was at home last night.",
+        "We were happy.",
+        "They were late."
+      ]
+    },
+    {
+      "name": "2. النفي (Negative)",
+      "rule": "نضيف not بعد was/were: was not (wasn't), were not (weren't).",
+      "examples": [
+        "He wasn't at school.",
+        "You weren't busy."
+      ]
+    },
+    {
+      "name": "3. السؤال (Question)",
+      "rule": "نضع was/were في بداية الجملة.",
+      "examples": [
+        "Was she sleepy?",
+        "Were they at work?"
+      ]
+    },
+    {
+      "name": "4. There was / There were",
+      "rule": "نستخدم There was للمفرد، و There were للجمع، للتعبير عن وجود شيء في الماضي.",
+      "examples": [
+        "There was a bank near my house.",
+        "There were ten children in the park."
+      ]
+    }
+  ],
+  "common_mistakes": [
+    "❌ They was happy. → ✅ They were happy.",
+    "❌ There were a cat. → ✅ There was a cat.",
+    "❌ Was you late? → ✅ Were you late?"
+  ]
+}
